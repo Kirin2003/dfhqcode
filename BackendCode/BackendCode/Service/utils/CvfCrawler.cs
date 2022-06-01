@@ -24,7 +24,7 @@ namespace BackendCode.Service.utils
                 Uri absoluteuri = new Uri(baseuri, relativeuri);
                 string href1 = absoluteuri.ToString();
 
-                //Console.Out.WriteLine("href:"+href1);
+                // WACV不区分会议时间
                 if (meetingName != "WACV")
                 {
                     crawlDate(href1, meetingName);
@@ -33,7 +33,7 @@ namespace BackendCode.Service.utils
                 {
 
                     string wacvdate = htmlNode1.InnerText.Substring(6, 4) + "01-01";
-                    crawlPaperList(href1, meetingName, wacvdate);
+                    crawlPaperList(meetingName, wacvdate,href1);
                 }
             }
         }
@@ -65,9 +65,9 @@ namespace BackendCode.Service.utils
 
         }
 
-        public void crawlPaperList(string meetingName, string date, string dateHref)
+        public void crawlPaperList(string meetingName, string date, string href)
         {
-            var doc = new HtmlWeb().Load(dateHref);
+            var doc = new HtmlWeb().Load(href);
             HtmlNodeCollection paperNodes = doc.DocumentNode.SelectNodes("//*[@id='content']/dl/dt/a");
             int num = 0;
             foreach (var paperNode in paperNodes)
@@ -77,6 +77,7 @@ namespace BackendCode.Service.utils
                 string paperHref = absolute.ToString();
                 //Console.Out.WriteLine("paperHref:"+paperHref);
                 parsePaper(meetingName, date, paperHref);
+                // 暂时每个会议的论文爬10个
                 if (num > 10) break;
                 num++;
             }
@@ -95,7 +96,7 @@ namespace BackendCode.Service.utils
             string supphref = "";
             string videohref = "";
             string arxivhref = "";
-            string bibtexhref = "";
+            
             RawPaperItem rawPaperItem = new RawPaperItem();
 
             HtmlNodeCollection nodes = paper.SelectNodes("//*[@id='content']/dl/dd/a");
@@ -119,11 +120,7 @@ namespace BackendCode.Service.utils
                     arxivhref = (new Uri(baseuri, node.Attributes["href"].Value)).ToString();
 
                 }
-                else if (node.InnerText.Equals("bibtex"))
-                {
-                    bibtexhref = (new Uri(baseuri, node.Attributes["href"].Value)).ToString();
-
-                }
+                
             }
 
 
@@ -134,7 +131,7 @@ namespace BackendCode.Service.utils
             rawPaperItem.PdfHref = pdfhref;
             rawPaperItem.ArxivHref = arxivhref;
             rawPaperItem.SuppHref = supphref;
-            rawPaperItem.Bibtex = bibtexhref;
+            
             rawPaperItem.PaperAbstract = paperAbstract;
             rawPaperItem.VideoHref = videohref;
 

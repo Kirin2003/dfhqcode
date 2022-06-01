@@ -5,22 +5,28 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
+using BackendCode.Models;
 
 namespace BackendCode.Service.utils
 {
     public class PapersWithCodeCrawler
     {
-        public async void crawlGithub(string title)
+        public static async Task crawlGithub(string title, string doi)
         {
             var response = await new HttpClient().GetStringAsync("https://paperswithcode.com/api/v1/search/?q=" + title);
-            Console.Out.WriteLine(response);
-            JObject jo = (JObject)JsonConvert.DeserializeObject(response);
-            foreach (var item in jo)
+            
+            JObject jo = JObject.Parse(response);
+            var item = jo["results"][0]["repository"];
+            if(item != null)
             {
+                GithubRepository github = new GithubRepository();
+                github.url = (string)item["url"];
+                github.name = (string)item["name"];
+                github.doi = doi;
+                Console.Out.WriteLine(github);
 
-                Console.Out.WriteLine(item.Key);
             }
-            //githubhref = " ";
+            
         }
     }
 }

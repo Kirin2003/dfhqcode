@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 
 namespace BackendCode.Models
 {
-    public class ReferencePaper
+    public class GithubRepository
     {
+        public string url { get; set; }
+        public string name { get; set; }
         public string doi { get; set; }
-        public string Title { get; set; }
-        
-        public string Authors { get; set; }
-        public string PaperHref { get; set; }
 
         public override string ToString()
         {
-            return "reference paper " + Title;
+            return name+" "+url;
         }
     }
+
+     
 }

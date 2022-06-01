@@ -10,7 +10,7 @@ namespace BackendCode.Service.utils
 {
     public class DblpCrawler
     {
-        public void crawlBibtex(string title, out string doi, out string biburl)
+        public static void crawlBibtex(string title, out string doi, out string biburl)
         {
             XElement srcTree = XElement.Load("https://dblp.org/search/publ/api?q=" + title + "&h=1");
             doi = (string)(from el in srcTree.Descendants("doi") select el).First();
