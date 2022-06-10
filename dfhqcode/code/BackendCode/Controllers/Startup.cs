@@ -1,6 +1,6 @@
 namespace Controllers
 {
-    public class WeatherForecast
+    public class Startup
     {
         public DateTime Date { get; set; }
 
