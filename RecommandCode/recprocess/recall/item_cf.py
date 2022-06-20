@@ -11,11 +11,9 @@ from operator import itemgetter
 
 
 class ItemCF(object):
-    def __init__(self, user_portrait, paper_portrait, redis):
+    def __init__(self, user_portrait, paper_portrait):
         self.raw_data = user_portrait.get_user_paper()
         self.paper_portrait = paper_portrait
-        self.rec_list_redis = redis
-
         self.user_set = set()
         self.paper_sim_matrix = dict()
         self.paper_interacted_num = defaultdict(int)
@@ -38,40 +36,39 @@ class ItemCF(object):
                     related_score *= 1 if self.paper_portrait.paper_to_subject(item_1) == \
                                           self.paper_portrait.paper_to_subject(item_2) else 0.5
 
-                    # 活跃用户在计算物品之间相似度时，贡献小于非活跃用户
+                    # 活跃用户在计算论文之间相似度时，贡献小于非活跃用户
                     self.paper_sim_matrix[item_1][item_2] += related_score / math.log(1 + len(row['paper_id']))
 
-        # 热门物品与很多物品之间的相似度都很高,需要对热门物品进行打压
+        # 热门论文与很多论文之间的相似度都很高,需要对热门论文进行打压
         for item_1, related_items in self.paper_sim_matrix:
             for item_2, weight in related_items.items():
-                # 打压热门物品
+                # 打压热门论文
                 self.paper_sim_matrix[item_1][item_2] = \
                     weight / math.sqrt(self.paper_interacted_num[item_1] * self.paper_interacted_num[item_2])
 
-    def rec_papers_to_user(self, users, _n=50, _topk=20):
+    def rec_papers_to_user(self, user_id, _n=50, _topk=20):
         """
         ItemCF召回
-        :param users: 需要推荐的User的ID列表
-        :param _n: 选取一篇论文相似度最高的论文数目
+        :param user_id: 需要推荐的User的ID
+        :param _n: 选取论文数目
         :param _topk: 推荐TOPK的论文
         :return:
         """
         user2items = self.raw_data.groupby("user_id")["paper_id"].apply(list).reset_index()
 
-        user_rec = {}
-        for user_id in users:
-            rank = defaultdict(int)
-            his_items = user2items.loc[user_id]
-            # 遍历用户历史交互论文
-            for his_item in his_items:
-                # 选取与his_item相似度最高的_n个论文
-                for candidate_paper, paper_smi_score in \
-                    sorted(self.paper_sim_matrix[his_item].items(), key=itemgetter(1), reverse=True)[:_n]:
-                    # 如果推荐的论文已经被推荐过了，不纳入推荐
-                    if candidate_paper in his_items:
-                        continue
-                    rank[candidate_paper] += paper_smi_score
-            rec_papers = [item[0] for item in sorted(rank.items(), key=itemgetter(1), reverse=True)[:_topk]]
-            user_rec[user_id] = rec_papers
+        user_rec = dict()
+        rank = defaultdict(int)
+        his_items = user2items.loc[user_id]
+        # 遍历用户历史交互论文
+        for his_item in his_items:
+            # 选取与his_item相似度最高的_n个论文
+            for candidate_paper, paper_smi_score in \
+                sorted(self.paper_sim_matrix[his_item].items(), key=itemgetter(1), reverse=True)[:_n]:
+                # 如果推荐的论文已经被推荐过了，不纳入推荐
+                if candidate_paper in his_items:
+                    continue
+                rank[candidate_paper] += paper_smi_score
+        rec_papers = [item[0] for item in sorted(rank.items(), key=itemgetter(1), reverse=True)[:_topk]]
+        user_rec[user_id] = rec_papers
 
         return user_rec
