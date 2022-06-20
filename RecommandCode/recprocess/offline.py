@@ -6,7 +6,6 @@
 @time: 2022-05-29 15:42
 """
 from conf.dao_config import cate_dict
-from dao.redis_server import RedisServer
 from recprocess.portrait_process.paper_process.paper_portrait import PaperPortraitServer
 from recprocess.portrait_process.user_process.user_portrait import UserPortraitServer
 from recprocess.recall.content_cf import ContentCF
@@ -19,10 +18,9 @@ class OfflineServer(object):
         self.name2id_cate_dict = {v: k for k, v in cate_dict.items()}
         self.user_portrait = UserPortraitServer()
         self.paper_portrait = PaperPortraitServer()
-        self.rec_list_redis = RedisServer().get_recommend_list_redis()
-        self.hot_recall = HotRecall(self.rec_list_redis)
+        self.hot_recall = HotRecall()
         self.content_cf = ContentCF(self.paper_portrait)
-        self.item_cf = ItemCF(self.user_portrait, self.paper_portrait, self.rec_list_redis)
+        self.item_cf = ItemCF(self.user_portrait, self.paper_portrait)
 
     def hot_list_to_redis(self, user_id):
         """
@@ -48,7 +46,7 @@ class OfflineServer(object):
         :return:
         """
         user_info = self.user_portrait.user_info_to_dict(user_id)
-        self.content_cf.rec_list_redis(user_info)
+        return self.content_cf.rec_list(user_info)
 
     def paper_to_paper(self, users):
         """
