@@ -26,12 +26,6 @@ elastic_port = 9200
 paper_portrait_index_name = "paper"
 paper_portrait_doc_type = "PaperItem"
 
-# Redis
-redis_hostname = "127.0.0.1"
-redis_port = 6379
-
-rec_redis_db_num = 0
-
 # 论文的分类
 cate_dict = {
     "1": "Computer vision and Pattern recognition",
