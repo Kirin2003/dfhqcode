@@ -2,20 +2,17 @@
 """
 @version: 1.0
 @author: zxd3099
-@file: itemcf
+@file: contentcf
 @time: 2022-05-30 15:23
 """
 import os
 
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
-from dao.redis_server import RedisServer
-
 
 class ContentCF(object):
     def __init__(self, paper_portrait):
         self.paper_portrait = paper_portrait
-        self.rec_list_redis = RedisServer().get_recommend_list_redis()
 
     def train_model(self):
         """
@@ -38,15 +35,16 @@ class ContentCF(object):
         self.model.train(documents, total_examples=tte, epochs=20)
         self.model.save(model_path)
 
-    def rec_list_to_redis(self, user_info):
+    def rec_list(self, user_info):
         """
-        按照与用户画像的相似度生成论文推荐列表，并存入redis中
+        生成用户画像的相似度生成论文推荐列表
         :param user_info: 用户信息
         :return:
         """
+        user_rec = dict()
         for type in ["read", "like", "collection"]:
-            redis_key = "itemCF_{}_paper_list".format(type)
             inferred_vector = self.model.infer_vector(user_info["{}_{}_top_keywords".format(type, 30)])
             sims = self.model.docvecs.most_similar([inferred_vector], topn=20)
             tmp = [paper_id for (paper_id, sim) in sims if paper_id not in user_info["{}_{}_paper_ids".format(type, 30)]]
-            self.rec_list_redis.sadd(redis_key, *tmp)
+            user_rec[type] = tmp
+        return user_rec
