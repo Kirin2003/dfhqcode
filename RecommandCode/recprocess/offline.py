@@ -22,7 +22,7 @@ class OfflineServer(object):
         self.content_cf = ContentCF(self.paper_portrait)
         self.item_cf = ItemCF(self.user_portrait, self.paper_portrait)
 
-    def hot_list_to_redis(self, user_id):
+    def hot_list(self, user_id):
         """
         热门页面，对于每一个新增用户，根据其感兴趣的领域推荐热度高的paper
         :param: user_id
@@ -37,7 +37,7 @@ class OfflineServer(object):
 
         for cate in top_cate:
             user_interest_cate[self.name2id_cate_dict[cate]] = cate
-        self.hot_recall.group_cate_for_paper_list_to_redis(user_interest_cate)
+        self.hot_recall.group_cate_for_paper_list(user_interest_cate)
 
     def paper_content_cf(self, user_id):
         """
