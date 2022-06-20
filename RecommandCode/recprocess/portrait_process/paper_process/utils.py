@@ -19,7 +19,7 @@ def get_key_words(words_str):
     """
     提取TOPN关键词
     :param words_str: 表示需要提取的文本，是论文的摘要
-    :param subject: 论文的主题
+    
     :return:
     """
     # 字符串进行清洗
