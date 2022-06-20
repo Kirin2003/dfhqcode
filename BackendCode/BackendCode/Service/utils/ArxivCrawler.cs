@@ -19,10 +19,10 @@ namespace BackendCode.Service.utils
             //subject = "";
             XElement srcTree = XElement.Load("http://export.arxiv.org/api/query?search_query=ti:" + title + "&start=0&max_result=1");
             Console.Out.Write(srcTree);
-            var item = srcTree.Descendants("author").First();
+            var item = srcTree.Descendants("author").FirstOrDefault();
             //subject = (string)item.Attribute("href").Value;
             subject = "";
-            Console.Out.Write(item.ToString());
+            if(item != null) Console.Out.Write(item.ToString());
             Console.Out.WriteLine(subject);
 
 
