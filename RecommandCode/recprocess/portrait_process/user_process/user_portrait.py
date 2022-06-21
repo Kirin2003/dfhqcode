@@ -10,7 +10,7 @@ from datetime import datetime
 
 import pandas as pd
 
-from conf.dao_config import paper_portrait_index_name, paper_portrait_doc_type
+from conf.dao_config import paper_index_name
 from dao.elastic_server import ElasticServer
 from dao.entity.register_user import RegisterUser
 from dao.entity.user_collection import UserCollections
@@ -26,8 +26,7 @@ class UserPortraitServer(object):
         初始化
         """
         self.es = ElasticServer().elastic_client
-        self.index_name2 = paper_portrait_index_name
-        self.doc_type2 = paper_portrait_doc_type
+        self.index_name = paper_index_name
         self.user_sess = MysqlServer().get_register_user_session()
         self.time_range = 30
 
@@ -71,8 +70,8 @@ class UserPortraitServer(object):
         table_obj, history = None, None
         feature_dict = defaultdict(dict)
 
-        end = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        start = (datetime.datetime.now() + datetime.timedelta(days=-time_range)).strftime("%Y-%m-%d %H:%M:%S")
+        end = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        start = (datetime.now() + datetime.timedelta(days=-time_range)).strftime("%Y-%m-%d %H:%M:%S")
 
         for type in behavior_types:
             if type == "read":
@@ -113,11 +112,11 @@ class UserPortraitServer(object):
             body = {
                 "query": {
                     "term": {
-                        "paper_id": paper_id
+                        "Id": paper_id
                     }
                 }
             }
-            result = self.es.search(index=self.index_name2, doc_type=self.doc_type2, body=body)
+            result = self.es.search(index=self.index_name, body=body)
             # 这里需要根据字段名来修改
             history_paper_cate.append(result["hits"]["hits"]["_source"]["cate"])
             history_keyword += result["hits"]["hits"]["_source"]["key_words"].split(",")
