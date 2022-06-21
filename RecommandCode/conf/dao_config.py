@@ -23,13 +23,15 @@ elastic_hostname = "127.0.0.1"
 elastic_username = "elastic"
 elastic_passwd = "123456"
 elastic_port = 9200
-user_portrait_index_name = "user"
-user_portrait_doc_type = "User"
 paper_portrait_index_name = "paper"
 paper_portrait_doc_type = "PaperItem"
 
-# Redis
-redis_hostname = "127.0.0.1"
-redis_port = 6379
-
-rec_redis_db_num = 0
+# 论文的分类
+cate_dict = {
+    "1": "Computer vision and Pattern recognition",
+    "2": "Machine Learning",
+    "3": "Robotics",
+    "4": "Image and Video processing ",
+    "5": "Artificial Intelligence",
+    "6": "Others"
+}
