@@ -61,6 +61,17 @@
       <el-container>
         <el-header>
           <el-input v-model="essaySearched" placeholder="论文信息">
+            <template #prepend>
+              <el-select
+                v-model="select"
+                placeholder="相关度"
+                default-first-option="true"
+              >
+                <el-option label="相关度" value="revelance" />
+                <el-option label="热度" value="hotnum" />
+                <el-option label="时间" value="time" />
+              </el-select>
+            </template>
             <template #append>
               <el-button>
                 <el-icon><search /></el-icon>
@@ -102,6 +113,7 @@ export default {
   data() {
     return {
       UserName: "heziang",
+      select: "",
       AllEssays: [
         {
           title:
