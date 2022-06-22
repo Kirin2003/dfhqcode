@@ -1,83 +1,38 @@
 <template>
   <div class="common-layout">
     <el-container>
-      <el-aside>
-        <el-avatar @click="RouteToUserInfo"><user-filled /></el-avatar>
-        <p class="hotword">热词榜</p>
-        <el-menu>
-          <el-sub-menu index="1">
-            <template #title>
-              <el-icon><Document /></el-icon>ICCV
-            </template>
-            <el-menu-item-group>
-              <el-menu-item
-                v-for="hotword in HotWordsOfIccv"
-                :key="hotword.rank"
-                @click="ShowWordEssay"
-              >
-                <!--展示对应热词的相关论文 -->
-                {{ hotword.word }}</el-menu-item
-              >
-            </el-menu-item-group>
-          </el-sub-menu>
-          <el-sub-menu index="2">
-            <template #title>
-              <el-icon><Document /></el-icon>CVPR
-            </template>
-            <el-menu-item-group>
-              <el-menu-item
-                v-for="hotword in HotWordsOfCvpr"
-                :key="hotword.rank"
-                index="2-"
-                +
-                hotwords.rank
-                @click="ShowWordEssay"
-              >
-                <!--展示对应热词的相关论文 -->
-                {{ hotword.word }}</el-menu-item
-              >
-            </el-menu-item-group>
-          </el-sub-menu>
-          <el-sub-menu index="3">
-            <template #title>
-              <el-icon><Document /></el-icon>ECCV
-            </template>
-            <el-menu-item-group>
-              <el-menu-item
-                v-for="hotword in HotWordsOfEccv"
-                :key="hotword.rank"
-                index="3-"
-                +
-                hotword.rank
-                @click="ShowWordEssay"
-              >
-                <!--展示对应热词的相关论文 -->
-                {{ hotword.word }}</el-menu-item
-              >
-            </el-menu-item-group>
-          </el-sub-menu>
-        </el-menu>
-      </el-aside>
+      <AsidePart1 />
+      <!-- 论文信息 -->
       <el-container>
         <el-header>
           <p style="text-align: right">
+            <el-icon class="elementRight" @click="Like">
+              <ElemeFilled v-if="liked" />
+              <Eleme v-else />
+            </el-icon>
+            <el-icon class="elementRight" @click="Collect">
+              <StarFilled v-if="collected === true" />
+              <Star v-else />
+            </el-icon>
             <el-icon class="elementRight" @click="RouteToHome"
               ><HomeFilled
             /></el-icon>
           </p>
         </el-header>
         <div>
-          <p font-size="20px">
+          <p class="title">
             {{ essay.title }}
           </p>
         </div>
+        <p>
+          作者：
+          {{ essay.Authors }}
+        </p>
+        <br />
+        摘要
+        <br />
+        <div>{{ essay.PaperAbstract }}</div>
         <el-collapse>
-          <el-collapse-item title="作者" name="1">
-            <div>{{ essay.Authors }}</div>
-          </el-collapse-item>
-          <el-collapse-item title="摘要" name="2">
-            <div>{{ essay.PaperAbstract }}</div>
-          </el-collapse-item>
           <el-collapse-item title="DOI" name="3">
             <div>{{ essay.Doi }}</div>
           </el-collapse-item>
@@ -118,16 +73,32 @@
 </template>
 
 <script>
-import { HomeFilled, UserFilled, Document } from "@element-plus/icons";
+import {
+  HomeFilled,
+  Eleme,
+  ElemeFilled,
+  Star,
+  StarFilled,
+} from "@element-plus/icons";
 import router from "@/router/index";
 import store from "@/store";
+import AsidePart1 from "./AsidePart1.vue";
 export default {
   name: "EssayInfo",
-  components: { HomeFilled, UserFilled, Document },
+  components: {
+    AsidePart1,
+    HomeFilled,
+    Eleme,
+    ElemeFilled,
+    Star,
+    StarFilled,
+  },
   data() {
     return {
       githubDisplayed: [],
       revelanceDisplayed: [],
+      liked: false,
+      collected: false,
     };
   },
   methods: {
@@ -135,6 +106,12 @@ export default {
     getRevelanceInfo() {},
     RouteToHome() {
       router.push({ name: "home" });
+    },
+    Like() {
+      this.liked = !this.liked;
+    },
+    Collect() {
+      this.collected = !this.collected;
     },
   },
   computed: {
@@ -144,3 +121,15 @@ export default {
   },
 };
 </script>
+<style scoped>
+.title {
+  font-size: x-large;
+}
+.elementRight {
+  font-size: x-large;
+  margin: 5px;
+}
+.el-collapse {
+  font-size: x-large;
+}
+</style>
