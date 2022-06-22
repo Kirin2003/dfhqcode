@@ -6,8 +6,7 @@
 @time: 2022-05-26 20:18
 """
 from dao.elastic_server import ElasticServer
-from conf.dao_config import paper_portrait_index_name
-from conf.dao_config import paper_portrait_doc_type
+from conf.dao_config import paper_index_name
 import pandas as pd
 
 
@@ -17,8 +16,7 @@ class PaperPortraitServer(object):
         初始化
         """
         self.es = ElasticServer().elastic_client
-        self.index_name = paper_portrait_index_name
-        self.doc_type = paper_portrait_doc_type
+        self.index_name = paper_index_name
 
     # noinspection PyMethodMayBeStatic
     def paper_info_to_dataframe(self):
@@ -34,7 +32,8 @@ class PaperPortraitServer(object):
             }
         }
         filter_path = ["hits.hits._source.key_words"]
-        query = self.es.search(index=self.index_name, doc_type=self.doc_type, filter_path=filter_path, body=body)
+        
+        query = self.es.search(index=self.index_name, filter_path=filter_path, body=body)
 
         paper_info = pd.DataFrame(columns=("paper_id", "key_words"))
         results = query["hits"]["hits"]  # es查询出的结果的第一页
@@ -59,10 +58,11 @@ class PaperPortraitServer(object):
         body = {
             "query": {
                 "term": {
-                    "paper_id": paper_id
+                    "Id": paper_id
                 }
             }
         }
         filter_path = ["hits.hits._source.subject"]
-        query = self.es.search(index=self.index_name, doc_type=self.doc_type, filter_path=filter_path, body=body)
+        query = self.es.search(index=self.index_name, filter_path=filter_path, body=body)
+  
         return query["hits"]["hits"]["_source"]["subject"]

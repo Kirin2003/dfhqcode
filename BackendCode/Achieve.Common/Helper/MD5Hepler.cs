@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Achieve.Common.Helper
 {
+    //MD5 全称为 消息摘要算法版本5 （Message Digest Algorithm 5），它是一种 Hash 算法。作用是为了信息安全。
+
     public class MD5Helper
     {
         /// <summary>
@@ -32,7 +34,7 @@ namespace Achieve.Common.Helper
             {
                 if (!string.IsNullOrEmpty(password) && !string.IsNullOrWhiteSpace(password))
                 {
-                    MD5 md5 = MD5.Create(); //实例化一个md5对像
+                    MD5 md5 = MD5.Create(); //实例化一个md5对象
                     // 加密后是一个字节类型的数组，这里要注意编码UTF8/Unicode等的选择　
                     byte[] s = md5.ComputeHash(Encoding.UTF8.GetBytes(password));
                     // 通过使用循环，将字节类型的数组转换为字符串，此字符串是常规字符格式化所得

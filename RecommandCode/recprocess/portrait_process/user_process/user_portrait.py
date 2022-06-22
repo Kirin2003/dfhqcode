@@ -8,8 +8,11 @@
 from collections import Counter, defaultdict
 from datetime import datetime
 
-from conf.dao_config import user_portrait_index_name, user_portrait_doc_type
+import pandas as pd
+
+from conf.dao_config import paper_index_name
 from dao.elastic_server import ElasticServer
+from dao.entity.register_user import RegisterUser
 from dao.entity.user_collection import UserCollections
 from dao.entity.user_like import UserLikes
 from dao.entity.user_read import UserRead
@@ -17,66 +20,58 @@ from dao.mysql_server import MysqlServer
 
 
 # noinspection PyBroadException,PyNoneFunctionAssignment,PyMethodMayBeStatic
-class UserPortrait(object):
+class UserPortraitServer(object):
     def __init__(self):
         """
         初始化
         """
         self.es = ElasticServer().elastic_client
-        self.index_name = user_portrait_index_name
-        self.doc_type = user_portrait_doc_type
+        self.index_name = paper_index_name
         self.user_sess = MysqlServer().get_register_user_session()
         self.time_range = 30
 
-    def user_info_to_dict(self, user):
+    def user_info_to_dict(self, user_id):
         """
-        将MySQL查询出来的结果转换为字典存储
-        :param user:
+        根据MySQL查询的结果更新用户画像，并用字典存储
+        :param user_id: 输入用户的ID
         :return:
         """
         info_dict = dict()
+        user = self.user_sess(RegisterUser).get(user_id)
 
         # 基本属性特征
         info_dict['userid'] = user.user_id
-        info_dict['username'] = user.user_name
-        info_dict['passwd'] = user.passwd
-        info_dict['gender'] = user.gender
-        info_dict['age'] = user.age
-        info_dict['college'] = user.college
-        info_dict['profession'] = user.profession
         info_dict['interestAreas'] = user.interest_areas.replace(' ', '').split(',')
 
         # 行为特征
-        behaviors = ['like', 'collection']
+        behaviors = ['like', 'collection', "read"]
         _, feature_dict = self.get_statistical_feature_from_history_behavior(user.user_id, self.time_range, behaviors)
         for type in feature_dict.keys():
             if feature_dict[type]:
-                info_dict["{}_{}_top_cate".format(type, self.time_range)] = feature_dict[type]["top_cate"]  # 历史喜欢/收藏最多的Top3的论文类别
-                info_dict["{}_{}_top_keywords".format(type, self.time_range)] = feature_dict[type]["top_keywords"]  # 历史喜欢/收藏论文的Top3的关键词
-                info_dict["{}_{}_avg_hot_value".format(type, self.time_range)] = feature_dict[type]["avg_hot_value"]  # 用户喜欢/收藏论文的平均热度
-                info_dict["{}_{}_paper_num".format(type, self.time_range)] = feature_dict[type]["paper_num"]  # 用户30天内喜欢/收藏的论文数量
+                info_dict["{}_{}_top_cate".format(type, self.time_range)] = feature_dict[type]["top_cate"]  # 历史喜欢/收藏、阅读最多的Top3的论文类别
+                info_dict["{}_{}_top_keywords".format(type, self.time_range)] = feature_dict[type]["top_keywords"]  # 历史喜欢/收藏/阅读论文的Top10的关键词
+                info_dict["{}_{}_paper_ids".format(type, self.time_range)] = feature_dict[type]["paper_id"]     # 用户喜欢/收藏/阅读过的论文
             else:
                 info_dict["{}_{}_top_cate".format(type, self.time_range)] = ""
                 info_dict["{}_{}_top_keywords".format(type, self.time_range)] = ""
-                info_dict["{}_{}_avg_hot_value".format(type, self.time_range)] = 0
-                info_dict["{}_{}_paper_num".format(type, self.time_range)] = 0
+                info_dict["{}_{}_paper_ids".format(type, self.time_range)] = list()
 
-            return info_dict
+        return info_dict
 
     def get_statistical_feature_from_history_behavior(self, user_id, time_range, behavior_types):
         """
         获取用户历史行为的统计特征
         :param user_id: 用户ID
         :param time_range: 时间差
-        :param behavior_types: 行为特征["read","like","collection"]
+        :param behavior_types: 行为特征["read", "like", "collection"]
         :return:
         """
         fail_type = []
         table_obj, history = None, None
         feature_dict = defaultdict(dict)
 
-        end = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        start = (datetime.datetime.now()+datetime.timedelta(days=-time_range)).strftime("%Y-%m-%d %H:%M:%S")
+        end = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        start = (datetime.now() + datetime.timedelta(days=-time_range)).strftime("%Y-%m-%d %H:%M:%S")
 
         for type in behavior_types:
             if type == "read":
@@ -91,6 +86,7 @@ class UserPortrait(object):
                                         .filter(table_obj.time >= start)\
                                         .filter(table_obj.time <= end)\
                                         .all()
+
             except Exception as e:
                 print(str(e))
                 fail_type.append(type)
@@ -109,26 +105,23 @@ class UserPortrait(object):
         """
         if not len(history):
             return None
-        history_paper_id, history_hot_value, history_paper_cate, history_keyword = list(), list(), list(), list()
+        history_paper_cate, history_keyword, history_paper_id = list(), list(), list()
         for h in history:
             paper_id = h.paper_id
+            history_paper_id.append(paper_id)
             body = {
                 "query": {
                     "term": {
-                        "paper_id": paper_id
+                        "Id": paper_id
                     }
                 }
             }
-            result = self.es.search(index=self.index_name, doc_type=self.doc_type, body=body)
+            result = self.es.search(index=self.index_name, body=body)
             # 这里需要根据字段名来修改
-            history_paper_id.append(result["hits"]["hits"]["paper_id"])
-            history_hot_value.append(result["hits"]["hits"]["_source"]["hot_value"])
             history_paper_cate.append(result["hits"]["hits"]["_source"]["cate"])
-            history_keyword += result["hits"]["hits"]["key_words"].split(",")
+            history_keyword += result["hits"]["hits"]["_source"]["key_words"].split(",")
 
         feature_dict = dict()
-        # 计算平均热度
-        feature_dict["avg_hot_value"] = 0 if sum(history_hot_value) < 0.001 else sum(history_hot_value) / len(history_hot_value)
 
         # 计算Top3的类别
         cate_dict = Counter(history_paper_cate)
@@ -136,13 +129,37 @@ class UserPortrait(object):
         cate_str = ",".join([item[0] for item in cate_list[:3]] if len(cate_list) >= 3 else [item[0] for item in cate_list])
         feature_dict["top_cate"] = cate_str
 
-        # 计算Top3的关键词
+        # 计算Top10的关键词
         word_dict = Counter(history_keyword)
         word_list = sorted(word_dict.items(), key=lambda d: d[1], reverse=True)
-        word_str = ",".join([item[0] for item in word_list[:3]] if len(cate_list) >= 3 else [item[0] for item in word_list])
+        word_str = ",".join([item[0] for item in word_list[:10]] if len(cate_list) >= 10 else [item[0] for item in word_list])
         feature_dict["top_keywords"] = word_str
 
-        # 论文数目
-        feature_dict["paper_num"] = len(history_paper_id)
-
+        feature_dict["paper_id"] = history_paper_id
         return feature_dict
+
+    def get_user_paper(self):
+        """
+        返回用户论文行为矩阵
+        :return:
+        """
+        df = pd.DataFrame(columns=("paper_id", "user_id", "like", "collection", "read", "Time"))
+        query_result = self.user_sess.query(UserRead).all()
+        for read in query_result:
+            df.at[len(df.index)] = [read.paper_id, read.user_id, 0, 0, read.reads, read.time]
+
+        query_result = self.user_sess.query(UserLikes).all()
+        for like in query_result:
+            if len(df.loc[(df["user_id"] == like.user_id) & (df["paper_id"] == like.paper_id)]) == 1:
+                df.loc[(df["user_id"] == like.user_id) & (df["paper_id"] == like.paper_id), "like"] = 1
+            else:
+                df.at[len(df.index)] = [like.paper_id, like.user_id, 1, 0, 0, like.time]
+
+        query_result = self.user_sess.query(UserCollections).all()
+        for collection in query_result:
+            if len(df.loc[(df["user_id"] == collection.user_id) & (df["paper_id"] == collection.paper_id)]) == 1:
+                df.loc[(df["user_id"] == collection.user_id) & (df["paper_id"] == collection.paper_id), "collection"] = 1
+            else:
+                df.at[len(df.index)] = [collection.paper_id, collection.user_id, 0, 1, 0, collection.time]
+        df.sort_values("time", inplace=True)
+        return df
