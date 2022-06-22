@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+//咱就是说，完全不知道这个干什么用的
+
 namespace Achieve.Common.Helper
 {
     /// <summary>
@@ -93,6 +95,7 @@ namespace Achieve.Common.Helper
         }
     }
 
+    //许可树
     public class PermissionTree
     {
         public int value { get; set; }
@@ -104,6 +107,8 @@ namespace Achieve.Common.Helper
         public List<PermissionTree> children { get; set; }
         public List<PermissionTree> btns { get; set; }
     }
+
+    //导航栏
     public class NavigationBar
     {
         public int id { get; set; }
@@ -117,6 +122,7 @@ namespace Achieve.Common.Helper
         public List<NavigationBar> children { get; set; }
     }
 
+    //导航栏？
     public class NavigationBarMeta
     {
         public string title { get; set; }

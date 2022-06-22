@@ -43,6 +43,14 @@ namespace Achieve.Common.HttpContextUser
         }
 
 
+        /*一般来说，后台都会有接口校验设计，需要在请求头包含部分加密参数进行验证。
+
+        我们的项目也是这样处理，外放的接口需要先调用登录接口获取Token，根据Token在请求头进行组合形成鉴权，才能成功通过后台的校验进行使用。
+
+        这时候想，如果每个接口都需要提前先获取Token，工作量非常大，于是想到了类似Java的AOP的面向切面处理方式，使用动态代理灵活在接口方法前插入获取Token逻辑。
+
+        而部分接口例如，获取验证码、登录相关的，并不需要Token，因此再自定义一个注解用于区别*/
+
         public string GetToken()
         {
             return _accessor.HttpContext.Request.Headers["Authorization"].ObjToString().Replace("Bearer ", "");

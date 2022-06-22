@@ -4,6 +4,8 @@ using System.IO;
 
 namespace Achieve.Common.DB
 {
+    //里面有一些根据本地文件地址索引查找文件的语句，应该是需要修改的
+
     public class BaseDBConfig
     {
         private static string sqliteConnection = Appsettings.app(new string[] { "AppSettings", "Sqlite", "SqliteConnection" });
