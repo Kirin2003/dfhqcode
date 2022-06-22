@@ -25,6 +25,7 @@ class UserRead(Base):
     index = Column(Integer(), primary_key=True, autoincrement=True)
     user_id = Column(BigInteger())
     paper_id = Column(String(100))
+    reads = Column(Integer())
     time = Column(DateTime(timezone=True), server_default=func.now())
 
     def __init__(self):
