@@ -66,6 +66,7 @@
                 v-model="select"
                 placeholder="相关度"
                 default-first-option="true"
+                width="125px"
               >
                 <el-option label="相关度" value="revelance" />
                 <el-option label="热度" value="hotnum" />
@@ -80,7 +81,12 @@
           </el-input>
         </el-header>
         <p class="sort" :sort="Sort">"{{ Sort }}"论文</p>
-        <el-table class="essays" :data="Essays" row-style="height: 50px">
+        <el-table
+          class="essays"
+          :data="Essays"
+          row-style="height: 100px"
+          @row-click="RouteToEssayInfo"
+        >
           <el-table-column prop="title" label="题目" />
           <el-table-column prop="writers" label="作者" />
         </el-table>
@@ -103,6 +109,7 @@
 <script>
 import { Search, UserFilled, Document } from "@element-plus/icons";
 import router from "@/router/index";
+import store from "@/store/";
 export default {
   name: "HotWord",
   components: {
@@ -178,9 +185,10 @@ export default {
       ], //五个论文一组的数组
       Essays: [
         {
+          Id: "134153413",
           title:
             "Image-to-Image Translation with Conditional Adversarial Networks",
-          writers: "Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros",
+          Authors: "Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros",
         },
         {
           title:
@@ -204,6 +212,7 @@ export default {
         },
       ], //一组论文
       Sort: "default",
+      essaySelected: {},
       //EssayNum: this.Essays.length * 5,
       essaySearched: "",
       HotWordsOfIccv: [
@@ -221,15 +230,30 @@ export default {
     RouteToUserInfo() {
       router.push({ name: "User", params: { userName: this.UserName } });
     },
+    RouteToEssayInfo(row) {
+      this.essaySelected = row;
+      store.commit("SelectEssay", this.essaySelected);
+      //还要传递论文信息
+      router.push({
+        name: "Essay",
+        params: { essayId: this.essaySelected.Id },
+      });
+    },
   },
 };
 </script>
 <style scoped>
-.el-aside {
-  background-color: antiquewhite;
-  width: 500px;
-}
 .essays {
   font-size: 20px;
+}
+.sort {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.el-pagination {
+  padding-left: 400px;
+  padding-top: 20px;
+  --el-pagination-font-size: 17px;
 }
 </style>

@@ -1,9 +1,17 @@
 import { createStore } from "vuex";
 
 export default createStore({
-  state: {},
+  state() {
+    return {
+      essayS: null,
+    };
+  },
   getters: {},
-  mutations: {},
+  mutations: {
+    SelectEssay(state, essay) {
+      state.essayS = essay;
+    },
+  },
   actions: {},
   modules: {},
 });

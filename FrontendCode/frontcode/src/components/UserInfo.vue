@@ -25,7 +25,11 @@
             :data="RecomendEssays"
             row-style="height: 50px"
           >
-            <el-table-column prop="title" label="题目" />
+            <el-table-column
+              prop="title"
+              label="题目"
+              @click="RouteToEssayInfo"
+            />
             <el-table-column prop="writers" label="作者" />
           </el-table>
         </el-main>
@@ -51,7 +55,17 @@ export default {
     RouteToHome() {
       router.push({ name: "home" });
     },
+    RouteToEssayInfo() {
+      //还要传递论文信息
+
+      router.push({ name: "Essay" });
+    },
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+.el-aside {
+  width: 300px;
+  height: 600px;
+}
+</style>
