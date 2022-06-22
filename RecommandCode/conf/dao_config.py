@@ -23,8 +23,8 @@ elastic_hostname = "127.0.0.1"
 elastic_username = "elastic"
 elastic_passwd = "123456"
 elastic_port = 9200
-paper_portrait_index_name = "paper"
-paper_portrait_doc_type = "PaperItem"
+paper_index_name = "paper"
+DynamicInfo_index_name = "DynamicInfo"
 
 # 论文的分类
 cate_dict = {

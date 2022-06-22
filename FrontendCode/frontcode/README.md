@@ -1,7 +1,4 @@
-# dfhqcode
-<<<<<<< HEAD
-顶会论文检索和热词分析工具
-=======
+# frontcode
 
 ## Project setup
 ```
@@ -30,4 +27,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 4193a02 (vue框架)
