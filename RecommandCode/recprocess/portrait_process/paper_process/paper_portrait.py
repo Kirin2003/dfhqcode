@@ -32,6 +32,7 @@ class PaperPortraitServer(object):
             }
         }
         filter_path = ["hits.hits._source.key_words"]
+        
         query = self.es.search(index=self.index_name, filter_path=filter_path, body=body)
 
         paper_info = pd.DataFrame(columns=("paper_id", "key_words"))
@@ -63,4 +64,5 @@ class PaperPortraitServer(object):
         }
         filter_path = ["hits.hits._source.subject"]
         query = self.es.search(index=self.index_name, filter_path=filter_path, body=body)
+  
         return query["hits"]["hits"]["_source"]["subject"]
