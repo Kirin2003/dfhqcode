@@ -26,26 +26,18 @@ class PaperPortraitServer(object):
         """
         body = {
             "query": {
-                "term": {
-                    "new": 1
-                }
+                "match_all": {}
             }
         }
-        filter_path = ["hits.hits._source.key_words"]
-        
-        query = self.es.search(index=self.index_name, filter_path=filter_path, body=body)
+        query = ElasticServer().elastic_client.search(index=paper_index_name, body=body)["hits"]
 
         paper_info = pd.DataFrame(columns=("paper_id", "key_words"))
-        results = query["hits"]["hits"]  # es查询出的结果的第一页
-        total = query["hits"]["total"]  # es查询出的结果总量
-        scroll_id = query["_scroll_id"]  # 游标用于输出es查询出的所有结果
 
-        for i in range(0, int(total/100)+1):
-            query_scroll = self.es.scroll(scroll_id=scroll_id, scroll="5m")["hits"]["hits"]
-            results += query_scroll
+        result = query["hits"]
+        total = query["total"]["value"]
 
-        for res in results:
-            paper_info.at[len(paper_info.index)] = [res["_id"], res["_source"]["key_words"]]
+        for i in range(0, total):
+            paper_info.at[len(paper_info.index)] = [result[i]["_id"], result[i]["_source"]["paperKeywords"]]
         paper_info.set_index("paper_id", inplace=True)
         return paper_info
 
@@ -55,14 +47,5 @@ class PaperPortraitServer(object):
         :param paper_id:
         :return:
         """
-        body = {
-            "query": {
-                "term": {
-                    "Id": paper_id
-                }
-            }
-        }
-        filter_path = ["hits.hits._source.subject"]
-        query = self.es.search(index=self.index_name, filter_path=filter_path, body=body)
-  
-        return query["hits"]["hits"]["_source"]["subject"]
+        query = self.es.get(index=self.index_name, id=paper_id)
+        return query["_source"]["subject"]
