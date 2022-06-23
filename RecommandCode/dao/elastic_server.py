@@ -6,11 +6,10 @@
 @time: 2022-05-26 18:10
 """
 from elasticsearch import Elasticsearch
-from conf.dao_config import elastic_hostname, elastic_port, elastic_passwd, elastic_username
+from conf.dao_config import elastic_hostname, elastic_passwd, elastic_username, elastic_port
 
 
 class ElasticServer(object):
     def __init__(self):
-        self.elastic_client = Elasticsearch([elastic_hostname],
-                                            http_auth=(elastic_username, elastic_passwd),
-                                            port=elastic_port)
+        self.elastic_client = Elasticsearch("http://{}:{}".format(elastic_hostname, elastic_port),
+                                            basic_auth=(elastic_username, elastic_passwd))
