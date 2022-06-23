@@ -23,12 +23,11 @@ class RegisterUser(Base):
     __tablename__ = register_user_table_name
 
     # 表结构
-    index = Column(Integer(), primary_key=True)
-    user_id = Column(BigInteger())
-    user_name = Column(String(30))
-    passwd = Column(String(500))
+    user_id = Column(BigInteger(), primary_key=True)
+    username = Column(String(30))
+    password = Column(String(255))
+    email = Column(String(255))
     gender = Column(String(10))
-    age = Column(String(5))
     college = Column(String(100))
     profession = Column(String(100))
     interest_areas = Column(String(300))
