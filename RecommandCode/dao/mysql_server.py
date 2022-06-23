@@ -30,7 +30,7 @@ class MysqlServer(object):
         # 创建引擎
         engine = create_engine("mysql+pymysql://{}:{}@{}:{}/{}".format(
             self.username, self.passwd, self.hostname, self.port, db_name
-        ), encodings="utf-8", echo=False)
+        ), echo=False)
         # 创建会话
         session = sessionmaker(bind=engine)
         # 返回engine 和 session，前者用来绑定本地数据，后者用来本地操作数据库
