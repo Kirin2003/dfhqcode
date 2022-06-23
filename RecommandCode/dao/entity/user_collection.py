@@ -25,7 +25,7 @@ class UserCollections(Base):
     index = Column(Integer(), primary_key=True, autoincrement=True)
     user_id = Column(BigInteger())
     paper_id = Column(String(100))
-    time = Column(DateTime(timezone=True), server_default=func.now())
+    time = Column(DateTime(timezone=True))
 
     def __init__(self):
         # 与数据库绑定映射关系
