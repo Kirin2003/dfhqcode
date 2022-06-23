@@ -22,11 +22,11 @@ class UserRead(Base):
     """
     __tablename__ = user_read_table_name
 
-    index = Column(Integer(), primary_key=True, autoincrement=True)
+    index = Column(BigInteger(), primary_key=True, autoincrement=True)
     user_id = Column(BigInteger())
     paper_id = Column(String(100))
     reads = Column(Integer())
-    time = Column(DateTime(timezone=True), server_default=func.now())
+    time = Column(DateTime(timezone=True))
 
     def __init__(self):
         # 与数据库绑定映射关系
