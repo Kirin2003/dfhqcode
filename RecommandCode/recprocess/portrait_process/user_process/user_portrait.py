@@ -37,11 +37,13 @@ class UserPortraitServer(object):
         :return:
         """
         info_dict = dict()
-        user = self.user_sess(RegisterUser).get(user_id)
+        user = self.user_sess.query(RegisterUser)\
+                             .filter(RegisterUser.user_id == user_id) \
+                             .first()
 
         # 基本属性特征
         info_dict['userid'] = user.user_id
-        info_dict['interestAreas'] = user.interest_areas.replace(' ', '').split(',')
+        info_dict['interestAreas'] = user.interest_areas.split(',')
 
         # 行为特征
         behaviors = ['like', 'collection', "read"]
