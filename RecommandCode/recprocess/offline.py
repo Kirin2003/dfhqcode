@@ -48,7 +48,7 @@ class OfflineServer(object):
         user_info = self.user_portrait.user_info_to_dict(user_id)
         return self.content_cf.rec_list(user_info)
 
-    def paper_to_paper(self, users):
+    def paper_item_cf(self, users):
         """
         基于ItemCF的推荐
         :param users: 待推荐用户的ID列表
