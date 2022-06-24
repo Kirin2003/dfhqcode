@@ -1,20 +1,23 @@
 <template>
   <el-table
     class="essays"
-    :data="CurrentEssays"
+    :data="EssaysGroup"
     row-style="height: 100px"
     @row-click="RouteToEssayInfo"
   >
     <el-table-column prop="title" label="题目" />
-    <el-table-column prop="writers" label="作者" />
+    <el-table-column prop="authors" label="作者" />
   </el-table>
   <el-footer>
     <div>
       <el-pagination
-        :page-size="100"
+        :page-size="page_size"
+        :current-page="pageNo"
         layout="total, prev, pager, next"
-        :total="400"
+        :total="totalCount"
         @current-change="handleCurrentChange"
+        @next-click="pageNoplus"
+        @prev-click="pageNoSub"
       >
       </el-pagination>
     </div>
@@ -23,40 +26,30 @@
 <script>
 import router from "@/router/index";
 import store from "@/store/";
+import {
+  getPapers,
+  getCount,
+  searchPapers,
+  getSortedPaper,
+  recommend,
+} from "@/axios/axios";
+import { page_size } from "./const";
 export default {
   name: "EssayList",
   data() {
     return {
-      AllEssays: [],
-      CurrentEssays: [
-        {
-          Id: "134153413",
-          title:
-            "Image-to-Image Translation with Conditional Adversarial Networks",
-          Authors: "Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros",
-        },
-        {
-          title:
-            "Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks",
-          writers: "Jun-Yan Zhu, Taesung Park Alexei A. Efros 2017",
-        },
-        {
-          title:
-            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
-          writers: "K. Simonyan, Andrew Zisserman",
-        },
-        {
-          title:
-            "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
-          writers: "C. Ledig, Lucas Theis, Ferenc Huszár, Jose",
-        },
-        {
-          title:
-            "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
-          writers: "C. Ledig, Lucas Theis, Ferenc Huszár, Jose",
-        },
-      ],
+      EssaysGroup: [],
+      totalCount: 0,
+      pageNo: 1,
     };
+  },
+  mounted() {
+    getPapers(this.pageNo, page_size).then((res) => {
+      this.EssaysGroup = res.data;
+    });
+    getCount().then((res) => {
+      this.totalCount = res.data;
+    });
   },
   methods: {
     RouteToEssayInfo(row) {
@@ -66,6 +59,65 @@ export default {
       router.push({
         name: "Essay",
         params: { essayId: this.essaySelected.Id },
+      });
+    },
+    handleCurrentChange() {
+      getPapers(this.pageNo, page_size).then((res) => {
+        this.EssaysGroup = res.data;
+      });
+      getCount().then((res) => {
+        this.totalCount = res.data;
+      });
+    },
+    pageNoPlus() {
+      this.current++;
+    },
+    pageNoSub() {
+      this.current--;
+    },
+  },
+  computed: {
+    searchInfo() {
+      return store.state.searchInfo;
+    },
+    hotwordSort() {
+      return store.state.hotword;
+    },
+    recommend() {
+      return store.state.recommended;
+    },
+    userId() {
+      return store.state.userId;
+    },
+  },
+  watch: {
+    searchInfo: function () {
+      searchPapers(this.searchInfo, 1, page_size).then((res) => {
+        this.EssaysGroup = res.data;
+      });
+      getCount().then((res) => {
+        this.totalCount = res.data;
+      });
+    },
+    hotwordSort: function () {
+      getSortedPaper(
+        this.hotwordSort.meeting,
+        this.hotwordSort.word,
+        1,
+        page_size
+      ).then((res) => {
+        this.EssaysGroup = res.data;
+      });
+      getCount().then((res) => {
+        this.totalCount = res.data;
+      });
+    },
+    recommend: function () {
+      recommend(this.userId).then((res) => {
+        this.EssaysGroup = res.data;
+      });
+      getCount().then((res) => {
+        this.totalCount = res.data;
       });
     },
   },

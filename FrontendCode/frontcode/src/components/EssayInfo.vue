@@ -50,14 +50,20 @@
           </el-collapse-item>
           <el-collapse-item title="github" name="8" @click="getGithubInfo">
             <el-table :data="githubDisplayed">
-              <el-table-column prop="attribute" />
-              <el-table-column prop="value" />
+              <el-table-column prop="name" label="github仓库名" />
+              <el-table-column prop="url" />
             </el-table>
           </el-collapse-item>
           <el-collapse-item title="引用论文" name="9" @click="getRevelanceInfo">
             <el-table :data="revelanceDisplayed">
-              <el-table-column prop="attribute" />
-              <el-table-column prop="value" />
+              <el-table-column prop="title" label="题目" />
+              <el-table-column prop="authors" label="引用作者" />
+              <el-table-column prop="paperHref" label="引用论文url" />
+            </el-table>
+            <el-table :data="citationDisplayed">
+              <el-table-column prop="title" label="题目" />
+              <el-table-column prop="authors" label="被引用作者" />
+              <el-table-column prop="paperHref" label="被引用论文url" />
             </el-table>
           </el-collapse-item>
           <el-collapse-item title="视频链接" name="10">
@@ -83,6 +89,17 @@ import {
 import router from "@/router/index";
 import store from "@/store";
 import AsidePart1 from "./AsidePart1.vue";
+import {
+  judgeCollection,
+  addCollection,
+  subCollection,
+  judgeLike,
+  addLike,
+  subLike,
+  getGithubInfo,
+  getCitation,
+  getRevelance,
+} from "@/axios/axios";
 export default {
   name: "EssayInfo",
   components: {
@@ -95,11 +112,41 @@ export default {
   },
   data() {
     return {
-      githubDisplayed: [],
+      githubDisplayed: {},
       revelanceDisplayed: [],
+      citationDisplayed: [],
       liked: false,
       collected: false,
     };
+  },
+  mounted() {
+    var info = {
+      userId: this.userId,
+      paperId: this.essay.Id,
+    };
+    judgeCollection(info).then((res) => {
+      if (res.status === 200) {
+        this.collected = true;
+      } else if (res.status === 404) {
+        this.collected = false;
+      }
+    });
+    judgeLike(info).then((res) => {
+      if (res.status === 200) {
+        this.liked = true;
+      } else if (res.status === 404) {
+        this.liked = false;
+      }
+    });
+    getGithubInfo(this.essay.Id).then((res) => {
+      this.githubDisplayed = res.data;
+    });
+    getRevelance(this.essay.Id).then((res) => {
+      this.revelanceDisplayed = res.data.revelance;
+    });
+    getCitation(this.essay.Id).then((res) => {
+      this.citationDisplayed = res.data.citation;
+    });
   },
   methods: {
     getGithubInfo() {},
@@ -108,15 +155,36 @@ export default {
       router.push({ name: "home" });
     },
     Like() {
+      var info = {
+        userId: this.userId,
+        paperId: this.essay.Id,
+      };
+      if (this.liked === true) {
+        subLike(info);
+      } else {
+        addLike(info);
+      }
       this.liked = !this.liked;
     },
     Collect() {
+      var info = {
+        userId: this.userId,
+        paperId: this.essay.Id,
+      };
+      if (this.collected === true) {
+        subCollection(info);
+      } else {
+        addCollection(info);
+      }
       this.collected = !this.collected;
     },
   },
   computed: {
     essay() {
       return store.state.essayS;
+    },
+    userId() {
+      return store.state.userId;
     },
   },
 };

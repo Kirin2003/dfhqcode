@@ -11,6 +11,8 @@
 <script>
 import { UserFilled } from "@element-plus/icons";
 import router from "@/router/index";
+import { login } from "@/axios/axios";
+import store from "@/store/index";
 export default {
   name: "loadPage",
   components: { UserFilled },
@@ -21,7 +23,13 @@ export default {
     };
   },
   methods: {
-    Login() {},
+    Login() {
+      login(this.account, this.password).then((res) => {
+        var user = res.userId;
+        store.commit("ConvertUserId", user);
+      });
+      router.push({ name: "home" });
+    },
     Register() {
       router.push({ name: "Register" });
     },
