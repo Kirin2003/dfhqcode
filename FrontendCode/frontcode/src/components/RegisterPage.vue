@@ -49,6 +49,7 @@
 </template>
 <script>
 import { UserFilled } from "@element-plus/icons";
+//import { register } from "@/axios/axios";
 export default {
   name: "loadPage",
   components: { UserFilled },
@@ -60,7 +61,9 @@ export default {
     };
   },
   methods: {
-    Register() {},
+    Register() {
+      //register();
+    },
   },
 };
 </script>

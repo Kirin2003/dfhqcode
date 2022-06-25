@@ -2,7 +2,7 @@
 import { config } from "@vue/test-utils";
 import axios from "axios";
 
-const BaseURL = "http://localhost:8080/";
+const BaseURL = "http://localhost:5001/";
 
 //论文
 const paper = axios.create({
@@ -53,6 +53,14 @@ const user = axios.create({ baseURL: BaseURL + "api/user/", timeout: 6000 });
 const login = async (name, password) => {
   try {
     const res = await user.post("login?name=${name}&password=${password}");
+    return res;
+  } catch (error) {
+    console.log(error);
+  }
+};
+const register = async (params) => {
+  try {
+    const res = await user.post("resgister", params);
     return res;
   } catch (error) {
     console.log(error);
@@ -195,4 +203,23 @@ const maketest = async (url) => {
     console.log(error);
   }
 };
-export { searchPapers, getPapers, getCount, getHotword };
+export {
+  searchPapers,
+  getPapers,
+  getCount,
+  getHotword,
+  getSortedPaper,
+  login,
+  register,
+  getGithubInfo,
+  getCitation,
+  getReference,
+  getCollection,
+  addCollection,
+  subColletion,
+  addLike,
+  subLike,
+  recommend,
+  judgeCollection,
+  judgeLike,
+};
