@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { config } from "@vue/test-utils";
 import axios from "axios";
-import { tr } from "element-plus/es/locale";
 
 const BaseURL = "http://localhost:8080/";
 
