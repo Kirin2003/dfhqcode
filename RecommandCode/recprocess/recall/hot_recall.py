@@ -16,7 +16,7 @@ class HotRecall(object):
 
     def group_cate_for_paper_list(self, cate_dict):
         """
-        按照类别将论文推荐列表存入redis中，并自动根据hot_value排序.
+        按照类别推荐论文，并自动根据hot_value排序.
         :param: cate_dict
         :return:
         """
