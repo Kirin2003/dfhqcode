@@ -32,7 +32,7 @@ class UserPortraitServer(object):
 
     def user_info_to_dict(self, user_id):
         """
-        根据MySQL查询的结果更新用户画像，并用字典存储
+        根据输入的user_id，输出用户画像，用字典存储
         :param user_id: 输入用户的ID
         :return:
         """

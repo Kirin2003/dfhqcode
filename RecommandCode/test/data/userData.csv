@@ -1,0 +1,1001 @@
+user_id,name,username,sex,mail,address,birthdate,interest_area
+650100000011001,陈玲,ping69,F,chao78@gmail.com,河北省荆门市上街方街X座 273789,2010-05-27,"['Artificial Intelligence', 'Machine Learning', 'Image and Video processing']"
+650100000011002,邢雪梅,minggong,M,yanfu@yahoo.com,湖北省东莞县淄川崔路n座 996454,1944-09-27,[]
+650100000011003,王淑珍,ptian,F,nfeng@gmail.com,福建省慧县南长西安路i座 627612,1917-12-31,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011004,古冬梅,gang62,F,li56@hotmail.com,澳门特别行政区兵市璧山徐路S座 874431,2000-05-15,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011005,郑志强,ming83,M,oguo@gmail.com,山西省阜新县东丽蔡路q座 976862,1917-11-07,['Image and Video processing']
+650100000011006,杨岩,xiagang,F,haofang@gmail.com,澳门特别行政区兴城县新城曾路J座 139788,2019-11-24,['Robotics']
+650100000011007,许芳,jundeng,M,yangcao@hotmail.com,上海市秀芳市牧野丁街J座 699624,1922-10-31,"['Artificial Intelligence', 'Robotics']"
+650100000011008,章雪,xiulanzhou,M,longtao@yahoo.com,湖北省潜江县大兴潘街V座 429654,2007-02-24,['Others']
+650100000011009,王超,xiayong,M,ckang@hotmail.com,河北省娜市城北夏街S座 182061,1948-09-05,['Machine Learning']
+650100000011010,杨秀兰,juan24,M,xiuying19@gmail.com,贵州省汕尾市静安郭路m座 816112,1979-02-07,['Machine Learning']
+650100000011011,姚莉,yonghuang,F,taowu@yahoo.com,香港特别行政区楠县朝阳安路X座 914390,1944-12-27,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011012,白鹏,chaodai,M,xhan@gmail.com,江西省敏县涪城熊路P座 872371,1943-07-03,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011013,王红梅,fzeng,F,cguo@hotmail.com,四川省阳市友好惠州街c座 698202,1957-07-02,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Robotics']"
+650100000011014,黄亮,xia10,M,jiaguiying@yahoo.com,宁夏回族自治区岩市滨城汕尾路S座 502432,1939-07-10,['Image and Video processing']
+650100000011015,周鑫,juanliang,M,cyuan@hotmail.com,重庆市南昌市城北宜都街f座 660420,1914-05-08,"['Machine Learning', 'Others']"
+650100000011016,韦娟,txue,M,chaomao@hotmail.com,陕西省小红县丰都西宁街x座 558530,1952-02-19,[]
+650100000011017,蒋小红,daiyong,F,leimao@yahoo.com,海南省南宁县高坪辛集路L座 971645,1933-02-01,"['Computer vision and Pattern recognition', 'Others']"
+650100000011018,陈建军,oguo,M,yang00@gmail.com,河南省澳门市静安梁街b座 753835,1970-08-05,"['Robotics', 'Image and Video processing', 'Machine Learning']"
+650100000011019,王玲,bding,M,fang39@gmail.com,青海省佳市闵行阮路x座 892167,1961-01-06,"['Robotics', 'Others', 'Machine Learning', 'Image and Video processing']"
+650100000011020,江晶,li43,F,fangjing@gmail.com,香港特别行政区哈尔滨县城东薄路A座 304167,1994-06-17,['Others']
+650100000011021,胡畅,dpeng,M,tao52@yahoo.com,澳门特别行政区拉萨县兴山武汉路L座 796213,1974-02-22,['Machine Learning']
+650100000011022,马红,guiyingxiao,M,xiuyingxia@yahoo.com,江苏省荣县沙湾尤街v座 275312,1910-03-25,"['Machine Learning', 'Artificial Intelligence']"
+650100000011023,高欣,gongxiulan,F,tding@yahoo.com,广西壮族自治区彬县六枝特拉萨路R座 255682,1927-03-08,['Robotics']
+650100000011024,祝明,eyan,F,guiying38@hotmail.com,云南省辽阳市合川涂街v座 508348,1940-09-05,"['Image and Video processing', 'Others']"
+650100000011025,刘兵,nazeng,F,gliu@gmail.com,内蒙古自治区汕尾县城东哈尔滨路a座 569735,1961-05-04,"['Others', 'Artificial Intelligence', 'Machine Learning', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011026,佟玲,moqiang,M,longchao@yahoo.com,新疆维吾尔自治区海门市沈北新长沙街G座 476384,1938-04-03,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011027,颜淑华,tangwei,F,wdai@yahoo.com,陕西省长沙县淄川马路k座 638518,2019-12-02,[]
+650100000011028,李红霞,nachang,M,syin@yahoo.com,安徽省健市高坪胡街F座 596909,1932-09-24,"['Robotics', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011029,尹璐,yong88,F,qianxiulan@hotmail.com,山东省潮州市高港六安路h座 431285,1929-11-21,"['Robotics', 'Others']"
+650100000011030,张凤兰,nadeng,M,jing97@hotmail.com,山东省桂珍市六枝特周街u座 376666,1963-11-21,"['Others', 'Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence']"
+650100000011031,杜旭,chaokang,M,tanlei@gmail.com,海南省长春县长寿李路u座 205079,1963-11-30,"['Others', 'Artificial Intelligence']"
+650100000011032,吴飞,xiameng,F,fwang@gmail.com,上海市兴城市上街贵阳街l座 315269,1984-08-05,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011033,董淑华,jing10,M,duanmin@hotmail.com,江西省香港县花溪西安街n座 191468,1962-04-11,"['Machine Learning', 'Image and Video processing']"
+650100000011034,萧秀珍,weizhong,M,qiang92@gmail.com,黑龙江省郑州县东城谭街Z座 328675,1919-12-27,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011035,李宁,qiangren,F,jun19@hotmail.com,广西壮族自治区嘉禾县崇文仇路W座 415161,1964-06-13,"['Others', 'Robotics', 'Artificial Intelligence']"
+650100000011036,叶帅,xshen,M,yangxie@yahoo.com,湖南省楠市西峰哈尔滨路N座 104077,2019-04-21,"['Robotics', 'Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011037,王玉,hwu,M,na53@hotmail.com,广东省丽丽县浔阳黄街c座 261959,1919-07-03,"['Machine Learning', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011038,陈桂英,panjie,M,junliang@gmail.com,内蒙古自治区张家港市孝南黄路v座 237446,1917-10-27,"['Machine Learning', 'Artificial Intelligence', 'Others']"
+650100000011039,符宇,lei79,M,xiawu@yahoo.com,湖北省颖县海陵淮安路Q座 466637,1919-09-03,"['Others', 'Artificial Intelligence', 'Machine Learning']"
+650100000011040,宋琳,ligu,F,taoguiying@hotmail.com,辽宁省桂花县平山合山路l座 817781,2012-12-08,"['Machine Learning', 'Robotics']"
+650100000011041,花秀芳,rkang,F,xiulanzhong@gmail.com,江西省深圳市合川惠州街g座 471837,1986-04-22,['Artificial Intelligence']
+650100000011042,刘利,xiulanmo,M,weishen@hotmail.com,宁夏回族自治区杭州市海港谢街w座 548284,1963-11-30,"['Machine Learning', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011043,梁桂芳,zhulei,M,yan25@hotmail.com,陕西省荆门县山亭张家港街b座 530908,2007-10-17,"['Machine Learning', 'Image and Video processing']"
+650100000011044,陈鹏,zzhong,F,ping76@hotmail.com,北京市长沙市城北兴城路l座 469112,1986-06-26,[]
+650100000011045,吴柳,xia32,F,juan31@hotmail.com,吉林省建国市永川荆门街T座 642197,1970-04-01,"['Artificial Intelligence', 'Robotics', 'Machine Learning', 'Image and Video processing']"
+650100000011046,王楠,taokong,F,liangmin@yahoo.com,北京市桂花市花溪王街L座 198526,1996-09-22,['Machine Learning']
+650100000011047,关淑英,wangqiang,F,yong91@hotmail.com,贵州省重庆市和平郑街m座 717078,1945-08-14,['Image and Video processing']
+650100000011048,张柳,xiaomin,F,qiangliu@yahoo.com,贵州省昆明县浔阳长沙路z座 340035,1975-10-05,"['Image and Video processing', 'Machine Learning', 'Artificial Intelligence']"
+650100000011049,孙秀云,qtao,M,yangduan@gmail.com,湖南省帆县淄川深圳路b座 762867,1939-05-28,[]
+650100000011050,韦鹏,jie29,F,na07@gmail.com,贵州省霞市华龙萧街s座 745881,1946-08-21,"['Image and Video processing', 'Others']"
+650100000011051,隋秀云,weizou,M,yansong@yahoo.com,重庆市淑英市清城王街y座 942617,1958-07-12,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011052,焦俊,taopeng,F,zhengjing@gmail.com,黑龙江省辛集市白云陆路X座 822652,2016-07-23,"['Image and Video processing', 'Machine Learning', 'Robotics', 'Artificial Intelligence']"
+650100000011053,邱凤兰,ping71,M,chenli@gmail.com,陕西省淑兰县西峰宜都街Q座 731175,1962-08-23,[]
+650100000011054,刘璐,guiyingqin,M,kzeng@hotmail.com,贵州省邯郸市徐汇兴城路p座 336457,1942-10-14,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Robotics']"
+650100000011055,鄢彬,yanxiao,F,jie60@hotmail.com,内蒙古自治区波县高港郑州街t座 430519,1950-06-15,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011056,林丹丹,na96,M,yuanxia@gmail.com,宁夏回族自治区飞市西夏钟路V座 729129,1924-09-18,"['Robotics', 'Image and Video processing']"
+650100000011057,柴鑫,yuanjie,M,qiang15@yahoo.com,陕西省关岭市大东马鞍山路N座 108123,1943-08-04,"['Artificial Intelligence', 'Robotics']"
+650100000011058,张琴,yichao,M,gangli@gmail.com,内蒙古自治区飞县吉区武汉街r座 809265,1961-07-11,['Image and Video processing']
+650100000011059,许峰,changtao,F,leilu@yahoo.com,青海省柳州市牧野澳门路Y座 217498,2005-11-08,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011060,滕玲,fang72,M,jieyang@gmail.com,云南省石家庄县永川何街r座 156416,1998-04-05,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011061,刘秀华,juanqiu,F,yutao@yahoo.com,河北省呼和浩特县南长荆门路e座 413141,1914-10-11,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011062,刘伟,min62,M,chaowei@yahoo.com,内蒙古自治区海门县普陀潜江路i座 275021,1991-11-14,"['Machine Learning', 'Others', 'Robotics']"
+650100000011063,周辉,jie48,F,ping20@yahoo.com,山西省乌鲁木齐县龙潭赵路V座 945749,2005-12-24,"['Machine Learning', 'Others', 'Computer vision and Pattern recognition']"
+650100000011064,秦丽娟,ohe,M,mingbai@gmail.com,海南省丽华县沈北新郑州路p座 390124,1987-09-25,['Robotics']
+650100000011065,张鑫,bfeng,M,fangxiao@gmail.com,天津市广州市沈河柳州路t座 777157,1958-09-02,['Machine Learning']
+650100000011066,伍东,jkong,M,wanwei@gmail.com,安徽省南昌县海陵蒋路N座 640855,1915-03-27,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011067,董海燕,xiaye,F,jiayang@gmail.com,香港特别行政区惠州市梁平彭街g座 479452,1913-10-18,"['Robotics', 'Machine Learning']"
+650100000011068,杨畅,xiuyingshen,M,wzhu@gmail.com,江苏省兴城县大东李路t座 730428,1974-06-17,['Artificial Intelligence']
+650100000011069,董秀云,along,F,yiyang@gmail.com,河北省广州市东城刘街P座 893806,1973-01-16,['Computer vision and Pattern recognition']
+650100000011070,赵红梅,xiatan,M,minpan@yahoo.com,海南省桂香县秀英上海街c座 130078,1930-01-27,[]
+650100000011071,丁兵,lei83,F,xhan@hotmail.com,福建省东莞县安次上海路S座 727390,1998-04-07,"['Computer vision and Pattern recognition', 'Others']"
+650100000011072,崔红霞,tpeng,F,jie09@hotmail.com,甘肃省梧州市华龙朱街L座 414596,1980-06-20,"['Others', 'Machine Learning', 'Robotics']"
+650100000011073,洪静,chao44,F,pfeng@hotmail.com,宁夏回族自治区济南县白云施街B座 128211,1936-10-11,['Artificial Intelligence']
+650100000011074,李超,xia81,M,wei52@yahoo.com,湖南省桂英市闵行重庆路O座 169418,1992-12-17,"['Others', 'Machine Learning']"
+650100000011075,韦凯,xiuying90,M,yzhong@yahoo.com,云南省重庆县房山南昌街o座 552890,1930-10-07,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011076,李雪梅,xiuyingshao,M,qiangzhang@yahoo.com,湖南省福州市城东张路q座 230369,2016-04-11,['Artificial Intelligence']
+650100000011077,郭婷婷,jduan,F,minzheng@gmail.com,浙江省荆门市沙市马鞍山街Z座 318985,1955-03-22,"['Robotics', 'Artificial Intelligence', 'Machine Learning']"
+650100000011078,邓帆,junshen,M,xiafu@yahoo.com,广西壮族自治区哈尔滨市吉区台北街k座 261196,2011-04-21,"['Computer vision and Pattern recognition', 'Others']"
+650100000011079,刘云,jmao,F,jie93@gmail.com,黑龙江省太原市高坪合山街w座 781415,1963-10-18,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics', 'Others']"
+650100000011080,阎淑珍,gkong,M,yongxiang@yahoo.com,江西省涛县门头沟刘街i座 799012,2009-11-30,"['Robotics', 'Artificial Intelligence']"
+650100000011081,杨兵,xiangqiang,F,na52@gmail.com,云南省建平县西夏重庆街N座 952144,1955-07-11,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Others', 'Robotics']"
+650100000011082,孙桂香,xiawen,M,xueli@gmail.com,宁夏回族自治区凤兰市龙潭重庆路Y座 371562,1911-04-04,['Artificial Intelligence']
+650100000011083,杜玉英,twei,M,juan08@yahoo.com,海南省辽阳县徐汇梁街d座 971569,2011-06-11,['Artificial Intelligence']
+650100000011084,杨淑英,yang17,M,ycao@yahoo.com,江苏省银川县朝阳曹路q座 591332,1949-05-29,['Machine Learning']
+650100000011085,陈淑华,vzhang,M,tao77@gmail.com,黑龙江省淑珍市安次西宁路r座 911522,1976-02-01,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning', 'Robotics']"
+650100000011086,李文,fanna,M,liuna@hotmail.com,宁夏回族自治区明县城东北镇路q座 181592,1965-12-30,['Others']
+650100000011087,高莉,tshao,M,taowen@hotmail.com,河北省艳市南长王路o座 974667,1908-03-05,"['Robotics', 'Machine Learning', 'Artificial Intelligence']"
+650100000011088,宋勇,huangxiulan,M,pengjuan@yahoo.com,山西省合肥市房山赵街N座 492942,1998-04-22,['Computer vision and Pattern recognition']
+650100000011089,刘柳,minchang,F,juansun@gmail.com,浙江省艳县牧野成都路l座 645006,1990-11-13,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011090,侯洋,jun68,F,guiying51@gmail.com,上海市北京县大东梧州路X座 915502,1929-04-27,['Artificial Intelligence']
+650100000011091,张冬梅,adai,M,gangdai@hotmail.com,新疆维吾尔自治区莉县闵行嘉禾街C座 182888,1942-03-26,['Image and Video processing']
+650100000011092,金佳,sdai,F,ntian@gmail.com,天津市淮安县吉区李路d座 669153,1999-02-19,['Others']
+650100000011093,张刚,yaoli,F,jcai@hotmail.com,广西壮族自治区倩市永川陈街m座 481183,1919-02-22,['Image and Video processing']
+650100000011094,汪瑜,qiangwan,M,yuanjun@hotmail.com,北京市琳市蓟州广州街H座 257936,1979-07-09,"['Robotics', 'Artificial Intelligence']"
+650100000011095,朱冬梅,gang69,F,ppan@hotmail.com,山西省宁德市沈北新北镇街X座 466230,1966-10-01,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011096,王凤兰,songjuan,F,yan10@yahoo.com,香港特别行政区北京市翔安周路C座 479515,1920-07-10,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011097,吕军,zouyong,F,zhaoguiying@gmail.com,上海市上海市合川北京路O座 398297,1964-01-22,"['Others', 'Machine Learning']"
+650100000011098,林岩,jie96,F,vliu@gmail.com,甘肃省欢市白云通辽街x座 646099,1947-08-09,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics', 'Others']"
+650100000011099,李桂花,zengxiulan,M,qiang13@gmail.com,浙江省勇县金平马鞍山路i座 257175,1966-03-02,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011100,张东,cwan,M,jing66@yahoo.com,山西省银川县大兴马路N座 952676,1999-12-12,['Artificial Intelligence']
+650100000011101,孙冬梅,panjuan,F,qiangtang@gmail.com,青海省倩市六枝特郭路l座 949263,1939-02-18,"['Artificial Intelligence', 'Others']"
+650100000011102,许冬梅,yongcheng,M,hanchao@gmail.com,台湾省南宁县金平银川路T座 451153,1988-01-28,"['Machine Learning', 'Image and Video processing']"
+650100000011103,刘刚,ming90,F,taoli@gmail.com,西藏自治区西宁市怀柔李街N座 156550,1966-05-09,"['Machine Learning', 'Image and Video processing']"
+650100000011104,李磊,minxiao,F,cuijun@gmail.com,河南省玉梅县华龙王路Q座 932039,1959-04-23,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011105,马军,jingyin,M,juan96@gmail.com,台湾省哈尔滨县永川潮州路h座 656159,1950-10-11,"['Image and Video processing', 'Machine Learning']"
+650100000011106,胡旭,zsu,F,fang12@gmail.com,陕西省邯郸县怀柔刘路l座 990430,1997-03-04,"['Machine Learning', 'Robotics']"
+650100000011107,周楠,huangjun,F,xiatao@gmail.com,四川省天津县兴山呼街K座 209221,1942-08-19,"['Artificial Intelligence', 'Robotics']"
+650100000011108,范晨,flu,F,li19@hotmail.com,宁夏回族自治区潮州县白云邯郸路m座 597487,1998-08-27,['Computer vision and Pattern recognition']
+650100000011109,宋雪梅,ming80,F,chaoqiao@yahoo.com,云南省楠县兴山王路p座 117088,1974-02-17,['Artificial Intelligence']
+650100000011110,李玲,qmo,F,jie49@hotmail.com,湖北省佛山市沈北新杨路A座 256461,1970-10-03,"['Robotics', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011111,蔡玉英,lmao,F,yangye@yahoo.com,吉林省丹丹县金平崔路e座 100282,1956-07-14,['Others']
+650100000011112,谢琳,tao52,F,pingcui@gmail.com,台湾省桂香市友好潜江路A座 237552,1948-11-21,"['Robotics', 'Computer vision and Pattern recognition', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011113,朱敏,jie04,F,minxu@hotmail.com,新疆维吾尔自治区文市普陀马路e座 180879,1967-10-31,['Computer vision and Pattern recognition']
+650100000011114,陈萍,gaoxiuying,F,nyan@gmail.com,西藏自治区佛山市和平高街N座 276932,1949-09-09,"['Image and Video processing', 'Others', 'Artificial Intelligence', 'Robotics']"
+650100000011115,冉鹏,jingliao,M,duchao@yahoo.com,台湾省石家庄县和平王路k座 338636,1938-04-14,"['Robotics', 'Image and Video processing']"
+650100000011116,管荣,chaoshi,F,nawei@yahoo.com,北京市秀英县滨城哈尔滨路q座 170773,2009-03-02,"['Others', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011117,陈金凤,oqian,F,xiaduan@gmail.com,湖南省福州县清河孙街Y座 274605,1980-10-07,['Image and Video processing']
+650100000011118,鲁亮,yong68,F,juanfeng@gmail.com,辽宁省兰州县清城李路K座 663177,2001-02-11,['Computer vision and Pattern recognition']
+650100000011119,章凤英,plei,F,luna@hotmail.com,西藏自治区婷婷市牧野谭路S座 576280,1955-08-06,"['Artificial Intelligence', 'Machine Learning', 'Image and Video processing']"
+650100000011120,马红梅,xialiu,F,echeng@hotmail.com,湖南省帆县魏都张家港街V座 930339,1965-09-12,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011121,陈秀云,nlei,F,fyan@hotmail.com,海南省英县友好宜都街X座 210420,1953-04-29,['Image and Video processing']
+650100000011122,施峰,nazhu,M,xiuyinghou@gmail.com,云南省英县锡山宁德街S座 868590,1941-06-12,['Robotics']
+650100000011123,满淑华,jxu,F,yangfu@gmail.com,云南省福州市徐汇吴街Y座 321865,1991-05-09,['Robotics']
+650100000011124,汪建军,junhu,M,asun@yahoo.com,台湾省阜新市东丽合山路e座 181284,1916-03-25,"['Image and Video processing', 'Others']"
+650100000011125,殷斌,fangtao,M,liuxiulan@gmail.com,海南省红霞县金平戴街j座 488028,1947-06-27,['Robotics']
+650100000011126,胡浩,bxia,M,yan63@yahoo.com,西藏自治区伟县朝阳黄街i座 888908,1976-12-10,"['Image and Video processing', 'Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011127,袁林,ming36,M,yangwen@gmail.com,安徽省帆县房山韩路i座 751654,1933-06-25,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning', 'Robotics']"
+650100000011128,蒋岩,lei14,M,cli@yahoo.com,贵州省志强市长寿杨街w座 214240,1929-07-20,[]
+650100000011129,王林,na56,M,nadu@yahoo.com,山东省大冶市大东梧州街E座 616337,1939-01-25,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics']"
+650100000011130,张秀云,wdai,M,xiaxia@gmail.com,吉林省博县淄川乌鲁木齐路q座 681354,1966-07-22,['Machine Learning']
+650100000011131,焦亮,gang62,M,yixiulan@yahoo.com,新疆维吾尔自治区东莞市华龙哈尔滨路R座 734846,2001-01-08,['Image and Video processing']
+650100000011132,叶玉梅,yancai,M,guoping@gmail.com,广西壮族自治区峰市沙市武汉路k座 904870,1960-04-18,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011133,李红,juancao,F,mbai@hotmail.com,安徽省宜都市兴山苟街E座 180534,1923-09-15,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011134,张杨,ping58,F,junwan@gmail.com,宁夏回族自治区沈阳市丰都蔡路i座 361795,1930-08-06,"['Machine Learning', 'Computer vision and Pattern recognition', 'Robotics', 'Image and Video processing']"
+650100000011135,周璐,jmo,F,qianyang@hotmail.com,重庆市倩县萧山王路k座 977811,2006-12-19,"['Artificial Intelligence', 'Others', 'Image and Video processing', 'Robotics']"
+650100000011136,王秀云,zengguiying,F,liangfang@hotmail.com,西藏自治区福州市高明通辽路e座 338808,2002-07-04,"['Artificial Intelligence', 'Image and Video processing', 'Robotics']"
+650100000011137,康瑜,gaoli,F,xliang@gmail.com,浙江省西安市龙潭荆门路y座 458116,1951-10-17,['Robotics']
+650100000011138,高涛,yingang,F,fangli@gmail.com,山东省春梅市长寿太原街n座 169619,1967-04-29,"['Machine Learning', 'Computer vision and Pattern recognition', 'Others', 'Robotics']"
+650100000011139,王荣,ywen,M,xiuying03@gmail.com,宁夏回族自治区芳市山亭南昌街C座 344216,2008-05-02,['Others']
+650100000011140,崔红霞,juan50,F,jun25@yahoo.com,陕西省倩市蓟州惠州路q座 270924,1911-11-23,"['Artificial Intelligence', 'Image and Video processing', 'Others']"
+650100000011141,罗雷,icheng,F,xiuyingyu@hotmail.com,上海市关岭县秀英郭街o座 252157,1986-12-20,"['Robotics', 'Others']"
+650100000011142,董建华,gongfang,F,bdai@gmail.com,澳门特别行政区兵市锡山苗街q座 989970,1998-08-28,"['Artificial Intelligence', 'Machine Learning']"
+650100000011143,陈凤兰,fye,F,swu@gmail.com,江西省婷县高明巫街K座 525688,1989-01-13,['Image and Video processing']
+650100000011144,廖坤,gaoguiying,M,odu@gmail.com,内蒙古自治区雪梅县徐汇吴街r座 655305,1925-06-21,['Robotics']
+650100000011145,黄静,linxiuying,M,dingguiying@gmail.com,河南省银川市浔阳蔡路B座 177170,2015-04-21,"['Others', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011146,吴凤兰,xfang,M,zhuyan@yahoo.com,天津市永安市吉区汤街g座 318754,2018-12-02,"['Artificial Intelligence', 'Robotics']"
+650100000011147,吴欣,ganglong,F,xiaguiying@hotmail.com,浙江省雪梅县平山大冶街P座 910794,1975-04-23,['Computer vision and Pattern recognition']
+650100000011148,高金凤,yzhou,F,yanyan@hotmail.com,天津市潜江市梁平何路a座 677691,1957-08-28,[]
+650100000011149,刘林,jingduan,M,guiying74@hotmail.com,上海市辉市翔安胡街v座 960137,1938-07-12,"['Image and Video processing', 'Robotics', 'Others', 'Computer vision and Pattern recognition']"
+650100000011150,周凤兰,fangxiulan,M,ohan@gmail.com,广西壮族自治区马鞍山县南长刘路I座 762053,2008-02-12,[]
+650100000011151,高阳,tkang,M,pingdai@gmail.com,宁夏回族自治区台北县崇文杨街D座 868922,1945-07-03,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011152,翁文,gchang,M,daiqiang@gmail.com,贵州省郑州县双滦武街J座 167072,1980-11-23,['Others']
+650100000011153,雷波,guiying32,F,gang75@hotmail.com,山西省澳门县徐汇孟路P座 267505,1925-09-16,"['Machine Learning', 'Robotics']"
+650100000011154,张莹,juan17,F,leiguo@hotmail.com,河北省峰市梁平乌鲁木齐街O座 557581,1916-03-24,"['Robotics', 'Machine Learning']"
+650100000011155,李文,yongtang,M,vcao@yahoo.com,新疆维吾尔自治区丽市安次章街X座 774658,2008-08-13,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011156,李萍,xiulanqiao,F,xia38@yahoo.com,贵州省关岭市平山汕尾路p座 381654,2020-07-17,['Artificial Intelligence']
+650100000011157,杨文,min83,M,yong61@gmail.com,河南省帅县上街贾路g座 810885,2002-02-26,"['Computer vision and Pattern recognition', 'Others']"
+650100000011158,刘秀云,guiying41,F,zhugang@gmail.com,宁夏回族自治区潜江县牧野彭路E座 234174,1986-08-18,['Machine Learning']
+650100000011159,霍敏,jiewei,F,chao46@yahoo.com,贵州省南宁县平山屠街m座 930752,1978-09-23,"['Image and Video processing', 'Robotics']"
+650100000011160,窦冬梅,zchen,M,ewang@hotmail.com,宁夏回族自治区淑英市沙市拉萨街E座 139274,2009-12-28,['Machine Learning']
+650100000011161,郭成,li54,M,yonglei@yahoo.com,西藏自治区兰英市萧山北京路N座 146947,1913-07-09,['Machine Learning']
+650100000011162,陈小红,chao12,M,fgu@hotmail.com,云南省强县长寿永安路M座 272803,2015-02-10,['Artificial Intelligence']
+650100000011163,李丽,uxue,F,vzhou@hotmail.com,江苏省莉县友好徐街A座 581776,1938-09-14,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011164,罗兵,guiyingqian,M,pingwen@gmail.com,宁夏回族自治区长沙县和平北京街d座 788326,1982-02-20,['Others']
+650100000011165,陈鑫,gangqin,M,chenjing@hotmail.com,青海省娜市沈北新孙路e座 525851,2016-11-02,['Image and Video processing']
+650100000011166,易淑珍,xiayan,M,guiying78@yahoo.com,西藏自治区通辽市门头沟党街v座 789460,1917-05-12,['Robotics']
+650100000011167,郝琴,guiying62,M,yxiao@hotmail.com,山西省沈阳市魏都永安街n座 977368,1913-08-05,['Computer vision and Pattern recognition']
+650100000011168,单春梅,iliu,M,pingxue@yahoo.com,安徽省琳县南湖潮州路d座 762589,2018-08-07,"['Others', 'Artificial Intelligence']"
+650100000011169,钱倩,guiyingkong,M,kxia@yahoo.com,河北省澳门县沈河郑路w座 682627,2007-11-06,[]
+650100000011170,尹岩,chaobai,F,chaoyao@yahoo.com,四川省辉市牧野太原街d座 154591,1992-11-09,['Artificial Intelligence']
+650100000011171,王桂珍,wcai,F,guming@yahoo.com,湖北省北镇县静安李路w座 327297,1934-12-19,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011172,任桂珍,mingzhou,M,juan90@yahoo.com,河北省巢湖县长寿张路r座 772542,1938-03-23,['Computer vision and Pattern recognition']
+650100000011173,蒋宇,lei26,M,vpeng@gmail.com,宁夏回族自治区辉县友好香港路H座 159196,1961-01-27,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011174,韩桂花,exu,F,bpeng@yahoo.com,贵州省北京市友好潮州路c座 336533,1918-09-09,[]
+650100000011175,刘海燕,yonglai,M,taohan@hotmail.com,黑龙江省冬梅市牧野王路j座 956745,2013-09-19,['Artificial Intelligence']
+650100000011176,蔡宇,guiying32,F,taoyi@gmail.com,河南省建军县孝南廖街A座 858275,2014-11-07,"['Artificial Intelligence', 'Robotics', 'Others']"
+650100000011177,曾彬,sjiang,F,yili@hotmail.com,河南省桂兰县滨城银川路Q座 849241,1946-01-20,"['Image and Video processing', 'Robotics', 'Machine Learning']"
+650100000011178,李荣,cyuan,M,zhengyang@yahoo.com,澳门特别行政区玉珍市高港合肥路j座 937579,1948-05-23,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Others']"
+650100000011179,钱晶,na39,F,wei09@gmail.com,广东省丽华市东丽重庆路D座 966136,1952-07-26,"['Artificial Intelligence', 'Image and Video processing', 'Machine Learning', 'Others']"
+650100000011180,吕琴,tao58,M,djiang@gmail.com,贵州省兴安盟县萧山哈尔滨路p座 867614,2002-06-21,"['Others', 'Artificial Intelligence']"
+650100000011181,林晨,yang25,F,tao39@gmail.com,江苏省平市高港韩路G座 310827,1922-04-15,['Computer vision and Pattern recognition']
+650100000011182,班金凤,guiyingshen,M,yongfu@yahoo.com,海南省莹市高港王路u座 488628,1940-02-29,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Artificial Intelligence', 'Others']"
+650100000011183,吴健,minmao,F,jun52@yahoo.com,新疆维吾尔自治区梧州县朝阳太原路S座 677499,2013-10-19,['Robotics']
+650100000011184,邵秀芳,bchen,M,eyang@yahoo.com,安徽省桂珍市怀柔太原路t座 484312,1941-10-31,"['Others', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011185,王秀华,taomao,F,xiahan@gmail.com,广东省香港市高坪张街W座 794062,2005-10-12,"['Others', 'Machine Learning']"
+650100000011186,李东,yangjuan,F,ycao@gmail.com,山西省武汉市沙市沈街F座 104403,1907-02-16,"['Image and Video processing', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011187,伍小红,ndeng,F,bailei@hotmail.com,江苏省郑州县沙湾李街l座 584423,1996-03-02,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011188,罗超,zhoufang,F,lei70@gmail.com,内蒙古自治区石家庄市和平钟路d座 349868,2014-04-10,"['Artificial Intelligence', 'Machine Learning']"
+650100000011189,张鑫,wli,M,yongyi@hotmail.com,广西壮族自治区南昌县滨城成都街U座 695878,2018-09-01,"['Others', 'Image and Video processing']"
+650100000011190,李龙,jingyao,F,tao31@gmail.com,安徽省台北县门头沟昆明街W座 841654,1937-10-05,['Machine Learning']
+650100000011191,吴秀珍,ybai,M,leiqiu@gmail.com,海南省潜江市白云田街M座 115579,1947-04-15,['Others']
+650100000011192,林东,junjiang,F,chao33@hotmail.com,黑龙江省宁德县南长王路N座 900430,1993-02-13,['Artificial Intelligence']
+650100000011193,黄秀云,xiacao,F,fduan@yahoo.com,西藏自治区六盘水市涪城汕尾路A座 275218,2005-05-24,[]
+650100000011194,刘玲,changyong,F,lizhao@hotmail.com,贵州省太原市沈河石家庄街q座 148020,1977-05-09,"['Others', 'Image and Video processing']"
+650100000011195,乔军,xiulanqiao,F,ming52@gmail.com,江苏省宁德市静安林街A座 685727,1935-11-03,"['Image and Video processing', 'Machine Learning']"
+650100000011196,贾玉珍,yang75,M,cyu@hotmail.com,宁夏回族自治区秀珍县和平淮安路c座 681220,1938-09-24,['Artificial Intelligence']
+650100000011197,冯芳,zhangwei,F,hanming@gmail.com,天津市健县锡山汕尾路M座 479730,1934-02-20,['Robotics']
+650100000011198,彭春梅,jinfang,M,mincui@gmail.com,安徽省南昌县高坪呼和浩特路H座 250629,2006-02-14,"['Machine Learning', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011199,陈丹丹,qfan,M,shaochao@hotmail.com,湖北省北京县兴山六安路P座 905072,2010-11-01,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011200,刘秀梅,guiying05,F,ekong@gmail.com,河南省佛山县龙潭俞街V座 159359,2005-06-02,['Image and Video processing']
+650100000011201,朱利,chao70,M,rma@gmail.com,青海省潜江市秀英拉萨街s座 932777,1979-06-14,['Computer vision and Pattern recognition']
+650100000011202,黄林,xiangchao,F,juanliao@yahoo.com,陕西省石家庄县房山姚街J座 238254,1982-02-21,"['Image and Video processing', 'Machine Learning', 'Others']"
+650100000011203,邓成,hefang,F,chao18@yahoo.com,江西省玉英县滨城刘街x座 191975,1993-02-03,['Others']
+650100000011204,聂兵,yongyin,F,cuiqiang@hotmail.com,澳门特别行政区惠州县南溪长沙街c座 333966,2019-07-01,"['Image and Video processing', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011205,李淑珍,mingfang,M,maming@hotmail.com,上海市佛山市长寿康路D座 223224,1964-07-03,['Artificial Intelligence']
+650100000011206,柳勇,xieguiying,M,min64@yahoo.com,上海市倩县龙潭潮州街Q座 379557,1908-01-15,"['Machine Learning', 'Others']"
+650100000011207,翟婷,jing99,F,zhaoping@hotmail.com,江西省敏市朝阳杜街k座 534202,1908-04-07,['Others']
+650100000011208,何俊,jing62,M,lixu@yahoo.com,宁夏回族自治区嘉禾市花溪姚路g座 918068,1987-06-07,['Artificial Intelligence']
+650100000011209,周帆,pingfang,F,guiyingsong@yahoo.com,上海市合山市安次柳州街R座 141827,1990-01-27,"['Machine Learning', 'Others']"
+650100000011210,张琳,leixie,M,junfu@yahoo.com,青海省畅县萧山马鞍山路o座 481945,2016-04-21,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Machine Learning']"
+650100000011211,高洋,zhoumin,M,dingwei@gmail.com,澳门特别行政区大冶市清浦哈尔滨路M座 489754,2013-04-08,"['Machine Learning', 'Artificial Intelligence', 'Others', 'Computer vision and Pattern recognition']"
+650100000011212,李晶,osun,M,ccao@yahoo.com,云南省深圳市白云陈路z座 525182,1991-06-23,"['Computer vision and Pattern recognition', 'Others']"
+650100000011213,张俊,dengxiulan,M,xuejing@gmail.com,云南省丹县南湖龚街p座 665054,1996-01-20,"['Robotics', 'Others']"
+650100000011214,邓彬,xlei,M,cshi@yahoo.com,江苏省瑜市长寿六盘水街T座 626172,1918-02-18,['Artificial Intelligence']
+650100000011215,田娜,qiuxiuying,M,zhujuan@gmail.com,河南省银川县璧山吴街E座 644987,1980-08-31,['Computer vision and Pattern recognition']
+650100000011216,田霞,chao65,M,juanyang@yahoo.com,福建省莹市大东贵阳街i座 560112,2019-05-26,['Computer vision and Pattern recognition']
+650100000011217,李飞,guiying19,F,czeng@yahoo.com,江苏省秀梅县沈河关路B座 519120,1995-11-16,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011218,谢桂荣,xiuyingxiong,M,junliao@hotmail.com,澳门特别行政区贵阳县永川郑路O座 276230,1914-12-23,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics', 'Others']"
+650100000011219,李瑞,juncheng,F,qiang58@hotmail.com,湖南省辽阳市安次朱路l座 369019,1956-09-10,['Image and Video processing']
+650100000011220,殷峰,tanxia,M,eqin@gmail.com,云南省天津市南长佛山路m座 715356,1915-06-01,"['Others', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011221,萧瑜,oyan,M,xia77@gmail.com,海南省冬梅市城东曹路o座 432069,1953-01-13,"['Computer vision and Pattern recognition', 'Others']"
+650100000011222,韦凤英,fang29,M,qiaogang@yahoo.com,香港特别行政区潮州县南长上海街y座 708033,1953-08-09,"['Robotics', 'Others']"
+650100000011223,苗浩,gang03,F,bjin@yahoo.com,海南省张家港县南溪范街W座 403516,1954-11-29,"['Others', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011224,赵小红,luchao,M,tianjun@hotmail.com,吉林省芳市闵行石家庄街I座 934677,1946-10-08,"['Image and Video processing', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011225,孙静,ideng,M,tao50@gmail.com,海南省长春县永川杭州街P座 274787,1996-03-24,"['Computer vision and Pattern recognition', 'Robotics', 'Machine Learning']"
+650100000011226,钱金凤,wuna,F,btan@gmail.com,广西壮族自治区汕尾市长寿王街m座 770867,2015-03-05,"['Robotics', 'Artificial Intelligence', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011227,王桂珍,tao77,M,hxue@hotmail.com,陕西省张家港县金平俞街k座 670784,2014-12-20,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011228,万玉梅,jun44,M,tao04@yahoo.com,湖南省建华县高明李路s座 618108,1989-12-13,"['Machine Learning', 'Artificial Intelligence', 'Others']"
+650100000011229,陈阳,kangmin,F,changyong@yahoo.com,广西壮族自治区建华县金平济南路c座 494522,1950-10-26,['Robotics']
+650100000011230,李东,guiyingcheng,F,yongtan@hotmail.com,湖南省浩县朝阳高路y座 785834,2020-10-10,"['Robotics', 'Image and Video processing']"
+650100000011231,袁坤,xsun,M,cuina@yahoo.com,内蒙古自治区太原市黄浦吴路C座 162132,2020-10-24,"['Others', 'Computer vision and Pattern recognition']"
+650100000011232,凌健,qiang57,F,jiaxiuying@gmail.com,江苏省丽华市西夏许街s座 937993,1956-06-06,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011233,董勇,fang22,F,ming92@gmail.com,广西壮族自治区沈阳市华龙贵阳路h座 951230,1961-09-11,"['Machine Learning', 'Robotics']"
+650100000011234,曾娟,xiulanduan,F,yan29@gmail.com,青海省丹县海港香港街J座 652692,2012-03-29,['Others']
+650100000011235,董莹,juan71,M,xiuyingsun@gmail.com,宁夏回族自治区佳县城东宁德路S座 135855,1981-05-29,"['Image and Video processing', 'Robotics']"
+650100000011236,李雪,caichao,F,gongyong@yahoo.com,西藏自治区合肥县清城姜路Z座 280313,1913-07-30,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Artificial Intelligence', 'Others']"
+650100000011237,周敏,juan81,M,xiaduan@hotmail.com,香港特别行政区福州县涪城宁德街h座 191650,1915-08-23,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011238,任洋,qiang15,F,xiuyinggong@yahoo.com,香港特别行政区梅市清浦刘路x座 746016,1917-10-11,"['Machine Learning', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011239,李玲,yang99,F,naqiao@yahoo.com,台湾省阳市璧山李路u座 604617,2018-08-06,['Machine Learning']
+650100000011240,周荣,xia16,M,mzhong@hotmail.com,新疆维吾尔自治区桂花市怀柔王街Q座 997073,1910-05-19,[]
+650100000011241,王瑜,gang59,F,nayuan@gmail.com,宁夏回族自治区坤县南长天津街q座 176851,1961-01-07,"['Others', 'Machine Learning']"
+650100000011242,顾桂荣,yangqian,F,osong@hotmail.com,重庆市香港县龙潭澳门街y座 900426,2005-11-05,"['Computer vision and Pattern recognition', 'Robotics', 'Others']"
+650100000011243,罗勇,taoyan,F,gma@gmail.com,山东省涛市大兴海口街T座 861291,2000-07-27,['Others']
+650100000011244,鹿想,panming,M,ameng@yahoo.com,湖南省杨市滨城张路Y座 830305,1911-02-19,['Artificial Intelligence']
+650100000011245,翟雪梅,zhongjuan,F,xiaguiying@gmail.com,河南省帆市南长汕尾街M座 551117,1972-01-22,['Others']
+650100000011246,陈英,zhouwei,M,pengming@gmail.com,贵州省关岭市滨城胡路J座 406229,1957-07-21,"['Robotics', 'Others', 'Image and Video processing']"
+650100000011247,吴秀珍,majie,F,duming@gmail.com,安徽省亮市高坪呼和浩特路x座 154268,1984-10-23,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011248,黄桂香,sunyong,M,hfang@yahoo.com,天津市晶县魏都赵路M座 357370,1993-08-26,['Machine Learning']
+650100000011249,张浩,wei51,F,zhanggang@gmail.com,江苏省大冶市黄浦唐街n座 165297,1912-09-11,['Computer vision and Pattern recognition']
+650100000011250,孙金凤,minfeng,F,yong16@hotmail.com,西藏自治区汕尾市西夏杨街g座 950715,1933-07-13,"['Image and Video processing', 'Artificial Intelligence', 'Machine Learning']"
+650100000011251,詹桂香,jzheng,M,jie21@gmail.com,北京市嘉禾县沈河嘉禾路U座 431374,1956-01-15,['Others']
+650100000011252,许建平,wjin,M,uxue@hotmail.com,山东省邯郸市萧山刘路O座 635953,1942-03-30,['Computer vision and Pattern recognition']
+650100000011253,张刚,jie93,F,yanfang@yahoo.com,山东省飞县海陵朱路y座 403367,1950-08-04,"['Machine Learning', 'Artificial Intelligence']"
+650100000011254,金辉,wduan,M,qtan@hotmail.com,广西壮族自治区梅县翔安宁德街u座 317142,1983-09-16,['Others']
+650100000011255,张霞,xiulan75,M,jzeng@hotmail.com,内蒙古自治区敏县萧山郭路G座 472338,2002-01-13,"['Image and Video processing', 'Others', 'Machine Learning', 'Robotics']"
+650100000011256,曾建国,atang,F,qiuyan@gmail.com,宁夏回族自治区南京县璧山乌鲁木齐街q座 600832,1959-02-20,"['Others', 'Image and Video processing', 'Artificial Intelligence']"
+650100000011257,周晨,fujun,F,yanxiao@gmail.com,香港特别行政区磊市合川王路w座 936557,1978-08-09,"['Artificial Intelligence', 'Robotics']"
+650100000011258,潘志强,minluo,M,yuanlei@yahoo.com,湖南省燕市海陵哈尔滨街E座 243524,1922-06-07,"['Robotics', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011259,王秀梅,liaolei,M,hdai@yahoo.com,湖北省洁市普陀叶路W座 339334,1987-01-05,"['Machine Learning', 'Robotics']"
+650100000011260,黄欣,yanzhong,F,xiulanqiao@yahoo.com,湖北省秀兰市南长许路N座 994153,1909-06-22,"['Robotics', 'Artificial Intelligence']"
+650100000011261,丛超,bxiao,F,zhoujuan@gmail.com,江西省香港县和平宁德路p座 667264,2004-12-03,"['Robotics', 'Machine Learning', 'Artificial Intelligence']"
+650100000011262,杨岩,junsong,F,gang52@gmail.com,江西省成都县合川乌鲁木齐路G座 533371,1909-03-03,"['Robotics', 'Image and Video processing']"
+650100000011263,邓丽丽,ssu,M,yzhou@hotmail.com,浙江省重庆县海陵合山街S座 812683,1907-08-01,"['Others', 'Artificial Intelligence']"
+650100000011264,董辉,xiuyingmeng,M,nayuan@hotmail.com,台湾省东市静安王街f座 340586,1950-02-04,['Machine Learning']
+650100000011265,孔玉兰,jie08,F,tao30@gmail.com,贵州省拉萨县金平杨街Q座 977276,1967-03-14,"['Robotics', 'Artificial Intelligence']"
+650100000011266,李峰,minzhou,M,thou@hotmail.com,上海市春梅市上街马鞍山街R座 495869,2011-08-27,['Artificial Intelligence']
+650100000011267,郭佳,tcheng,M,qxiang@hotmail.com,河南省马鞍山市金平沈路U座 746683,2016-10-24,['Robotics']
+650100000011268,赵丹,ming39,F,mliang@gmail.com,天津市瑞市蓟州邯郸街W座 396374,1939-11-25,['Artificial Intelligence']
+650100000011269,郭亮,guiying07,M,liwei@yahoo.com,河南省乌鲁木齐市吉区王路w座 498703,1965-05-04,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Artificial Intelligence']"
+650100000011270,苑艳,dingtao,F,weiqiao@gmail.com,甘肃省英市西夏任街n座 895093,2017-08-30,['Machine Learning']
+650100000011271,李涛,lixiong,F,guiyingyao@gmail.com,重庆市上海市怀柔韩路c座 617257,2005-06-03,['Artificial Intelligence']
+650100000011272,孙坤,xiuying98,M,mliu@yahoo.com,湖北省凤英县六枝特张路W座 685122,1994-07-26,['Image and Video processing']
+650100000011273,王秀英,juanshen,M,juan58@yahoo.com,甘肃省荣县孝南卫路U座 333330,2004-05-20,['Artificial Intelligence']
+650100000011274,萧桂兰,vluo,F,guiyingfan@yahoo.com,山西省玉梅市门头沟虞路v座 506793,1928-10-08,"['Machine Learning', 'Robotics']"
+650100000011275,尹秀珍,li60,F,ganglong@hotmail.com,江西省南昌县秀英刘街A座 403008,1987-11-11,"['Computer vision and Pattern recognition', 'Machine Learning', 'Image and Video processing']"
+650100000011276,郑欣,tianyan,M,yang05@hotmail.com,宁夏回族自治区娜县永川叶街k座 871645,1973-01-28,"['Robotics', 'Others']"
+650100000011277,戴丽娟,utian,F,xiuying34@yahoo.com,内蒙古自治区桂花市徐汇刘街q座 244483,1982-06-07,"['Robotics', 'Image and Video processing', 'Others']"
+650100000011278,朱颖,ming39,F,egao@gmail.com,四川省帅县浔阳阜新路T座 269689,1910-06-26,['Others']
+650100000011279,甘红,oxia,F,qianxiulan@gmail.com,澳门特别行政区鹏县东丽董路M座 710533,1985-09-18,['Others']
+650100000011280,王桂香,liyin,F,junfan@gmail.com,广东省佛山市江北长沙街F座 182951,1938-02-27,"['Artificial Intelligence', 'Others', 'Machine Learning', 'Image and Video processing']"
+650100000011281,秦莹,fangwu,M,caoxiuying@yahoo.com,云南省宁德市房山刘街m座 310089,1981-04-18,"['Robotics', 'Computer vision and Pattern recognition', 'Machine Learning', 'Image and Video processing']"
+650100000011282,刘涛,yong53,F,min13@hotmail.com,广西壮族自治区合山县西夏李路V座 738141,1999-11-27,"['Others', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011283,程红霞,xiangchao,M,qfang@hotmail.com,上海市太原市双滦刘路N座 734891,1991-08-17,"['Computer vision and Pattern recognition', 'Machine Learning', 'Robotics', 'Artificial Intelligence']"
+650100000011284,袁林,xiefang,F,yongluo@hotmail.com,吉林省阜新市六枝特马鞍山路o座 484550,1958-12-04,"['Machine Learning', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011285,余淑珍,dengping,M,guiyingxu@gmail.com,台湾省桂芝县西峰吴街H座 211502,1958-11-20,"['Image and Video processing', 'Machine Learning', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011286,张超,jinmin,M,chaozhao@gmail.com,西藏自治区萍县东丽田路O座 254289,2013-09-19,['Computer vision and Pattern recognition']
+650100000011287,苗金凤,nsun,M,qiangyu@hotmail.com,云南省帆市西峰李路t座 847345,1995-03-08,"['Image and Video processing', 'Machine Learning', 'Others', 'Robotics', 'Artificial Intelligence']"
+650100000011288,卢丽娟,pengtao,M,ligang@yahoo.com,安徽省桂香县萧山天津路t座 760273,1944-11-28,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011289,李玉华,mincheng,F,olin@yahoo.com,浙江省利县上街魏街U座 609189,2009-03-21,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Image and Video processing', 'Robotics']"
+650100000011290,张成,junxiong,F,lfu@hotmail.com,台湾省嘉禾县友好昆明街M座 985049,1908-04-17,"['Others', 'Machine Learning', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011291,袁涛,xiulan56,F,shaoyong@gmail.com,重庆市永安市房山孟路G座 962827,1993-08-07,"['Artificial Intelligence', 'Others']"
+650100000011292,郭淑华,duchao,F,vzhou@yahoo.com,吉林省邯郸市城东陈街Z座 420643,1964-05-28,['Robotics']
+650100000011293,赖璐,songjun,F,nama@hotmail.com,西藏自治区峰县魏都梧州路j座 651055,1983-06-05,['Others']
+650100000011294,李秀英,yancai,F,iyin@gmail.com,上海市梧州县浔阳张街i座 514284,1944-05-05,['Image and Video processing']
+650100000011295,叶春梅,weiyang,M,li49@gmail.com,安徽省娟县朝阳六安路R座 117330,2009-07-20,['Machine Learning']
+650100000011296,王旭,iyin,F,caifang@yahoo.com,广东省秀珍县朝阳郑路I座 959910,2015-05-27,['Image and Video processing']
+650100000011297,苏成,guiyingfu,F,nafeng@hotmail.com,吉林省北镇市南溪成街P座 983885,1959-06-23,"['Robotics', 'Computer vision and Pattern recognition', 'Others']"
+650100000011298,周彬,mgu,F,zouwei@hotmail.com,浙江省建国县丰都汕尾路G座 293942,1916-03-04,"['Machine Learning', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011299,刘鹏,guiying96,F,juan59@gmail.com,北京市南京县城北关岭街S座 734073,1940-01-18,"['Computer vision and Pattern recognition', 'Robotics', 'Image and Video processing', 'Artificial Intelligence']"
+650100000011300,刘荣,mhuang,M,xiulanxue@yahoo.com,广东省石家庄市锡山天津路w座 743994,1953-04-13,"['Artificial Intelligence', 'Others']"
+650100000011301,尤杰,jiangping,F,guiying40@yahoo.com,湖南省秀英县友好吴街q座 913760,1950-01-17,"['Image and Video processing', 'Robotics', 'Others']"
+650100000011302,杨凤兰,junbai,M,xliu@hotmail.com,北京市济南市南溪胡街Y座 485008,2010-11-10,"['Machine Learning', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011303,王冬梅,mingxia,F,yaochao@hotmail.com,陕西省宇县闵行永安街L座 742082,1991-05-08,"['Robotics', 'Artificial Intelligence', 'Others', 'Image and Video processing']"
+650100000011304,柏金凤,jing93,F,taocui@yahoo.com,台湾省石家庄县双滦上海街L座 123221,1916-03-26,['Computer vision and Pattern recognition']
+650100000011305,郭涛,yan12,F,wei71@gmail.com,安徽省太原县涪城梧州路y座 849290,2014-07-29,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011306,万秀华,qiangma,F,jing92@yahoo.com,江苏省广州县静安沈阳路I座 641525,1907-10-17,"['Robotics', 'Image and Video processing']"
+650100000011307,王畅,mingye,F,pengguiying@hotmail.com,西藏自治区平市朝阳唐街R座 984067,1981-11-27,['Others']
+650100000011308,徐伟,leicai,F,chao86@yahoo.com,宁夏回族自治区红梅县双滦贺路V座 969705,1939-02-06,"['Artificial Intelligence', 'Others', 'Robotics']"
+650100000011309,韦秀英,minwang,M,yan36@gmail.com,云南省澳门县清城杨街B座 591644,1948-04-06,"['Others', 'Robotics']"
+650100000011310,曹淑兰,fanggang,M,min93@gmail.com,河北省杰市江北乌鲁木齐街v座 281691,1966-10-23,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011311,罗凯,bzhao,F,xiulanzhao@gmail.com,北京市长春县淄川宋街i座 709117,1906-09-10,['Artificial Intelligence']
+650100000011312,阎玉兰,tao44,F,mingcao@gmail.com,福建省淑珍市高明姜路K座 831976,2019-11-23,['Computer vision and Pattern recognition']
+650100000011313,邹敏,qiang08,M,yanhou@yahoo.com,贵州省宁市合川景路V座 337933,1986-01-29,"['Image and Video processing', 'Machine Learning']"
+650100000011314,俞鹏,iqiao,M,xuli@gmail.com,宁夏回族自治区冬梅市山亭杭州街v座 678640,1950-03-12,"['Robotics', 'Artificial Intelligence']"
+650100000011315,刘玉华,gang27,F,xiulanliang@hotmail.com,湖北省凤英市孝南杨路z座 845817,1990-02-24,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Others']"
+650100000011316,高燕,zluo,M,yzou@hotmail.com,陕西省汕尾县西峰拉萨街R座 271653,1947-07-10,['Robotics']
+650100000011317,阚龙,yjin,F,jieyin@gmail.com,湖北省波县大东关岭街l座 392780,2009-12-10,['Image and Video processing']
+650100000011318,王桂花,oli,M,lisu@hotmail.com,四川省玲县长寿东莞路x座 576770,2002-07-28,"['Image and Video processing', 'Machine Learning']"
+650100000011319,何玉华,zhonggang,M,gangtian@yahoo.com,北京市利市清城吴街d座 361314,2020-02-23,"['Others', 'Artificial Intelligence']"
+650100000011320,赵丽华,gangzou,M,jyuan@hotmail.com,广东省兵县海陵深圳街V座 133574,2016-10-02,"['Machine Learning', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011321,周凤英,pfan,F,ewan@gmail.com,江苏省兴城县安次董街A座 420463,1912-11-05,"['Image and Video processing', 'Machine Learning', 'Artificial Intelligence']"
+650100000011322,武桂香,daiyang,F,changyan@hotmail.com,甘肃省伟县萧山西安路n座 159427,1949-08-06,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011323,何海燕,dmao,M,ligao@hotmail.com,山西省伟市秀英佛山路j座 697185,1950-09-19,['Others']
+650100000011324,刘晶,mengfang,F,pkang@gmail.com,西藏自治区琴市东丽海门路j座 937905,1924-10-13,[]
+650100000011325,陈小红,qiangshi,F,mliang@gmail.com,湖北省颖县蓟州何街J座 461674,1971-04-02,['Image and Video processing']
+650100000011326,刘建华,uli,M,weijin@hotmail.com,广东省太原市上街毛街X座 224048,2015-08-07,"['Image and Video processing', 'Robotics', 'Others']"
+650100000011327,杨宇,wtian,M,maoxiulan@yahoo.com,江苏省郑州市高明柳州街E座 672736,1948-05-10,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011328,余小红,caiming,F,gaochao@hotmail.com,江西省涛市合川禹路U座 971594,1922-07-12,"['Others', 'Robotics']"
+650100000011329,王婷婷,molei,M,fang25@yahoo.com,吉林省超市白云张街a座 598957,1940-06-02,['Others']
+650100000011330,王玉,rcai,F,na04@yahoo.com,北京市成都市孝南邓街g座 101497,2007-10-14,[]
+650100000011331,覃刚,yan09,M,ahou@yahoo.com,广西壮族自治区凯县长寿季路o座 869001,1959-12-10,"['Artificial Intelligence', 'Robotics']"
+650100000011332,孙刚,xuxia,F,ping75@yahoo.com,陕西省欢县友好关岭路j座 824203,2004-01-17,"['Artificial Intelligence', 'Robotics', 'Image and Video processing']"
+650100000011333,王梅,gang26,F,yangxiong@gmail.com,重庆市南宁市闵行西宁街k座 450372,1975-04-17,['Artificial Intelligence']
+650100000011334,郑杰,changqiang,M,yinjuan@gmail.com,海南省秀兰市城东邓路Q座 533042,1962-09-11,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Machine Learning', 'Others']"
+650100000011335,昝军,ehe,M,wei18@gmail.com,北京市超市闵行吴街d座 996075,2000-11-21,"['Machine Learning', 'Artificial Intelligence', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011336,余帆,lqin,M,juan63@hotmail.com,山西省阳市合川永安路J座 840789,1920-10-30,"['Artificial Intelligence', 'Robotics', 'Image and Video processing']"
+650100000011337,邓晶,mxiao,F,guiyingmo@yahoo.com,福建省莹市朝阳长沙街G座 789004,1925-10-25,"['Robotics', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011338,张桂兰,yangsu,M,yanglei@hotmail.com,内蒙古自治区海口县合川宁德路R座 272968,1995-09-07,['Image and Video processing']
+650100000011339,张荣,haowei,F,xiexia@yahoo.com,黑龙江省淑兰县龙潭东莞街l座 619604,1984-11-13,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011340,李东,leiyi,F,wei70@yahoo.com,吉林省关岭县淄川六安路m座 562581,1979-01-06,"['Computer vision and Pattern recognition', 'Machine Learning', 'Others', 'Image and Video processing']"
+650100000011341,董明,wei06,M,jing92@gmail.com,辽宁省阜新县房山牛路F座 213056,1983-06-24,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011342,何丽,ltang,M,fang10@gmail.com,福建省广州县山亭佛山街q座 331241,1937-11-25,"['Others', 'Artificial Intelligence']"
+650100000011343,蔡旭,xiuying08,F,changmin@gmail.com,湖北省玉兰县南溪赵路t座 681847,1966-10-22,"['Others', 'Computer vision and Pattern recognition']"
+650100000011344,李雷,maoli,F,junxu@gmail.com,海南省浩县南长海口路R座 132190,1963-05-17,['Robotics']
+650100000011345,傅洁,dlai,M,mhou@yahoo.com,澳门特别行政区建军县海港辽阳街X座 450013,1950-09-20,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Robotics', 'Machine Learning', 'Others']"
+650100000011346,张浩,yili,M,jing05@gmail.com,吉林省文县白云李路T座 841364,1933-08-28,['Image and Video processing']
+650100000011347,梁建军,jie74,M,nashi@yahoo.com,四川省丽华市安次武汉街T座 657244,2019-05-25,['Others']
+650100000011348,李淑珍,xiulanluo,M,zhongchao@gmail.com,青海省永安市合川顾街w座 356123,1926-05-16,['Image and Video processing']
+650100000011349,邓荣,jiekong,M,shenguiying@gmail.com,安徽省鑫县吉区香港街K座 940066,1971-02-13,[]
+650100000011350,宋莉,gangmo,M,junqian@hotmail.com,重庆市志强县西峰潘街w座 620138,1930-12-05,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011351,陈鹏,xiadong,M,guiying97@hotmail.com,福建省强市崇文哈尔滨街H座 253403,1957-01-26,['Artificial Intelligence']
+650100000011352,李亮,xiaoyan,F,plu@gmail.com,西藏自治区银川市清浦袁街T座 935936,2017-01-26,"['Computer vision and Pattern recognition', 'Robotics', 'Image and Video processing']"
+650100000011353,王帅,jiecao,F,gongjing@hotmail.com,湖北省柳县黄浦李路A座 504350,1964-03-04,"['Robotics', 'Machine Learning', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011354,孙晨,liujing,F,chao80@gmail.com,北京市娜市门头沟郑州街R座 485688,1942-12-15,"['Others', 'Artificial Intelligence', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011355,辛玉华,jun69,M,wei28@gmail.com,陕西省惠州市璧山辽阳路f座 728233,1909-12-21,"['Machine Learning', 'Image and Video processing', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011356,李桂荣,guiying94,M,nxiao@gmail.com,北京市海门市大东张路t座 198445,1959-01-28,"['Others', 'Machine Learning']"
+650100000011357,丁秀珍,xiangli,F,qianglei@gmail.com,西藏自治区上海市高港黄街R座 734403,1992-08-11,"['Others', 'Machine Learning']"
+650100000011358,余志强,jun20,M,xiameng@gmail.com,澳门特别行政区静县魏都通辽路G座 969049,1980-08-03,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011359,张桂珍,li90,M,tao35@hotmail.com,重庆市荆门市璧山天津路j座 471212,1937-03-09,"['Machine Learning', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011360,黄璐,lmao,F,hxie@yahoo.com,安徽省鑫县沈北新永安路u座 945763,2019-03-07,"['Artificial Intelligence', 'Machine Learning']"
+650100000011361,罗英,mzhang,M,yongchen@hotmail.com,湖南省阜新市沙市赵路L座 121095,1961-05-17,"['Robotics', 'Image and Video processing']"
+650100000011362,李亮,gang37,M,xiangmin@yahoo.com,江苏省巢湖县秀英重庆路b座 779248,2006-12-26,"['Image and Video processing', 'Others']"
+650100000011363,邱峰,dyu,M,iliu@hotmail.com,辽宁省东莞市海港杭州路Y座 425459,1927-10-04,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics']"
+650100000011364,金想,wangguiying,F,xiuyingwu@yahoo.com,上海市哈尔滨市南溪施街N座 305418,2013-07-06,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011365,苗兵,yangchao,M,juanyu@yahoo.com,青海省秀珍市大东陈街m座 875089,1939-02-05,"['Artificial Intelligence', 'Robotics', 'Image and Video processing']"
+650100000011366,朱兰英,linchao,F,xia64@gmail.com,浙江省畅县长寿昆明街Q座 736365,2004-10-19,['Image and Video processing']
+650100000011367,刘浩,qinqiang,M,li27@hotmail.com,上海市银川市友好杨路b座 867695,2014-02-10,['Robotics']
+650100000011368,栗旭,yfan,M,xiuyingyao@hotmail.com,湖南省秀兰市孝南巢湖街G座 107475,1963-03-21,"['Robotics', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011369,孟凤英,yang31,M,qiangkang@gmail.com,福建省利县徐汇太原街c座 187574,1948-01-06,['Image and Video processing']
+650100000011370,李云,ftan,F,pingkang@hotmail.com,陕西省琳县闵行何路b座 486349,1957-09-01,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Machine Learning']"
+650100000011371,黄亮,jie54,M,gang24@hotmail.com,澳门特别行政区张家港县淄川杭州路D座 300811,1971-05-11,"['Others', 'Computer vision and Pattern recognition']"
+650100000011372,陈健,weilong,M,yiping@gmail.com,内蒙古自治区桂花市大东南昌街I座 482145,1955-04-27,"['Image and Video processing', 'Robotics']"
+650100000011373,白欣,wenqiang,M,jiexia@yahoo.com,浙江省巢湖市大兴葛街L座 248327,1951-09-21,['Robotics']
+650100000011374,董坤,juncao,M,djiang@hotmail.com,西藏自治区畅市兴山郑州街k座 287585,1914-12-17,"['Others', 'Machine Learning']"
+650100000011375,林华,xiuying67,M,na18@gmail.com,西藏自治区北镇市涪城刘路D座 973652,1955-11-06,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011376,周建华,mcao,F,leimao@yahoo.com,河南省北镇县和平田路c座 382080,1974-09-10,[]
+650100000011377,王杨,fxu,F,xiuyinghe@gmail.com,陕西省林市高港杨街L座 438789,1934-07-23,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Others', 'Image and Video processing']"
+650100000011378,张辉,lei98,M,szheng@yahoo.com,云南省西安市崇文杜路n座 225501,1948-02-07,"['Others', 'Computer vision and Pattern recognition']"
+650100000011379,党桂花,na49,M,leiyan@gmail.com,吉林省涛市城北刘路B座 916851,1988-03-19,['Computer vision and Pattern recognition']
+650100000011380,冯娜,taomeng,M,caona@yahoo.com,内蒙古自治区帆县清浦海口街s座 302208,1966-01-08,"['Image and Video processing', 'Machine Learning']"
+650100000011381,文雷,na53,M,lei43@gmail.com,辽宁省燕市闵行杭州街Z座 926820,1979-07-08,"['Image and Video processing', 'Artificial Intelligence', 'Others']"
+650100000011382,刘玉兰,llei,M,sunjing@gmail.com,辽宁省春梅县金平合肥路T座 263008,1984-03-29,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning', 'Robotics']"
+650100000011383,薛建华,fangliang,F,qiang64@gmail.com,山东省巢湖县门头沟沈阳路H座 752257,1957-03-21,"['Image and Video processing', 'Robotics', 'Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence']"
+650100000011384,夏鹏,gang02,F,zhouxiuying@gmail.com,贵州省六盘水市孝南兴安盟路D座 217826,1961-09-06,"['Artificial Intelligence', 'Robotics', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011385,符军,kxue,F,juan06@yahoo.com,江苏省淑兰县普陀周街i座 984400,1926-08-18,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011386,汪瑞,chaomao,M,leigang@hotmail.com,澳门特别行政区雪市黄浦澳门路d座 394120,2002-11-19,"['Computer vision and Pattern recognition', 'Others']"
+650100000011387,陈娟,jieyin,M,taoyan@yahoo.com,陕西省成县大兴吕路K座 316116,1949-05-25,['Machine Learning']
+650100000011388,牛玉华,ahuang,F,na00@yahoo.com,台湾省金凤市璧山夏街P座 930333,2018-06-25,['Machine Learning']
+650100000011389,王华,xiagang,F,ming30@gmail.com,江苏省兴安盟市蓟州天津路B座 970459,2001-05-06,['Others']
+650100000011390,齐亮,yina,M,xiazeng@gmail.com,宁夏回族自治区秀华县东丽南昌街w座 784251,1995-02-13,"['Robotics', 'Artificial Intelligence']"
+650100000011391,何佳,haochao,M,ping07@hotmail.com,西藏自治区澳门市牧野惠州街g座 328131,1954-09-25,['Image and Video processing']
+650100000011392,邓磊,jinghao,F,leipeng@hotmail.com,陕西省潜江市永川沈阳街O座 741623,1963-05-28,['Machine Learning']
+650100000011393,李萍,gangzeng,M,xiading@yahoo.com,辽宁省雪市徐汇天津路R座 465103,1920-08-18,['Robotics']
+650100000011394,李飞,tao86,F,caojuan@hotmail.com,台湾省文县怀柔沈阳街j座 980079,1972-06-06,"['Artificial Intelligence', 'Machine Learning']"
+650100000011395,刘坤,jingcui,F,guiyinglu@yahoo.com,福建省玉兰县孝南叶路U座 377473,1922-05-14,"['Machine Learning', 'Others']"
+650100000011396,马桂兰,gang28,M,nxiao@gmail.com,河北省兴城县高明陈街j座 247297,1930-12-16,['Robotics']
+650100000011397,吕玉珍,weijie,M,nzeng@yahoo.com,云南省玉梅县南溪霍路R座 240489,1981-01-08,['Robotics']
+650100000011398,汪峰,jie35,M,qinna@yahoo.com,山西省阜新县西夏太原街s座 230077,2015-04-09,['Image and Video processing']
+650100000011399,张瑞,xiagao,F,jiehe@yahoo.com,四川省惠州县江北林街a座 658481,2020-10-02,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011400,沈波,xia25,F,xmao@yahoo.com,台湾省雪梅市崇文郑州街L座 831121,1925-12-14,"['Image and Video processing', 'Artificial Intelligence', 'Machine Learning']"
+650100000011401,王平,wei63,M,fumin@yahoo.com,青海省广州县黄浦钱街R座 180534,1928-12-27,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011402,张利,zcao,F,wei44@gmail.com,吉林省秀云县花溪韩路a座 616848,2014-10-15,"['Artificial Intelligence', 'Image and Video processing', 'Robotics']"
+650100000011403,韩敏,weixiong,M,hanxiuying@gmail.com,海南省淮安市白云朱街m座 915378,1942-10-23,[]
+650100000011404,臧坤,qiangwen,F,tianxia@gmail.com,澳门特别行政区西安县房山王路Z座 342714,2020-04-18,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011405,李楠,qiang70,F,fangqiao@yahoo.com,湖北省天津市沈河天津街y座 492031,1914-10-22,"['Others', 'Image and Video processing', 'Artificial Intelligence', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011406,盘敏,nalei,M,mingjiang@hotmail.com,宁夏回族自治区浩市浔阳罗路C座 239327,1912-08-30,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011407,李秀荣,hmao,F,yangyin@yahoo.com,辽宁省波市高港姜街q座 642990,1991-01-20,[]
+650100000011408,谢柳,gaoping,M,junhou@hotmail.com,香港特别行政区琴市和平陈路e座 816096,1917-07-03,[]
+650100000011409,何磊,jielin,F,qdeng@hotmail.com,广西壮族自治区金凤县清浦台北路D座 599448,1973-01-18,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Others']"
+650100000011410,徐浩,zhangwei,M,tantao@hotmail.com,云南省冬梅市徐汇海门街X座 821576,1965-04-04,"['Others', 'Robotics']"
+650100000011411,贺金凤,fengguiying,F,yanhou@gmail.com,天津市兴安盟市大兴沈阳路W座 241430,1975-02-09,"['Image and Video processing', 'Machine Learning', 'Others']"
+650100000011412,赵楠,heyong,M,junsong@gmail.com,福建省佛山市南长傅街I座 658395,1992-06-04,['Robotics']
+650100000011413,董成,lihuang,M,xiuying24@gmail.com,香港特别行政区合肥县长寿成都街v座 502625,1957-07-24,"['Image and Video processing', 'Others', 'Artificial Intelligence']"
+650100000011414,唐桂香,jie22,M,mingcui@hotmail.com,广西壮族自治区娟县永川六盘水街z座 647710,2005-06-10,['Others']
+650100000011415,王建平,ssu,M,chao85@yahoo.com,江苏省桂花县南溪高路Z座 886743,1990-11-14,"['Artificial Intelligence', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011416,刘玉珍,tanping,M,xuegang@gmail.com,广东省南昌县山亭左街T座 191324,1935-04-01,"['Image and Video processing', 'Robotics']"
+650100000011417,刘娜,juansu,F,cuiyong@gmail.com,辽宁省哈尔滨市清浦王街g座 868657,1993-02-24,['Robotics']
+650100000011418,刘春梅,min93,F,chao56@gmail.com,北京市合肥县长寿合肥路J座 297369,1956-11-01,"['Image and Video processing', 'Robotics']"
+650100000011419,吴峰,xiaqian,M,juan13@hotmail.com,湖南省桂英县滨城合山路H座 315359,2017-05-08,['Image and Video processing']
+650100000011420,尹丽,qiang68,M,jingkang@gmail.com,西藏自治区旭县璧山卢街k座 424437,1924-02-27,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011421,魏龙,guiying82,F,jun31@hotmail.com,河北省冬梅县西峰赵路U座 336204,1926-07-27,['Artificial Intelligence']
+650100000011422,黄鹏,jiexiang,F,qiangguo@gmail.com,上海市齐齐哈尔县朝阳华路i座 833722,1997-09-13,[]
+650100000011423,徐丽丽,jun64,M,xia35@gmail.com,北京市沈阳县城东赵街m座 796679,1988-11-10,"['Artificial Intelligence', 'Others']"
+650100000011424,唐阳,huangxiulan,M,fengqiang@yahoo.com,海南省建国市牧野辽阳路Q座 626259,1963-11-24,[]
+650100000011425,董晶,whan,M,cdong@hotmail.com,江苏省东县房山海口街l座 640893,1920-03-07,['Others']
+650100000011426,晏晶,sxiang,M,qiangyin@hotmail.com,浙江省成都市东城海门街c座 980124,2011-06-17,"['Machine Learning', 'Image and Video processing']"
+650100000011427,卢玉兰,ddeng,M,jinglin@gmail.com,上海市宜都县上街陈街S座 487115,1933-11-17,"['Others', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011428,黄静,rdeng,M,acheng@hotmail.com,江西省娜市高港荆门街r座 529126,1959-08-06,['Machine Learning']
+650100000011429,陈超,mliao,F,wangtao@hotmail.com,宁夏回族自治区齐齐哈尔县高坪魏街A座 808409,1945-12-04,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011430,何飞,qianchao,M,olai@gmail.com,海南省帅县东丽钟路F座 100273,1921-12-25,['Artificial Intelligence']
+650100000011431,孙玉珍,yangwang,M,ifeng@hotmail.com,青海省璐市上街钱路D座 566130,1909-05-26,"['Artificial Intelligence', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011432,李伟,xmeng,M,djia@hotmail.com,宁夏回族自治区哈尔滨市静安大冶路M座 560277,1973-09-10,['Image and Video processing']
+650100000011433,辛帆,xiawei,F,leilin@gmail.com,甘肃省西宁县浔阳王街S座 346039,1977-09-19,"['Others', 'Machine Learning', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011434,刘玉珍,litian,F,qlu@gmail.com,辽宁省六安县兴山长沙街L座 654722,1942-11-17,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Machine Learning']"
+650100000011435,王秀兰,fangyang,M,helei@hotmail.com,云南省拉萨市西夏李路A座 375872,1914-09-20,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011436,魏莹,linjun,M,linyan@hotmail.com,河南省南昌市浔阳黎街w座 539600,2001-02-02,['Computer vision and Pattern recognition']
+650100000011437,张玉兰,fang75,F,zkong@gmail.com,河南省艳县浔阳贵阳街G座 987492,2010-10-31,"['Others', 'Computer vision and Pattern recognition']"
+650100000011438,王凤英,ehu,F,fanping@yahoo.com,新疆维吾尔自治区婷县高港宁德街R座 418117,1996-04-18,['Robotics']
+650100000011439,叶秀英,xiulanzhou,F,byang@yahoo.com,山西省秀华县城北郑州路f座 794908,1991-01-13,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Robotics']"
+650100000011440,周平,jingfu,M,ping09@hotmail.com,重庆市彬县海陵西宁街m座 549572,1943-04-13,"['Computer vision and Pattern recognition', 'Robotics', 'Machine Learning', 'Others']"
+650100000011441,李利,jiangjie,F,ixiong@yahoo.com,湖北省秀梅市海陵涂街K座 205256,1922-01-16,"['Robotics', 'Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011442,彭洋,xiongxia,F,ping55@hotmail.com,天津市邯郸市城北荆门路q座 929611,2000-10-11,"['Robotics', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011443,朱佳,yan27,M,xiangjie@gmail.com,山西省桂珍市和平西宁街X座 189827,1910-11-18,['Machine Learning']
+650100000011444,崔平,yongjia,M,qiang79@gmail.com,香港特别行政区合肥市城东萧路q座 705340,1990-01-17,['Machine Learning']
+650100000011445,翟玉,li13,F,yanxiao@yahoo.com,台湾省坤市金平左街C座 794472,1974-09-09,['Computer vision and Pattern recognition']
+650100000011446,廖秀芳,jun31,M,min03@hotmail.com,黑龙江省长春县清河成都街K座 569474,1966-12-29,"['Computer vision and Pattern recognition', 'Others', 'Robotics', 'Machine Learning']"
+650100000011447,张峰,jingliao,M,taohan@hotmail.com,山东省银川县上街李街e座 998237,1961-10-25,"['Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence']"
+650100000011448,吴淑兰,fgao,M,jie90@yahoo.com,广西壮族自治区香港市白云吴街K座 352091,1921-02-23,['Computer vision and Pattern recognition']
+650100000011449,白雷,cgong,M,yong34@gmail.com,青海省石家庄市门头沟朱路b座 677384,1965-01-11,['Image and Video processing']
+650100000011450,王琳,sxiang,M,pingfang@yahoo.com,西藏自治区呼和浩特县长寿拉萨路q座 837126,2011-08-20,"['Others', 'Artificial Intelligence']"
+650100000011451,郭雪,jiefeng,F,kangli@hotmail.com,浙江省大冶市兴山辽阳路x座 739539,1915-02-09,"['Artificial Intelligence', 'Robotics']"
+650100000011452,王亮,shaoyan,M,minhao@yahoo.com,浙江省重庆县永川银川街t座 910557,1935-01-22,['Artificial Intelligence']
+650100000011453,江英,lyin,F,juanwang@yahoo.com,天津市潜江市海港赵路f座 272604,2015-12-22,"['Computer vision and Pattern recognition', 'Others', 'Image and Video processing']"
+650100000011454,李俊,nawen,F,yan12@yahoo.com,浙江省合肥县长寿柳州街k座 754029,2006-01-30,"['Others', 'Image and Video processing']"
+650100000011455,郭健,jun54,M,menggang@yahoo.com,浙江省关岭县南长卢路u座 986173,1953-10-07,"['Machine Learning', 'Others']"
+650100000011456,梅俊,jiecao,F,weifeng@hotmail.com,澳门特别行政区石家庄市友好海门路C座 157765,1966-03-29,"['Image and Video processing', 'Artificial Intelligence', 'Machine Learning']"
+650100000011457,刘建华,swu,M,ganghao@hotmail.com,广西壮族自治区淑华市普陀黄路L座 166725,1969-07-18,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011458,宫平,fangmo,M,rxia@gmail.com,浙江省洋市秀英拉萨街D座 799385,1927-08-03,"['Robotics', 'Machine Learning']"
+650100000011459,孔伟,na92,M,wei96@yahoo.com,广东省敏县沈北新乌鲁木齐路L座 489622,1957-11-23,['Machine Learning']
+650100000011460,王玉英,fangguiying,F,lixu@hotmail.com,河南省佛山县六枝特西宁路E座 599698,1927-07-31,['Others']
+650100000011461,高玉梅,suli,M,weilei@hotmail.com,江西省成市普陀刘街L座 809416,1912-10-11,"['Others', 'Robotics', 'Image and Video processing', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011462,练雪梅,uli,M,zouqiang@gmail.com,河南省倩县龙潭石家庄路G座 905911,2001-02-23,"['Image and Video processing', 'Artificial Intelligence', 'Robotics']"
+650100000011463,贾霞,rren,F,zhonggang@hotmail.com,香港特别行政区磊市璧山曹街k座 553789,1909-10-16,"['Image and Video processing', 'Artificial Intelligence', 'Robotics', 'Others']"
+650100000011464,吴淑珍,fuxiulan,M,chao78@hotmail.com,贵州省荆门市房山梁路T座 374669,1951-01-01,['Others']
+650100000011465,游磊,daijuan,F,pengguiying@yahoo.com,青海省潮州县清河金路z座 464796,1953-06-09,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011466,张晶,ishao,F,nliang@yahoo.com,宁夏回族自治区辛集县大兴呼和浩特街m座 452905,1984-11-26,"['Machine Learning', 'Image and Video processing']"
+650100000011467,张英,fuguiying,M,huli@yahoo.com,江西省桂芳市高坪李街q座 429617,1981-03-05,['Computer vision and Pattern recognition']
+650100000011468,邓丽华,yang82,M,qianqiang@hotmail.com,安徽省杭州县西夏嘉禾街c座 279689,1913-05-10,"['Image and Video processing', 'Robotics']"
+650100000011469,周凯,li90,M,suping@yahoo.com,广西壮族自治区济南市平山兰州街j座 777038,2014-12-19,['Others']
+650100000011470,杨博,taosu,M,gangdu@gmail.com,湖南省汕尾县城北孙路D座 507899,2006-05-15,['Computer vision and Pattern recognition']
+650100000011471,黄丽丽,shenwei,M,khe@hotmail.com,吉林省哈尔滨县花溪淮安街A座 974890,1937-12-23,[]
+650100000011472,李娜,xiayuan,F,minzhong@yahoo.com,重庆市慧县怀柔刘街u座 103260,1987-08-16,['Artificial Intelligence']
+650100000011473,何洁,sutao,M,liaoyan@gmail.com,河北省红霞县西夏李街s座 847849,1922-11-08,[]
+650100000011474,田秀兰,tangli,M,wei48@yahoo.com,青海省宁德县浔阳谭路k座 420320,1993-01-29,['Others']
+650100000011475,胡林,xiasong,M,yongding@yahoo.com,甘肃省龙县徐汇拉萨街R座 123064,1956-06-01,['Computer vision and Pattern recognition']
+650100000011476,程利,mingxiong,M,jie33@hotmail.com,江西省艳市海港关岭路x座 732707,1927-06-20,"['Robotics', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011477,王玉英,guiyingwang,M,qiuwei@gmail.com,江西省辉市兴山唐路P座 798443,1936-02-27,['Machine Learning']
+650100000011478,姚柳,hfeng,F,mguo@hotmail.com,贵州省惠州市永川银川街J座 349160,2006-08-30,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011479,邹洁,jielai,M,yangyu@gmail.com,天津市太原市长寿深圳路O座 816558,2009-01-17,"['Machine Learning', 'Artificial Intelligence']"
+650100000011480,李磊,yong30,M,szhong@gmail.com,海南省颖市花溪张路u座 627657,1929-08-13,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011481,唐敏,jietao,F,yangli@gmail.com,台湾省丽市城北巢湖街F座 712109,2020-02-28,[]
+650100000011482,吴利,haowei,M,xiawei@yahoo.com,江西省杰县房山赵路H座 839557,1928-11-03,"['Others', 'Robotics', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011483,赵建华,wei69,M,leiguo@yahoo.com,广东省洁市永川黄街j座 911026,1923-07-07,['Image and Video processing']
+650100000011484,许玲,pduan,F,ywei@hotmail.com,河北省大冶市上街台北路h座 885871,1927-02-17,"['Robotics', 'Machine Learning', 'Artificial Intelligence']"
+650100000011485,赵明,dujun,F,jshao@hotmail.com,青海省广州县萧山荆门街L座 436453,1939-02-26,"['Machine Learning', 'Others']"
+650100000011486,冯凤英,nzeng,M,gangqian@gmail.com,辽宁省大冶市沈河郑街o座 337898,1963-07-17,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011487,马想,zdeng,F,xiangna@gmail.com,甘肃省荆门县平山周街e座 896221,1928-08-14,"['Robotics', 'Image and Video processing', 'Computer vision and Pattern recognition', 'Others', 'Artificial Intelligence', 'Machine Learning']"
+650100000011488,陈斌,guiying23,M,weicai@hotmail.com,山西省娟县高坪福州街N座 260314,2003-09-16,"['Machine Learning', 'Image and Video processing']"
+650100000011489,高波,xiulan59,M,zengjing@yahoo.com,广西壮族自治区畅县沈河胡街W座 348364,1934-03-22,"['Image and Video processing', 'Robotics', 'Machine Learning']"
+650100000011490,吉丹丹,rfu,M,taoping@hotmail.com,山东省西安县白云杨街C座 765892,1988-04-25,['Machine Learning']
+650100000011491,许东,liluo,F,taochang@hotmail.com,陕西省强市沙市海门街S座 360754,1954-03-05,['Computer vision and Pattern recognition']
+650100000011492,陈红,liaojie,M,yangna@yahoo.com,山东省上海县东城成都街d座 787642,1953-12-08,"['Others', 'Artificial Intelligence']"
+650100000011493,李慧,fuwei,M,yong54@hotmail.com,福建省合山县南长常路i座 770677,1933-01-01,"['Machine Learning', 'Image and Video processing']"
+650100000011494,叶欢,taocai,F,nzou@hotmail.com,河北省合肥市滨城张街t座 697528,1991-09-15,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011495,杨帅,kongmin,F,qiang34@hotmail.com,湖北省鑫市沙湾刘路C座 828372,1951-09-11,[]
+650100000011496,施萍,yong97,F,jingdeng@hotmail.com,江苏省鹏县静安杭州路B座 150485,2010-04-12,['Others']
+650100000011497,张璐,lwu,M,fang05@yahoo.com,宁夏回族自治区梧州县静安石街v座 119173,1939-03-20,"['Machine Learning', 'Robotics', 'Image and Video processing']"
+650100000011498,张健,yong84,M,jietang@yahoo.com,浙江省海门县萧山曾路w座 269557,2000-03-11,"['Others', 'Image and Video processing']"
+650100000011499,张文,weiwei,F,xiuyinggao@yahoo.com,广东省六盘水市友好张街e座 165729,1966-02-22,['Others']
+650100000011500,宋燕,cmao,F,guiying56@gmail.com,四川省长春县金平六盘水街j座 993717,1955-03-08,[]
+650100000011501,刘洋,qhuang,F,jie59@hotmail.com,海南省福州市上街左街U座 740120,2002-02-04,"['Robotics', 'Machine Learning']"
+650100000011502,董秀云,xuming,F,yangdeng@hotmail.com,山西省拉萨县城北呼和浩特街I座 271820,1952-06-12,['Artificial Intelligence']
+650100000011503,佘玉兰,nahan,M,jiaxiuying@yahoo.com,广西壮族自治区拉萨县清河任路K座 385378,1960-11-27,"['Artificial Intelligence', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011504,王兰英,jduan,M,fgao@hotmail.com,宁夏回族自治区兴安盟县龙潭兰州路Y座 121770,1909-07-07,[]
+650100000011505,郭丽华,xiuyingmeng,M,yuanli@gmail.com,海南省鹏县崇文李路M座 487207,1914-09-18,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011506,王小红,changchao,M,fqian@hotmail.com,澳门特别行政区银川县城东马街V座 588031,1927-11-21,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011507,段建华,fkang,F,jinyong@hotmail.com,四川省淑英市沙市拉萨街s座 295848,1948-05-07,['Robotics']
+650100000011508,李春梅,blu,F,yang97@hotmail.com,青海省呼和浩特市南溪韦街S座 175259,1927-11-17,"['Image and Video processing', 'Robotics']"
+650100000011509,郭建平,yanliu,F,jun28@gmail.com,北京市云市涪城颜路X座 727797,2007-11-14,['Artificial Intelligence']
+650100000011510,唐宁,guiying58,M,juan05@hotmail.com,湖南省秀荣市清河屈路j座 171910,2013-04-25,"['Image and Video processing', 'Artificial Intelligence', 'Others']"
+650100000011511,李莉,chengjuan,F,gxiao@hotmail.com,四川省呼和浩特县高港陈路w座 654511,1980-07-30,"['Machine Learning', 'Image and Video processing']"
+650100000011512,范秀珍,jie52,F,xuxiulan@hotmail.com,重庆市武汉市清城刘街P座 233989,1964-04-19,"['Artificial Intelligence', 'Others', 'Machine Learning', 'Image and Video processing']"
+650100000011513,江玲,qiang31,M,qshao@gmail.com,贵州省重庆县西夏段路z座 351589,1982-02-14,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011514,杨艳,ali,M,juan10@yahoo.com,江苏省嘉禾市黄浦段路K座 373636,1963-12-19,"['Machine Learning', 'Image and Video processing', 'Computer vision and Pattern recognition', 'Others', 'Robotics']"
+650100000011515,李红梅,linxia,M,yaoyong@gmail.com,新疆维吾尔自治区成都市大兴刘街p座 526981,2022-01-30,"['Artificial Intelligence', 'Others']"
+650100000011516,杨桂兰,xiulan92,M,liding@yahoo.com,广东省艳市黄浦沈阳街v座 262755,1938-02-23,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011517,陈岩,jingren,F,ming10@gmail.com,吉林省南京市安次台北街C座 818170,1934-04-16,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011518,曾刚,gangfang,M,rzhang@hotmail.com,台湾省伟市魏都宁德街O座 520295,2010-08-14,['Image and Video processing']
+650100000011519,陈小红,bgong,F,fangjie@gmail.com,山西省六安县牧野王路D座 983426,2006-06-13,['Others']
+650100000011520,王兵,tao65,M,qiang36@hotmail.com,宁夏回族自治区慧县白云哈尔滨路b座 389870,1908-01-07,"['Others', 'Machine Learning', 'Robotics']"
+650100000011521,章秀华,qyan,F,wei54@gmail.com,陕西省淑兰县丰都张家港街U座 749070,1986-04-12,"['Others', 'Robotics']"
+650100000011522,杨玉,egao,M,na99@yahoo.com,吉林省银川县浔阳兴安盟街z座 280349,1915-08-22,['Image and Video processing']
+650100000011523,赵金凤,jingfang,F,mwu@hotmail.com,吉林省坤市南湖上海路A座 977911,2009-12-20,['Artificial Intelligence']
+650100000011524,朱莉,qiugang,M,nchang@hotmail.com,澳门特别行政区关岭县滨城哈尔滨路F座 476701,1920-04-20,['Computer vision and Pattern recognition']
+650100000011525,高帆,guiyingpeng,M,gkang@hotmail.com,新疆维吾尔自治区深圳市牧野黄街e座 456594,1961-08-17,"['Artificial Intelligence', 'Others', 'Image and Video processing', 'Machine Learning', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011526,吴彬,lijing,M,ywei@hotmail.com,安徽省亮县清城徐路y座 162204,1957-01-18,['Image and Video processing']
+650100000011527,何小红,liaoli,F,ocui@gmail.com,北京市银川市城北南宁路P座 408188,1985-05-29,"['Image and Video processing', 'Artificial Intelligence', 'Others']"
+650100000011528,王建平,xiaoyong,F,na79@yahoo.com,江西省东市长寿黄路o座 430729,2006-03-28,"['Others', 'Robotics']"
+650100000011529,吴洋,chaolai,F,tianchao@gmail.com,浙江省淑珍市海陵周路A座 361650,1998-12-13,"['Machine Learning', 'Robotics']"
+650100000011530,刘玉珍,zhoujuan,F,zhouyan@yahoo.com,青海省华市徐汇沈阳路z座 910895,1954-02-11,"['Others', 'Robotics']"
+650100000011531,万柳,pingyi,M,xiulanyan@gmail.com,山西省红市平山阜新路D座 592855,2008-01-31,['Machine Learning']
+650100000011532,高莹,lei15,M,wei86@yahoo.com,广东省西安县白云胡路m座 921675,1972-02-27,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011533,邓瑜,fgong,F,minfu@gmail.com,北京市莹市西夏唐街Y座 893227,1968-01-19,['Robotics']
+650100000011534,李建,fliang,M,leixiao@hotmail.com,黑龙江省辽阳市山亭海门路L座 514911,2005-08-19,['Machine Learning']
+650100000011535,王帆,xduan,F,ligao@gmail.com,西藏自治区佛山县璧山梁路n座 992038,1959-09-09,"['Artificial Intelligence', 'Machine Learning', 'Robotics']"
+650100000011536,张琴,pmao,M,changjuan@yahoo.com,河南省丽丽市沈河贺路g座 771572,1946-09-19,"['Machine Learning', 'Robotics']"
+650100000011537,孙海燕,aguo,F,xiulan60@gmail.com,西藏自治区关岭县沙市王路Y座 616068,1946-09-24,"['Machine Learning', 'Artificial Intelligence']"
+650100000011538,邵桂香,txiang,F,zengwei@hotmail.com,香港特别行政区荆门县城北澳门街B座 105106,1915-05-06,['Others']
+650100000011539,韦莹,xiamin,F,yangren@yahoo.com,山西省兴安盟县东城胡路K座 809403,1952-06-05,['Computer vision and Pattern recognition']
+650100000011540,张璐,juan00,M,min19@yahoo.com,河北省惠州县清河北京街H座 100998,1953-01-20,"['Others', 'Computer vision and Pattern recognition']"
+650100000011541,郎想,pingxiao,M,guiying55@hotmail.com,澳门特别行政区拉萨县高明哈尔滨路e座 808758,1946-11-30,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011542,李瑞,yifang,M,ping05@yahoo.com,黑龙江省秀英市沈河曾路U座 971994,1950-03-02,['Others']
+650100000011543,高宁,ping01,F,lei23@yahoo.com,广西壮族自治区云市高坪宁德路K座 108898,1946-09-06,['Robotics']
+650100000011544,王春梅,jiehou,M,taobai@hotmail.com,浙江省岩县海港赵街A座 451650,2014-12-17,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011545,曹帆,gongyan,M,wlei@hotmail.com,黑龙江省南京县怀柔六盘水路A座 884006,2014-03-22,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011546,萧博,nalu,M,ufu@yahoo.com,天津市关岭县海港宋路X座 401424,1976-04-14,['Machine Learning']
+650100000011547,杨淑华,hxu,M,suli@hotmail.com,西藏自治区琴县友好辛集街M座 422529,1922-09-08,['Robotics']
+650100000011548,周璐,guiyinglu,F,wshi@gmail.com,内蒙古自治区坤市锡山武街Z座 218837,1924-05-16,['Artificial Intelligence']
+650100000011549,周慧,igu,M,exiao@gmail.com,澳门特别行政区璐县海陵黄街e座 503582,1998-12-19,"['Others', 'Computer vision and Pattern recognition']"
+650100000011550,张杰,dxu,M,xiulanli@yahoo.com,北京市玉英市东丽哈尔滨路i座 857510,1937-11-10,"['Image and Video processing', 'Robotics', 'Others']"
+650100000011551,张岩,gang21,M,yanyang@hotmail.com,山西省海门市南溪巢湖街k座 402609,1943-01-09,['Machine Learning']
+650100000011552,高坤,yanding,M,iqiu@hotmail.com,安徽省楠市大东南宁街r座 375994,1976-10-05,"['Robotics', 'Image and Video processing', 'Others', 'Computer vision and Pattern recognition']"
+650100000011553,张红梅,gang53,M,tdong@yahoo.com,浙江省凤英县龙潭北京路r座 626715,1952-04-07,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011554,黄艳,emao,F,esun@hotmail.com,辽宁省西宁县吉区辛集街H座 425424,1951-02-27,"['Computer vision and Pattern recognition', 'Robotics', 'Machine Learning']"
+650100000011555,孙东,xiulan91,M,xfang@yahoo.com,广东省梧州市南湖嘉禾路o座 142478,1917-02-22,"['Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence', 'Others']"
+650100000011556,赵秀梅,ping68,F,ming51@gmail.com,江西省桂香县崇文重庆路s座 637684,1929-12-19,"['Machine Learning', 'Artificial Intelligence', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011557,朱辉,twen,F,fangdai@hotmail.com,江苏省柳县牧野福州路o座 482771,1961-01-17,['Image and Video processing']
+650100000011558,伍雷,minshen,F,qzou@yahoo.com,西藏自治区银川市白云北京街q座 710584,1979-10-04,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011559,刘柳,cmao,M,lixiang@hotmail.com,江西省福州市高明宁德街f座 132111,2013-07-12,"['Image and Video processing', 'Artificial Intelligence', 'Others']"
+650100000011560,涂坤,na50,F,fangmeng@gmail.com,山东省颖县黄浦韩路O座 376819,1913-03-17,['Others']
+650100000011561,陆娜,shenjie,F,sqian@gmail.com,吉林省建军县和平北京街v座 232969,1952-06-30,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011562,梁勇,ohe,F,jiangming@hotmail.com,浙江省淑英县涪城宋路d座 819264,1982-04-18,"['Image and Video processing', 'Others']"
+650100000011563,李玲,yang93,M,zhuming@gmail.com,黑龙江省鑫县崇文惠州街m座 621592,2022-06-20,"['Machine Learning', 'Robotics']"
+650100000011564,曾丽娟,lyuan,F,mingao@hotmail.com,台湾省通辽市龙潭杨路x座 485700,1960-10-14,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011565,谢旭,shixiulan,F,pye@gmail.com,西藏自治区海燕市大东徐路D座 906172,1919-01-16,"['Machine Learning', 'Artificial Intelligence', 'Others']"
+650100000011566,郝玉华,xiuying20,F,sshao@gmail.com,江苏省杨县江北梁路I座 879349,1978-03-07,"['Computer vision and Pattern recognition', 'Others', 'Image and Video processing']"
+650100000011567,黄坤,xiuying61,M,chengmin@hotmail.com,北京市台北县大兴哈尔滨街J座 802852,1975-11-06,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011568,陈兰英,yanguo,F,ming42@yahoo.com,广西壮族自治区利市新城胡路o座 876002,1998-03-06,['Computer vision and Pattern recognition']
+650100000011569,张宇,cguo,F,guiying73@gmail.com,湖北省六盘水市梁平深圳街V座 800117,2003-10-07,['Artificial Intelligence']
+650100000011570,李桂珍,qfu,F,caijing@gmail.com,广西壮族自治区杭州市翔安武汉路E座 748716,1936-11-24,"['Computer vision and Pattern recognition', 'Others']"
+650100000011571,赵林,caiguiying,F,jundong@yahoo.com,山东省兰州市沈河赖街I座 923959,1980-12-05,['Image and Video processing']
+650100000011572,彭玲,xiulan55,M,yong96@gmail.com,贵州省石家庄县秀英张街x座 771824,1947-11-15,[]
+650100000011573,方想,gang26,M,vyao@yahoo.com,黑龙江省雪县兴山王路z座 984724,2022-04-05,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011574,姚浩,guxia,M,duanyang@yahoo.com,江苏省建军县怀柔李街E座 737616,1992-03-11,['Computer vision and Pattern recognition']
+650100000011575,王金凤,yang25,M,changyang@gmail.com,江苏省玉英市璧山合肥街N座 406420,1989-12-25,"['Computer vision and Pattern recognition', 'Machine Learning', 'Others', 'Artificial Intelligence', 'Robotics']"
+650100000011576,鲁兵,fengtao,M,guiyingfeng@yahoo.com,贵州省梧州县白云刘街C座 460085,1914-11-23,"['Artificial Intelligence', 'Image and Video processing', 'Machine Learning']"
+650100000011577,李浩,xia18,F,jkang@hotmail.com,湖南省济南市花溪沈阳街S座 483137,2002-06-22,['Others']
+650100000011578,李涛,jingxiong,F,xiulankang@yahoo.com,山东省云市安次翟路k座 149595,2013-11-10,['Artificial Intelligence']
+650100000011579,张建平,liangjing,M,pingzhou@yahoo.com,贵州省马鞍山市华龙杭州路R座 908971,1991-02-20,"['Image and Video processing', 'Robotics']"
+650100000011580,唐帆,nzhao,F,weiding@gmail.com,贵州省琳市平山大冶路v座 539095,2006-02-19,['Others']
+650100000011581,方兵,pcao,F,xiaxiao@gmail.com,云南省林市西峰刘街N座 425362,1949-05-14,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011582,王淑珍,hwan,F,yanshen@hotmail.com,湖北省涛市长寿巢湖路g座 638340,1993-05-20,['Computer vision and Pattern recognition']
+650100000011583,吴芳,xyang,M,qiaolei@yahoo.com,广西壮族自治区秀荣县萧山齐齐哈尔路i座 498579,2019-02-27,[]
+650100000011584,黄凯,yang63,F,baimin@gmail.com,内蒙古自治区西安县东丽许路b座 265736,1908-03-05,"['Others', 'Machine Learning', 'Image and Video processing']"
+650100000011585,明辉,liangping,F,ihuang@gmail.com,江苏省澳门市高港邯郸街x座 450625,1943-06-22,['Artificial Intelligence']
+650100000011586,国文,vpeng,M,wei79@gmail.com,海南省亮县上街朱街o座 685301,1923-06-06,['Machine Learning']
+650100000011587,孙健,yong93,M,jie54@gmail.com,福建省海口县徐汇凌街Q座 517217,1977-10-31,"['Artificial Intelligence', 'Others']"
+650100000011588,孙桂香,juan21,F,houtao@yahoo.com,贵州省六盘水县山亭乌鲁木齐街u座 906651,1977-08-07,"['Machine Learning', 'Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics']"
+650100000011589,王波,cuiyong,M,guiying82@gmail.com,台湾省汕尾市滨城李路m座 285759,1923-01-24,"['Others', 'Computer vision and Pattern recognition']"
+650100000011590,韦海燕,ugao,M,lei14@gmail.com,河南省南昌县江北杨街w座 622036,1990-05-25,['Image and Video processing']
+650100000011591,李彬,pingmo,F,mhe@gmail.com,陕西省健市大兴罗路j座 536471,1996-12-30,"['Others', 'Robotics']"
+650100000011592,丁峰,min40,F,dujuan@hotmail.com,重庆市金凤市滨城银川街Y座 528702,1949-12-12,"['Others', 'Computer vision and Pattern recognition']"
+650100000011593,王玉梅,qinqiang,F,kangjun@yahoo.com,云南省海门县西夏南宁路I座 926461,2003-03-23,"['Others', 'Artificial Intelligence']"
+650100000011594,赵雷,mingdu,M,guiyinghuang@yahoo.com,青海省瑞市南长南宁路g座 950662,1937-06-29,"['Robotics', 'Others', 'Machine Learning']"
+650100000011595,杜倩,minzeng,F,kren@yahoo.com,内蒙古自治区荣县沈北新刘街i座 542541,1943-04-22,"['Others', 'Artificial Intelligence']"
+650100000011596,王婷婷,wanyong,M,jingdong@yahoo.com,西藏自治区桂香县长寿哈尔滨路C座 166746,1913-05-29,['Computer vision and Pattern recognition']
+650100000011597,郭婷,xmeng,F,tanxia@hotmail.com,浙江省重庆市双滦杨街i座 261882,1998-01-15,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011598,史斌,xiuying66,F,yongdai@yahoo.com,内蒙古自治区澳门县友好朱街y座 444991,1911-01-23,"['Others', 'Image and Video processing', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011599,骆建国,yongwen,M,ixiao@gmail.com,吉林省柳市淄川曾路L座 580665,1936-04-13,"['Artificial Intelligence', 'Machine Learning']"
+650100000011600,蒋晶,yong25,M,fang71@hotmail.com,北京市海口市和平刘街v座 939579,1920-09-20,['Computer vision and Pattern recognition']
+650100000011601,詹玉兰,liyan,M,minlu@gmail.com,吉林省嘉禾市崇文淮安街h座 874446,2017-04-13,['Machine Learning']
+650100000011602,李小红,vxiong,M,fang91@gmail.com,海南省海口市双滦薛街w座 464194,1968-12-12,['Machine Learning']
+650100000011603,李洋,qinguiying,M,jun94@yahoo.com,福建省西宁县安次袁路k座 642838,1933-05-07,[]
+650100000011604,邓林,min52,F,oyan@gmail.com,北京市兰英市徐汇武汉路t座 287380,2018-02-15,"['Others', 'Image and Video processing']"
+650100000011605,姚畅,kkang,F,chao11@hotmail.com,山西省琴市山亭太原街D座 868666,2009-10-30,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Others', 'Machine Learning']"
+650100000011606,王小红,daixiulan,F,yong02@hotmail.com,海南省拉萨市静安太原街m座 496756,1998-11-04,['Artificial Intelligence']
+650100000011607,谭秀兰,li32,F,jingdong@gmail.com,西藏自治区柳市大兴刘街V座 929004,2005-06-14,[]
+650100000011608,万婷婷,yzhu,M,yongcai@gmail.com,湖南省秀英市朝阳合山街L座 953913,1979-08-21,"['Machine Learning', 'Others', 'Artificial Intelligence', 'Robotics']"
+650100000011609,莫桂花,yanshen,M,nayao@yahoo.com,澳门特别行政区健市海港澳门街c座 124688,2011-08-11,"['Artificial Intelligence', 'Image and Video processing', 'Others']"
+650100000011610,曹秀英,luoping,M,sujun@yahoo.com,宁夏回族自治区荣市涪城福州路o座 796426,1956-04-01,"['Others', 'Computer vision and Pattern recognition']"
+650100000011611,陈俊,mayang,F,xialuo@gmail.com,甘肃省桂英县海陵张街O座 929138,1922-02-25,"['Robotics', 'Artificial Intelligence']"
+650100000011612,骆秀荣,wanchao,M,nasong@gmail.com,河南省哈尔滨县海陵天津路M座 387133,1951-06-04,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011613,刘倩,psun,F,phou@hotmail.com,浙江省莉市南溪蔡路U座 585371,1989-12-31,"['Others', 'Computer vision and Pattern recognition', 'Machine Learning', 'Image and Video processing']"
+650100000011614,袁倩,kzhong,M,yong30@hotmail.com,浙江省丽县南溪昆明街q座 659074,1974-03-22,"['Image and Video processing', 'Machine Learning']"
+650100000011615,沈涛,jun95,M,xiulanzhou@yahoo.com,澳门特别行政区鹏县房山陈街l座 322120,2018-07-17,"['Machine Learning', 'Others', 'Robotics']"
+650100000011616,秦博,weiding,M,lei56@gmail.com,福建省齐齐哈尔县东丽秦路P座 585800,2017-03-10,['Computer vision and Pattern recognition']
+650100000011617,曹桂香,juancao,M,qiang49@gmail.com,山西省宜都县清城许路H座 210713,1956-05-29,"['Machine Learning', 'Image and Video processing']"
+650100000011618,谢艳,junguo,F,ykang@hotmail.com,云南省淑兰县长寿贾街i座 251844,1956-03-04,"['Robotics', 'Machine Learning']"
+650100000011619,汪瑜,qiang25,M,xieming@yahoo.com,广西壮族自治区兴城市双滦邓路D座 415187,1951-10-02,['Robotics']
+650100000011620,何佳,vliu,F,xiulandong@hotmail.com,山东省哈尔滨县新城张街t座 508972,1931-06-06,['Image and Video processing']
+650100000011621,杨秀英,changxiulan,M,zcui@gmail.com,福建省潮州市沙湾梧州路o座 232169,1928-05-05,"['Machine Learning', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011622,慕红,leichao,F,zhuchao@yahoo.com,广西壮族自治区玉英县浔阳谢街A座 602033,1979-01-21,"['Others', 'Image and Video processing']"
+650100000011623,胡倩,jsong,F,gangqian@gmail.com,河北省桂芳市丰都张街F座 872584,1952-09-26,['Artificial Intelligence']
+650100000011624,张想,xiejie,M,mxue@hotmail.com,宁夏回族自治区大冶县秀英重庆街E座 310241,1907-11-06,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011625,高建军,naxia,F,taolei@hotmail.com,浙江省旭市秀英张家港路C座 301010,1964-08-23,"['Artificial Intelligence', 'Others', 'Image and Video processing']"
+650100000011626,吴志强,gangdu,F,kliang@yahoo.com,澳门特别行政区宇县江北姜街z座 983892,1925-02-14,"['Others', 'Artificial Intelligence', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011627,郝俊,guiyingcui,F,tshao@yahoo.com,福建省惠州市友好广州街F座 245887,1996-05-20,['Computer vision and Pattern recognition']
+650100000011628,谢婷婷,dqiu,M,xiongxiuying@hotmail.com,陕西省倩县滨城黄路l座 232970,1995-04-03,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011629,潘刚,dongyong,F,zhouli@gmail.com,江苏省秀英县南溪重庆路I座 942689,2005-03-09,"['Others', 'Robotics']"
+650100000011630,吴涛,zjin,F,lei47@hotmail.com,澳门特别行政区红梅市大兴袁街w座 372145,1976-03-26,"['Machine Learning', 'Image and Video processing', 'Robotics']"
+650100000011631,魏洋,wenlei,M,caoming@hotmail.com,西藏自治区南宁市大兴沈阳路G座 472068,1960-05-17,['Artificial Intelligence']
+650100000011632,杨慧,nlai,F,jie33@gmail.com,香港特别行政区通辽县海港李路V座 688141,1991-06-06,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011633,张璐,yong07,F,qiujuan@hotmail.com,上海市巢湖县蓟州寇路i座 289086,1949-04-08,"['Machine Learning', 'Robotics', 'Others', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011634,萧鹏,tao25,F,xiulanmao@yahoo.com,青海省太原县高明王路c座 551767,1979-02-15,['Others']
+650100000011635,梁宇,juanqian,M,jingsun@hotmail.com,黑龙江省鹏市清浦尹路j座 578315,1914-07-10,['Artificial Intelligence']
+650100000011636,龚建军,hgao,F,jxia@hotmail.com,四川省萍市城东潮州路M座 633737,1969-06-22,['Machine Learning']
+650100000011637,赖淑珍,mawei,M,juan84@yahoo.com,福建省畅县安次张路k座 212850,1958-05-28,['Machine Learning']
+650100000011638,阎洋,guojie,F,guiying66@gmail.com,北京市秀梅市浔阳嘉禾路q座 868094,1973-10-03,['Others']
+650100000011639,蒋坤,jingzhong,F,xiewei@yahoo.com,福建省辽阳县房山汕尾路p座 835477,2005-02-28,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011640,林宁,qdai,F,guiyingtang@gmail.com,河南省玉英县金平成都街j座 986263,1969-09-12,['Others']
+650100000011641,杨淑珍,xiongyan,F,jing50@gmail.com,贵州省琴市翔安陶街x座 309890,1954-03-10,"['Robotics', 'Artificial Intelligence']"
+650100000011642,刘小红,laiyang,F,fhao@yahoo.com,江西省六安县闵行辛街N座 355371,1951-12-19,"['Robotics', 'Image and Video processing']"
+650100000011643,吴东,li20,M,djiang@yahoo.com,台湾省燕市清河邝街S座 660644,1918-08-03,"['Image and Video processing', 'Artificial Intelligence', 'Machine Learning']"
+650100000011644,任玉英,mzhou,M,guiyingzhou@gmail.com,山西省彬县朝阳王街m座 137334,1945-11-09,['Computer vision and Pattern recognition']
+650100000011645,曾玉梅,gangzhu,F,qianggong@gmail.com,西藏自治区永安县沙市合山路f座 793315,1934-08-15,['Others']
+650100000011646,龚云,vzheng,M,jguo@hotmail.com,湖南省嘉禾县城北张路Y座 689326,1916-06-02,"['Image and Video processing', 'Robotics', 'Others', 'Computer vision and Pattern recognition']"
+650100000011647,赵明,yangjuan,F,fang24@yahoo.com,河南省刚市高港沈阳路d座 469222,1978-08-30,"['Others', 'Robotics']"
+650100000011648,胡婷婷,khan,M,lei13@hotmail.com,海南省岩县和平张街x座 577193,1958-10-24,['Computer vision and Pattern recognition']
+650100000011649,王畅,fanfang,M,tyan@yahoo.com,江苏省西安县西夏白路D座 868368,1946-07-29,['Computer vision and Pattern recognition']
+650100000011650,张秀芳,lcao,F,xiulan77@hotmail.com,甘肃省天津县黄浦李街g座 728669,1926-10-04,['Machine Learning']
+650100000011651,赵想,gang83,F,li04@gmail.com,江西省成都县秀英田街Y座 387727,2016-03-26,['Machine Learning']
+650100000011652,孙佳,qiangsun,F,olai@yahoo.com,上海市红霞县高明北京路b座 866359,2014-11-13,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Others', 'Robotics']"
+650100000011653,盖明,gaomin,F,jing95@yahoo.com,福建省柳州县和平蔡路o座 451143,1950-10-22,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011654,唐成,fang75,F,yankang@yahoo.com,四川省兴安盟市魏都陈路L座 311668,1986-04-14,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Others']"
+650100000011655,张洁,guiyingsun,M,nazeng@hotmail.com,新疆维吾尔自治区畅县崇文张路k座 370732,1939-12-11,"['Image and Video processing', 'Others']"
+650100000011656,宗燕,minjiang,M,mingyao@gmail.com,台湾省兰英市长寿六安街A座 442063,1986-12-16,[]
+650100000011657,殷超,yan27,M,li77@hotmail.com,新疆维吾尔自治区娟县清城太原路G座 127331,2002-01-04,"['Image and Video processing', 'Others', 'Computer vision and Pattern recognition']"
+650100000011658,王琴,jingzhang,F,chengxia@gmail.com,江西省广州市城东嘉禾街V座 769879,1993-03-17,[]
+650100000011659,罗玉珍,jgao,F,duqiang@hotmail.com,新疆维吾尔自治区哈尔滨市海陵邱街z座 218076,1955-06-11,[]
+650100000011660,吕晨,wei94,M,zhongqiang@gmail.com,台湾省梧州市江北惠州街V座 542354,1916-12-21,['Computer vision and Pattern recognition']
+650100000011661,宋丽,qiang92,M,ushen@yahoo.com,山西省香港市大东冯路m座 430132,1970-08-04,"['Others', 'Artificial Intelligence']"
+650100000011662,程婷婷,chaohao,M,vwen@hotmail.com,湖北省北京县高坪杨街m座 627526,1994-04-03,"['Robotics', 'Artificial Intelligence', 'Image and Video processing', 'Others', 'Computer vision and Pattern recognition']"
+650100000011663,赵金凤,juan04,F,weiwang@hotmail.com,福建省雪梅市牧野上海街N座 177620,1993-06-22,"['Image and Video processing', 'Robotics', 'Others']"
+650100000011664,阎秀梅,songxia,M,qiaoxiulan@hotmail.com,江西省澳门县房山西安路T座 667451,1914-12-19,['Artificial Intelligence']
+650100000011665,邓玲,yuanming,F,qiangxu@hotmail.com,山西省齐齐哈尔市东丽辽阳路r座 728914,1942-02-25,['Robotics']
+650100000011666,石超,jie62,M,hkang@hotmail.com,澳门特别行政区丹丹县六枝特陈路w座 932720,1931-05-10,[]
+650100000011667,李洁,junhuang,F,dhu@hotmail.com,江西省重庆市高港盛街k座 672217,1923-04-21,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011668,欧阳静,qiangxiang,F,jintao@gmail.com,湖北省岩市牧野李路p座 466813,1943-05-03,"['Computer vision and Pattern recognition', 'Machine Learning', 'Robotics']"
+650100000011669,郭勇,fangqian,M,twei@hotmail.com,吉林省秀芳市普陀拉萨街N座 122465,1935-02-26,['Machine Learning']
+650100000011670,邱强,weicao,M,qyu@gmail.com,内蒙古自治区桂珍市新城济南路w座 751646,1990-09-09,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Machine Learning']"
+650100000011671,林桂珍,ming12,F,ming24@hotmail.com,湖南省桂荣市花溪王街S座 525420,2014-10-10,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011672,田建国,fangyan,M,asu@hotmail.com,广西壮族自治区秀云县山亭李路E座 294263,1920-12-16,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011673,顾欣,cxia,M,gangfang@hotmail.com,山西省六盘水县大兴荆门路r座 419192,1923-01-13,['Machine Learning']
+650100000011674,陈琳,fangfan,F,changwei@gmail.com,浙江省英市沙市鄢街q座 528535,1974-06-12,['Image and Video processing']
+650100000011675,刘玉,luming,F,jingyin@gmail.com,吉林省琳市普陀辽阳街G座 900774,1943-07-15,"['Computer vision and Pattern recognition', 'Others']"
+650100000011676,张飞,na46,M,namo@hotmail.com,江苏省岩市永川宜都街r座 589032,1954-05-14,"['Artificial Intelligence', 'Machine Learning', 'Others', 'Robotics']"
+650100000011677,卢杰,yang43,F,ming63@hotmail.com,江苏省雪梅县清城齐齐哈尔街q座 129290,1973-11-10,"['Others', 'Artificial Intelligence', 'Robotics']"
+650100000011678,许霞,qiaoxiuying,F,xuejie@hotmail.com,内蒙古自治区玉兰县崇文罗路y座 497562,1995-12-30,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011679,程淑兰,tpeng,M,nawei@yahoo.com,安徽省金凤县上街东莞街a座 838244,1956-05-31,['Robotics']
+650100000011680,李洁,longguiying,F,yangwang@yahoo.com,海南省合山市城北齐齐哈尔街W座 333008,2007-06-21,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011681,刘莹,dingfang,F,ndai@yahoo.com,云南省丹丹县门头沟澳门街C座 123353,1930-12-31,['Computer vision and Pattern recognition']
+650100000011682,刘云,changmin,M,jwan@gmail.com,吉林省秀芳市城东兴安盟街T座 204521,1994-05-09,"['Robotics', 'Image and Video processing']"
+650100000011683,邹丽,xiaoyang,M,ashao@yahoo.com,上海市兰州市海陵沈阳路A座 510449,1955-09-20,"['Artificial Intelligence', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011684,陈洋,jiepeng,F,ming84@gmail.com,贵州省杨市清城张路E座 176174,1943-11-22,"['Image and Video processing', 'Artificial Intelligence', 'Robotics']"
+650100000011685,王辉,xiulansu,M,hanping@hotmail.com,江苏省大冶县魏都刘路B座 493749,2001-08-01,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Image and Video processing', 'Robotics', 'Others']"
+650100000011686,马东,xiulanhuang,M,wlin@yahoo.com,甘肃省兰州县清河银川街z座 733003,1999-05-07,"['Machine Learning', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011687,王平,houyong,F,ping66@hotmail.com,湖南省健县和平深圳街i座 417187,1936-12-12,"['Robotics', 'Image and Video processing']"
+650100000011688,高丽,byin,M,mshen@yahoo.com,内蒙古自治区艳市永川贺路H座 159661,1981-02-10,"['Others', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011689,陶健,qlu,M,ckang@gmail.com,云南省南宁县长寿马鞍山路B座 314988,1968-03-09,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Artificial Intelligence', 'Robotics']"
+650100000011690,董桂花,xiuyingduan,M,leifu@gmail.com,辽宁省秀梅县梁平陈路k座 894760,1990-08-04,"['Others', 'Image and Video processing']"
+650100000011691,崔桂花,chaodai,F,xuejie@hotmail.com,河南省上海县沙市彭街b座 886987,1988-02-26,['Robotics']
+650100000011692,黄霞,xiulan35,F,yinqiang@hotmail.com,广西壮族自治区玉市沙湾王街L座 315708,1993-01-16,['Robotics']
+650100000011693,刘淑兰,aren,M,guguiying@hotmail.com,山东省通辽县山亭段路H座 238021,2010-03-22,"['Others', 'Artificial Intelligence', 'Machine Learning', 'Robotics']"
+650100000011694,陈冬梅,xiawan,M,jingchen@hotmail.com,甘肃省上海县清浦合山街B座 439371,1957-12-05,[]
+650100000011695,郑桂荣,yang25,F,yangfang@gmail.com,甘肃省刚市清城深圳街M座 656335,1990-11-05,"['Machine Learning', 'Artificial Intelligence']"
+650100000011696,宋洁,dengguiying,F,maojing@yahoo.com,新疆维吾尔自治区马鞍山县双滦林街h座 173858,1930-06-03,['Machine Learning']
+650100000011697,王婷婷,ganggu,F,tao29@gmail.com,山西省倩县西峰张路y座 383555,1927-06-12,['Image and Video processing']
+650100000011698,刘秀荣,xia31,F,laijing@gmail.com,山西省通辽市六枝特赵街P座 481658,2001-09-07,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011699,韩丽,jietang,F,min17@gmail.com,辽宁省刚市滨城哈尔滨路c座 679097,1935-01-19,['Machine Learning']
+650100000011700,张华,guiyingchen,F,jun69@hotmail.com,江西省昆明市魏都黄街w座 445206,1913-02-02,"['Robotics', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011701,李红霞,luping,F,jundong@yahoo.com,辽宁省丽市白云王路p座 578168,1966-02-01,"['Image and Video processing', 'Others']"
+650100000011702,袁宁,yang67,F,renqiang@yahoo.com,天津市成市海港张街N座 617106,2014-09-09,"['Others', 'Artificial Intelligence']"
+650100000011703,陈凯,shaotao,M,namao@yahoo.com,宁夏回族自治区涛市秀英张路o座 107631,1933-12-04,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011704,王淑珍,vpan,M,wei37@hotmail.com,上海市娜市沈北新贵阳路h座 859955,1929-03-14,['Machine Learning']
+650100000011705,杨秀英,xiulanjiang,F,wei67@hotmail.com,青海省六盘水市滨城张街w座 810408,1922-01-26,"['Machine Learning', 'Computer vision and Pattern recognition', 'Others', 'Robotics']"
+650100000011706,黎辉,nwu,F,yan36@hotmail.com,云南省秀兰县六枝特哈尔滨街l座 486428,1986-08-18,"['Artificial Intelligence', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011707,刘芳,huangyang,M,ykang@yahoo.com,湖南省佳县西夏龚街K座 507293,1993-04-09,['Robotics']
+650100000011708,刘萍,xiulanchang,F,guiying03@gmail.com,黑龙江省淑英市华龙董街k座 854986,2007-10-27,['Robotics']
+650100000011709,梁鹏,leibai,F,zxie@gmail.com,上海市婷婷县大东昆明街q座 380880,1968-04-30,"['Robotics', 'Machine Learning']"
+650100000011710,李桂芳,yanxiang,F,jing21@yahoo.com,贵州省北京市崇文兴安盟路r座 983399,1977-07-24,['Computer vision and Pattern recognition']
+650100000011711,张柳,bzeng,F,jing67@hotmail.com,天津市荣市龙潭沈阳街Q座 803023,1974-08-27,"['Others', 'Artificial Intelligence', 'Image and Video processing', 'Robotics']"
+650100000011712,王婷,jingshi,M,chaoqiao@gmail.com,海南省武汉市兴山辽阳路C座 643994,2022-06-20,"['Robotics', 'Artificial Intelligence']"
+650100000011713,张燕,liangyong,F,maxiuying@hotmail.com,河北省楠县新城阎街u座 204597,1991-01-25,"['Others', 'Image and Video processing']"
+650100000011714,杨兰英,wenjuan,F,tangming@hotmail.com,山东省荆门县怀柔海口路g座 656478,1987-03-08,"['Robotics', 'Image and Video processing']"
+650100000011715,朱桂花,nahao,M,fdeng@yahoo.com,江苏省永安县浔阳沈阳街c座 355447,1954-07-16,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011716,杜雪梅,jingang,M,junzeng@gmail.com,西藏自治区健县城东蒋路W座 548074,1942-09-09,['Machine Learning']
+650100000011717,褚玲,yan92,M,wangjing@hotmail.com,澳门特别行政区邯郸市牧野张路c座 361561,1972-10-20,['Machine Learning']
+650100000011718,陈磊,qinwei,M,xiulanfeng@yahoo.com,云南省西宁市静安李路k座 372777,1946-04-08,['Robotics']
+650100000011719,胡玉珍,chao57,M,yong16@gmail.com,北京市桂兰县沙市刘街G座 492836,1965-03-30,"['Image and Video processing', 'Robotics', 'Machine Learning']"
+650100000011720,杨红梅,min60,M,zhaojun@gmail.com,广东省冬梅市淄川兰州路e座 411837,1938-01-27,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011721,尤丹,xiuyingyang,F,funa@yahoo.com,吉林省石家庄市白云北镇路N座 840885,1972-01-03,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence']"
+650100000011722,萧健,izheng,F,qwen@yahoo.com,青海省沈阳市清城潘路J座 336862,2012-01-11,['Others']
+650100000011723,尚建国,mingzou,M,gang26@gmail.com,新疆维吾尔自治区岩市双滦巢湖路a座 785890,1986-09-17,"['Others', 'Robotics', 'Image and Video processing']"
+650100000011724,陈红梅,taotan,F,rlin@yahoo.com,广东省桂芳县城东邯郸街y座 389011,1995-06-15,"['Robotics', 'Others', 'Image and Video processing']"
+650100000011725,涂欣,fang17,F,guiyinggao@yahoo.com,安徽省艳市蓟州李路G座 934538,1998-02-27,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011726,张岩,chao00,M,leimeng@gmail.com,江苏省丹县高明孙路C座 330831,1909-04-19,"['Robotics', 'Artificial Intelligence']"
+650100000011727,孟东,jzhao,M,wxiong@yahoo.com,北京市超市西夏沈阳街w座 459676,1988-10-27,['Image and Video processing']
+650100000011728,吴健,zsu,M,sunguiying@yahoo.com,贵州省桂香县闵行邯郸街T座 338229,1976-09-03,"['Computer vision and Pattern recognition', 'Others', 'Machine Learning']"
+650100000011729,李桂香,renming,F,yuanfang@hotmail.com,澳门特别行政区秀华县沈河哈尔滨路x座 469043,1963-06-15,"['Others', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011730,李飞,fluo,F,gfan@hotmail.com,云南省鹏县兴山呼和浩特街X座 303937,1923-02-02,['Robotics']
+650100000011731,郭博,ping86,F,guiying60@yahoo.com,内蒙古自治区建平县大兴香港路P座 164986,1989-07-15,"['Robotics', 'Others']"
+650100000011732,李涛,jietian,F,xiulancui@yahoo.com,台湾省关岭市吉区王路e座 798381,1946-10-09,"['Others', 'Robotics']"
+650100000011733,程雪梅,xiexiuying,M,yangliao@yahoo.com,香港特别行政区惠州市南长韩街Y座 937672,1975-09-08,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011734,徐龙,dxie,M,juanlin@yahoo.com,安徽省荆门县金平六安路z座 367133,1938-01-12,"['Others', 'Computer vision and Pattern recognition']"
+650100000011735,余健,weilu,F,yong14@gmail.com,贵州省济南市高明邯郸路o座 745907,1964-05-16,[]
+650100000011736,孟萍,yang71,F,jun11@gmail.com,山东省沈阳县高港宁德街L座 914790,1941-03-04,['Others']
+650100000011737,连桂英,li28,M,yinxiulan@hotmail.com,湖南省通辽市城东呼和浩特路F座 125497,1955-01-16,"['Robotics', 'Image and Video processing']"
+650100000011738,张明,qiuli,M,zhongtao@hotmail.com,河南省云市西夏汕尾街Z座 632309,1948-11-12,[]
+650100000011739,朱佳,wei63,F,xiulan58@yahoo.com,福建省荣市锡山林街F座 939455,1962-01-16,"['Computer vision and Pattern recognition', 'Robotics', 'Artificial Intelligence']"
+650100000011740,王秀芳,hyan,M,xia07@hotmail.com,青海省关岭市清浦上海街s座 895294,1914-10-21,"['Robotics', 'Artificial Intelligence']"
+650100000011741,贺伟,qiang38,M,tanjing@yahoo.com,新疆维吾尔自治区佳县清河西安路M座 846715,2002-11-28,['Robotics']
+650100000011742,薛静,jmao,F,guiying67@gmail.com,重庆市兴安盟县璧山广州街X座 870031,1919-06-11,"['Machine Learning', 'Artificial Intelligence']"
+650100000011743,龙秀英,yaoxiulan,F,minhan@hotmail.com,辽宁省南昌市浔阳陈街k座 613025,2018-04-15,"['Machine Learning', 'Robotics', 'Image and Video processing']"
+650100000011744,陈秀梅,weiming,M,tyan@yahoo.com,河南省嘉禾县南湖海口街P座 838607,1960-04-16,['Others']
+650100000011745,刘博,leibai,M,tao28@hotmail.com,青海省乌鲁木齐县魏都贺路e座 298249,1950-03-26,['Robotics']
+650100000011746,马金凤,xia05,F,efan@gmail.com,西藏自治区惠州县清浦苏街G座 891675,1954-11-22,"['Image and Video processing', 'Robotics']"
+650100000011747,张小红,wzhou,F,yanguo@yahoo.com,贵州省上海市新城席路R座 918201,1925-06-30,['Computer vision and Pattern recognition']
+650100000011748,文玉,mingzheng,M,min24@gmail.com,澳门特别行政区文市涪城刘街m座 305283,1924-07-03,"['Others', 'Robotics']"
+650100000011749,吴丽娟,xia65,M,jun19@yahoo.com,山东省阜新市海陵沈路g座 891953,1991-10-26,['Computer vision and Pattern recognition']
+650100000011750,廖平,xma,M,gsu@yahoo.com,湖南省长春县清河北京路b座 305631,1962-04-22,[]
+650100000011751,马秀英,qianglin,M,qiang75@yahoo.com,云南省石家庄县和平郝街a座 449358,1915-08-30,['Computer vision and Pattern recognition']
+650100000011752,陈华,juncai,M,wdong@yahoo.com,河北省凤英市白云简路V座 645892,1990-03-12,['Image and Video processing']
+650100000011753,洪旭,dingna,M,jing37@hotmail.com,北京市邯郸县清城杨路n座 234087,1915-09-15,[]
+650100000011754,李红,chao89,F,oyin@hotmail.com,黑龙江省玲县高坪张街P座 443498,2019-04-28,"['Robotics', 'Image and Video processing']"
+650100000011755,刘雷,zhangchao,F,vdu@hotmail.com,江苏省秀芳市南湖谭路d座 703444,1944-09-17,['Computer vision and Pattern recognition']
+650100000011756,武莉,wuyan,M,qianjuan@gmail.com,内蒙古自治区浩市崇文济南路b座 730800,1944-02-28,['Image and Video processing']
+650100000011757,李楠,jie41,M,rkang@gmail.com,内蒙古自治区刚县西夏刘路g座 618897,1939-01-16,"['Machine Learning', 'Robotics']"
+650100000011758,陈霞,xzhang,M,pengjuan@hotmail.com,河南省昆明县黄浦孙街T座 551674,1998-03-25,['Artificial Intelligence']
+650100000011759,谭杨,chaoli,F,lijiang@hotmail.com,台湾省嘉禾市普陀北京街H座 991144,1974-11-14,"['Image and Video processing', 'Others']"
+650100000011760,成文,mincheng,F,guiying48@gmail.com,贵州省海燕市闵行辽阳街e座 129729,1939-11-17,"['Robotics', 'Image and Video processing']"
+650100000011761,王桂香,ping49,F,yanfu@yahoo.com,广西壮族自治区天津市东城张路S座 854062,1967-07-02,['Artificial Intelligence']
+650100000011762,冯想,whan,F,li99@hotmail.com,上海市秀芳市淄川季路M座 312860,1938-10-14,['Image and Video processing']
+650100000011763,许超,yong42,F,lishao@yahoo.com,澳门特别行政区潮州市闵行江路m座 205964,2011-01-05,['Computer vision and Pattern recognition']
+650100000011764,朱丽,li05,M,leiyong@gmail.com,黑龙江省强市闵行潜江路T座 659588,2000-09-17,"['Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence']"
+650100000011765,丁瑜,jiangjing,F,kongming@hotmail.com,吉林省武汉县梁平范路H座 739338,1987-02-26,[]
+650100000011766,丁兰英,chentao,M,wuli@hotmail.com,陕西省南宁县大兴太原街x座 279997,1988-12-20,"['Machine Learning', 'Robotics']"
+650100000011767,王桂兰,changgang,F,kangjing@hotmail.com,四川省南宁县蓟州台北街h座 167301,1998-02-01,"['Image and Video processing', 'Robotics']"
+650100000011768,黄丽娟,juan50,F,jiangxia@hotmail.com,西藏自治区芳县双滦吴街y座 535006,1970-06-07,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Robotics']"
+650100000011769,汪萍,ganglin,M,zhouna@hotmail.com,上海市秀珍市普陀胡街v座 991717,1910-06-16,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Machine Learning', 'Image and Video processing']"
+650100000011770,王雪,junguo,M,mengmin@gmail.com,北京市福州县山亭张家港街x座 435432,1977-06-07,['Robotics']
+650100000011771,黄婷,guiyingwang,M,ping78@gmail.com,甘肃省岩县山亭毕街O座 138829,1959-11-14,"['Robotics', 'Others', 'Machine Learning', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011772,张瑞,wenjie,F,ctan@yahoo.com,香港特别行政区惠州县永川南宁路n座 379513,1939-10-15,['Others']
+650100000011773,罗秀华,fang17,M,qluo@gmail.com,河南省嘉禾市高港叶路V座 322398,1957-11-11,"['Robotics', 'Others']"
+650100000011774,田涛,qiujuan,M,tgao@yahoo.com,江西省丽华市南溪田路X座 334018,1962-06-26,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Others']"
+650100000011775,鞠娟,ahan,M,junzhu@hotmail.com,陕西省南宁县城北马鞍山街z座 258599,1987-08-29,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011776,陈桂珍,xiawei,M,taohou@hotmail.com,吉林省郑州市大兴杨路E座 510860,1946-07-12,[]
+650100000011777,王玲,yan66,F,yzeng@yahoo.com,澳门特别行政区桂兰市沈河卢路a座 174159,1925-02-24,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011778,刘刚,maxiulan,F,rxie@gmail.com,重庆市淑英市江北呼和浩特街p座 289821,1908-05-28,['Machine Learning']
+650100000011779,刘浩,yqiu,F,jwang@gmail.com,上海市博市滨城陈街l座 716314,1947-04-13,['Computer vision and Pattern recognition']
+650100000011780,洪玉兰,yuxia,M,lhou@gmail.com,新疆维吾尔自治区梧州市滨城周街A座 121494,1960-07-06,"['Others', 'Computer vision and Pattern recognition']"
+650100000011781,宋超,zhuping,M,qiangxu@yahoo.com,吉林省宜都市高港江街g座 634493,2015-07-23,['Computer vision and Pattern recognition']
+650100000011782,尤建,lidu,F,junlin@hotmail.com,福建省南京市长寿张街G座 971829,1973-12-19,"['Artificial Intelligence', 'Image and Video processing', 'Others', 'Robotics']"
+650100000011783,杨杰,na06,F,yegang@gmail.com,海南省桂英市双滦郑州街L座 341231,2006-06-02,"['Robotics', 'Artificial Intelligence']"
+650100000011784,刘建华,gangtian,F,juan11@yahoo.com,新疆维吾尔自治区玉华县安次沈阳路Z座 796050,1971-01-19,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others', 'Robotics', 'Image and Video processing']"
+650100000011785,刘红梅,xia50,F,guiying08@yahoo.com,辽宁省玉英县永川姚路K座 886296,1972-01-08,['Image and Video processing']
+650100000011786,李梅,leixiulan,M,taopan@yahoo.com,陕西省海门县锡山太原街n座 787003,1937-01-17,"['Others', 'Artificial Intelligence']"
+650100000011787,朱俊,yanzou,M,iguo@gmail.com,北京市哈尔滨县长寿史街a座 706328,1941-02-17,"['Robotics', 'Others', 'Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011788,郑成,chao16,M,yongtan@yahoo.com,河北省辽阳县城东孙街b座 109627,1926-10-19,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011789,杨秀芳,lxiong,F,yan62@hotmail.com,陕西省帆市清浦太原路X座 543379,1954-08-08,['Others']
+650100000011790,苗敏,jiaping,F,fulei@hotmail.com,陕西省凤英县清浦潜江路j座 783260,1935-08-07,['Computer vision and Pattern recognition']
+650100000011791,许玉英,min40,M,lei54@gmail.com,贵州省春梅市清城陈路i座 436805,1951-03-05,"['Others', 'Robotics', 'Image and Video processing', 'Machine Learning', 'Artificial Intelligence']"
+650100000011792,彭畅,yaochao,M,jiexiong@gmail.com,河北省秀梅县永川西宁路u座 791066,1924-03-21,['Computer vision and Pattern recognition']
+650100000011793,王健,yanfang,M,caomin@gmail.com,北京市通辽县合川昆明路j座 311513,1980-11-21,[]
+650100000011794,朱丽华,tianguiying,F,luojing@hotmail.com,香港特别行政区建国县静安丁路M座 353154,2014-12-08,['Artificial Intelligence']
+650100000011795,李海燕,hqiao,M,juan43@yahoo.com,重庆市秀珍县南溪西安街R座 700858,1969-09-29,"['Robotics', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011796,徐鹏,jingsong,M,tshi@gmail.com,贵州省南昌县城东江路P座 712867,1973-05-25,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Artificial Intelligence']"
+650100000011797,胡雪,mingchang,F,gdeng@yahoo.com,河北省上海市朝阳李路I座 984768,1981-08-16,"['Computer vision and Pattern recognition', 'Robotics', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011798,任柳,yan99,M,yangcui@yahoo.com,湖南省汕尾市白云刘街c座 240647,1996-03-12,['Machine Learning']
+650100000011799,龙桂荣,liufang,M,xfan@yahoo.com,台湾省昆明市丰都深圳街Z座 598529,1931-12-09,[]
+650100000011800,汤凤兰,laimin,M,tbai@yahoo.com,湖北省六盘水市长寿深圳路g座 799535,1954-10-27,[]
+650100000011801,胡刚,chao38,F,ganghou@yahoo.com,天津市合山市沙市辽阳路Q座 443242,1965-10-29,['Machine Learning']
+650100000011802,刘慧,yang73,F,ping57@hotmail.com,广西壮族自治区霞市龙潭朱路E座 275984,1921-03-22,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011803,李静,laiyong,F,leixia@hotmail.com,山东省伟市城东乌鲁木齐路p座 490447,1984-03-24,['Robotics']
+650100000011804,牛桂荣,gang64,F,kongmin@gmail.com,江西省台北市城东王路E座 189377,1907-06-24,"['Robotics', 'Others']"
+650100000011805,张云,iyu,M,laili@yahoo.com,宁夏回族自治区璐县萧山深圳街G座 174326,2011-03-08,"['Computer vision and Pattern recognition', 'Others', 'Machine Learning']"
+650100000011806,滕龙,qianggong,M,hutao@gmail.com,天津市太原市闵行杨路W座 351192,1962-06-05,"['Machine Learning', 'Artificial Intelligence', 'Robotics']"
+650100000011807,李建,juanhan,M,chaoyan@yahoo.com,新疆维吾尔自治区梧州县永川台北路k座 561137,1944-06-21,['Machine Learning']
+650100000011808,赖秀兰,juanliang,M,na64@hotmail.com,辽宁省宁德县南湖上海街Q座 983517,1967-06-21,['Others']
+650100000011809,罗玉梅,fang49,M,pengxiulan@yahoo.com,山东省嘉禾市双滦陈路R座 626823,2017-06-07,"['Robotics', 'Others', 'Machine Learning', 'Image and Video processing']"
+650100000011810,王艳,cuijie,M,chaoyan@gmail.com,辽宁省凤英县锡山马鞍山路i座 797339,1953-11-24,"['Others', 'Image and Video processing']"
+650100000011811,黎丽娟,guli,M,gang75@hotmail.com,新疆维吾尔自治区林市蓟州李街Z座 832179,1975-01-20,"['Others', 'Robotics']"
+650100000011812,刘婷婷,yangqiang,M,ncheng@yahoo.com,四川省强市南湖陈街z座 902044,1942-08-12,"['Image and Video processing', 'Others', 'Machine Learning']"
+650100000011813,臧玉珍,juanwang,F,dfeng@yahoo.com,河南省鹏市白云永安路V座 751845,2022-02-12,"['Others', 'Image and Video processing', 'Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011814,王淑珍,fangxiulan,F,ahan@yahoo.com,西藏自治区香港县浔阳王街C座 134067,2016-08-13,['Image and Video processing']
+650100000011815,王玉英,zxiang,M,taocao@hotmail.com,福建省雪梅市双滦贵阳路T座 839608,1951-04-29,['Others']
+650100000011816,覃洁,mgong,F,zjiang@gmail.com,河北省秀梅市徐汇张街l座 455032,1949-01-17,['Robotics']
+650100000011817,徐成,chao12,M,gang00@yahoo.com,云南省宇市沈河澳门街Z座 111117,1989-10-14,"['Machine Learning', 'Image and Video processing', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011818,冉桂荣,yangyan,M,rtang@gmail.com,广东省辽阳市南溪张路H座 135743,1947-12-15,"['Robotics', 'Image and Video processing']"
+650100000011819,吉梅,zwei,M,minkang@gmail.com,河北省峰县牧野东莞街e座 914049,2010-01-18,"['Machine Learning', 'Others', 'Robotics']"
+650100000011820,潘淑兰,cuijuan,F,mxu@yahoo.com,辽宁省大冶市合川魏路S座 163477,1993-03-31,['Image and Video processing']
+650100000011821,蒲彬,qiujun,F,fangxiong@gmail.com,重庆市平县沙湾合山街Z座 391778,1932-12-28,"['Others', 'Machine Learning', 'Image and Video processing']"
+650100000011822,段畅,jiexiong,F,qiuyong@yahoo.com,青海省南宁县萧山沈阳路l座 580206,1924-03-25,"['Robotics', 'Image and Video processing']"
+650100000011823,黄秀英,yang67,F,wanglei@gmail.com,天津市深圳市秀英张路U座 352382,1961-11-14,['Machine Learning']
+650100000011824,罗丹,yong53,M,moyong@gmail.com,江苏省齐齐哈尔县江北徐路m座 275461,1995-04-07,['Others']
+650100000011825,张芳,wei12,M,leixiao@yahoo.com,青海省佳市清河汕尾街k座 127564,1998-03-19,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011826,赵金凤,jun71,F,taozhu@hotmail.com,重庆市深圳县永川东莞街P座 208374,1963-02-24,['Computer vision and Pattern recognition']
+650100000011827,张瑜,vzeng,M,mzhao@gmail.com,江苏省邯郸市大兴南昌街L座 672263,1967-07-29,"['Machine Learning', 'Robotics']"
+650100000011828,张红,liangxiulan,F,juan80@yahoo.com,宁夏回族自治区旭市大东兴城路W座 926404,1984-01-15,"['Image and Video processing', 'Robotics', 'Others']"
+650100000011829,马丹丹,hugang,M,qiuping@yahoo.com,贵州省秀梅市合川张家港街G座 990091,1985-06-26,['Image and Video processing']
+650100000011830,王玉珍,tanglei,F,chaolu@yahoo.com,澳门特别行政区雪梅县海港上海街e座 869093,1926-01-18,[]
+650100000011831,胡欣,xiuyingyi,F,yanbai@yahoo.com,陕西省淮安县新城宁德路U座 902460,2017-01-09,"['Artificial Intelligence', 'Robotics']"
+650100000011832,张佳,xiulanshao,M,lei75@gmail.com,江苏省洁县沈北新深圳路N座 958639,1960-06-15,['Others']
+650100000011833,张磊,axia,M,pyuan@gmail.com,新疆维吾尔自治区阜新市大兴惠州路e座 374593,1930-04-05,"['Others', 'Machine Learning', 'Artificial Intelligence', 'Computer vision and Pattern recognition', 'Robotics', 'Image and Video processing']"
+650100000011834,黄勇,tyan,M,ayao@hotmail.com,辽宁省佳县兴山大冶路b座 291908,1942-08-08,"['Artificial Intelligence', 'Others', 'Machine Learning', 'Image and Video processing']"
+650100000011835,郝亮,vgong,F,chaodu@yahoo.com,甘肃省北镇市大兴兴城街b座 788845,1916-05-14,['Artificial Intelligence']
+650100000011836,董旭,udu,F,kangping@yahoo.com,新疆维吾尔自治区六安市高港张路w座 651406,1990-09-23,"['Image and Video processing', 'Others', 'Machine Learning', 'Artificial Intelligence']"
+650100000011837,朱慧,tanggang,F,taodong@hotmail.com,河北省雷市牧野欧阳路z座 905031,1999-03-26,['Robotics']
+650100000011838,任莉,jie97,M,ping05@gmail.com,海南省郑州市友好修街K座 774241,1927-01-04,['Machine Learning']
+650100000011839,薛刚,chaowei,M,yan73@hotmail.com,西藏自治区南宁县江北李街r座 604218,1922-09-09,"['Others', 'Artificial Intelligence']"
+650100000011840,吴秀英,pingzeng,M,xiuying05@gmail.com,内蒙古自治区邯郸县门头沟田路M座 632412,1987-06-27,"['Others', 'Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011841,徐敏,tchen,F,yangqin@gmail.com,青海省沈阳县滨城潜江路b座 537245,2019-04-15,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011842,胡洋,juan20,M,fangcai@yahoo.com,吉林省玉梅市崇文银川街H座 872498,2020-06-09,"['Others', 'Computer vision and Pattern recognition']"
+650100000011843,吴涛,kwang,M,afu@yahoo.com,广东省邯郸县淄川陈街D座 128204,1987-02-01,[]
+650100000011844,苏波,luna,F,fang39@yahoo.com,广东省玉英市秀英广州路o座 915765,1924-04-13,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Machine Learning']"
+650100000011845,黄利,wanfang,F,uqiao@gmail.com,贵州省超县和平汕尾路s座 407895,1930-07-31,"['Image and Video processing', 'Robotics']"
+650100000011846,向建国,xia91,M,renyan@gmail.com,湖北省倩市城东东莞街N座 700277,1945-03-24,"['Robotics', 'Image and Video processing']"
+650100000011847,高淑英,shaoxiuying,F,dyin@hotmail.com,甘肃省英县长寿陈街a座 294909,1963-02-19,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011848,杨志强,nkong,F,minwei@gmail.com,天津市洁县锡山许路x座 757844,2004-10-18,['Robotics']
+650100000011849,邓丹,maoli,M,yaoping@hotmail.com,广西壮族自治区志强市华龙孙街R座 362979,2016-01-27,[]
+650100000011850,蒋晨,lei77,M,xiuyingfang@hotmail.com,海南省飞县锡山东莞路u座 861435,1937-11-03,"['Machine Learning', 'Artificial Intelligence']"
+650100000011851,曾鑫,xieming,F,iguo@gmail.com,重庆市石家庄市黄浦哈尔滨路L座 920945,1972-08-25,"['Image and Video processing', 'Others']"
+650100000011852,叶红梅,jun70,F,zouming@hotmail.com,黑龙江省哈尔滨县闵行罗街T座 870599,1966-12-21,"['Image and Video processing', 'Robotics', 'Artificial Intelligence']"
+650100000011853,左冬梅,pingmao,F,li83@gmail.com,辽宁省太原市城北罗街C座 944217,2017-12-11,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011854,刘琴,ping14,F,pingcheng@gmail.com,澳门特别行政区桂珍市长寿贺街Z座 159703,1939-04-30,"['Machine Learning', 'Artificial Intelligence']"
+650100000011855,杨秀华,bfan,F,li15@gmail.com,内蒙古自治区玉珍县城北广州街Z座 484681,1962-01-31,['Computer vision and Pattern recognition']
+650100000011856,陈鹏,chao11,M,bqiu@yahoo.com,香港特别行政区杰市城北姚街v座 566571,1988-07-28,"['Others', 'Robotics', 'Computer vision and Pattern recognition']"
+650100000011857,何小红,odeng,F,junhuang@yahoo.com,四川省彬市静安张路Q座 735795,1965-05-20,"['Image and Video processing', 'Robotics']"
+650100000011858,郑玉梅,guiying65,M,yangyin@hotmail.com,山西省玉兰县江北郑州路J座 459570,1952-05-04,"['Image and Video processing', 'Computer vision and Pattern recognition', 'Others', 'Machine Learning']"
+650100000011859,马飞,linyan,M,lizheng@yahoo.com,内蒙古自治区东县黄浦邯郸街g座 849511,1975-04-11,"['Others', 'Machine Learning', 'Artificial Intelligence', 'Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011860,尹琳,taoqiu,F,qkong@gmail.com,贵州省哈尔滨市静安常街C座 984836,1982-11-14,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Robotics']"
+650100000011861,李建国,ozhong,F,li57@hotmail.com,江西省永安县山亭祝街z座 335308,1920-04-30,['Others']
+650100000011862,赖桂兰,chao44,M,tdai@hotmail.com,辽宁省雷县朝阳方路l座 769129,1944-05-10,"['Computer vision and Pattern recognition', 'Machine Learning', 'Artificial Intelligence']"
+650100000011863,刘秀梅,liangjuan,F,xiulanluo@gmail.com,河南省玉兰市沙湾台北街v座 583884,1970-04-17,"['Computer vision and Pattern recognition', 'Others', 'Image and Video processing', 'Machine Learning']"
+650100000011864,王阳,taoye,F,xiejing@gmail.com,福建省桂芝市西夏马路w座 574879,1972-05-19,['Image and Video processing']
+650100000011865,林冬梅,chengjun,F,xiuyingwen@hotmail.com,北京市想市东城关岭街M座 236369,1950-11-07,['Artificial Intelligence']
+650100000011866,张秀云,xiulan48,F,jie06@yahoo.com,河北省宇市新城洪路R座 958411,1935-08-01,['Robotics']
+650100000011867,汪想,xiuyinghan,F,qiangqiu@yahoo.com,广东省南宁市西峰太原路Y座 424971,1982-01-10,['Image and Video processing']
+650100000011868,符浩,yong58,M,cxiao@hotmail.com,山东省雪梅县牧野巢湖路T座 501166,1974-03-29,['Artificial Intelligence']
+650100000011869,戴燕,xiulan18,F,rzhao@hotmail.com,海南省帆县沈北新汕尾街O座 393099,1935-05-27,"['Robotics', 'Machine Learning', 'Image and Video processing']"
+650100000011870,魏平,nmao,M,xiaofang@hotmail.com,内蒙古自治区宜都县魏都王路C座 107017,1913-10-22,"['Image and Video processing', 'Others']"
+650100000011871,王柳,lihuang,M,cuijie@yahoo.com,黑龙江省济南县南湖拉萨街M座 983760,2018-10-28,"['Computer vision and Pattern recognition', 'Others']"
+650100000011872,谢柳,renchao,M,wenxia@yahoo.com,香港特别行政区宜都市高港张街l座 915884,1923-12-10,['Artificial Intelligence']
+650100000011873,朱畅,guiyingtan,F,yangtang@hotmail.com,上海市台北市上街张家港街M座 524885,1965-06-21,"['Others', 'Image and Video processing']"
+650100000011874,张晶,yaoyan,F,yanshao@gmail.com,河北省香港市高明太原路A座 523331,2013-02-19,['Image and Video processing']
+650100000011875,杨丽华,xiuying00,M,kangxiuying@hotmail.com,天津市建国市大东曾街l座 893826,1988-10-19,['Robotics']
+650100000011876,陆杨,rentao,M,tao36@gmail.com,江苏省东市城北广州街W座 606352,2016-12-05,"['Artificial Intelligence', 'Image and Video processing']"
+650100000011877,寇玉兰,hfan,F,xuejuan@hotmail.com,四川省兴城市丰都刘路F座 224448,1915-07-08,"['Others', 'Robotics']"
+650100000011878,罗莉,tao70,M,guiying61@gmail.com,宁夏回族自治区金凤县梁平东莞街C座 736761,2019-06-24,['Others']
+650100000011879,李梅,xiaoxiuying,M,chao05@hotmail.com,黑龙江省荆门市沈北新贵阳路u座 215408,1958-02-14,"['Computer vision and Pattern recognition', 'Others', 'Artificial Intelligence']"
+650100000011880,聂琴,xiagang,M,bcui@gmail.com,贵州省海口市丰都张家港路x座 466990,1981-06-25,['Computer vision and Pattern recognition']
+650100000011881,刘秀梅,yangkong,F,qiang29@yahoo.com,湖北省福州县上街李路i座 604215,2017-11-18,['Artificial Intelligence']
+650100000011882,刘健,fangduan,F,tangyan@gmail.com,贵州省桂英市璧山祝街Q座 218482,1923-02-21,['Computer vision and Pattern recognition']
+650100000011883,刘畅,xiuying43,F,yongduan@gmail.com,浙江省华市长寿陈路V座 906893,1976-05-28,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011884,徐敏,mcao,M,lei82@gmail.com,福建省畅县梁平北镇路G座 583067,1973-01-18,"['Machine Learning', 'Others']"
+650100000011885,杨鹏,xiuyinggu,F,qhou@gmail.com,北京市六盘水县龙潭合肥路b座 565639,2016-01-03,"['Machine Learning', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011886,阎娟,ping54,F,hanguiying@yahoo.com,澳门特别行政区浩县清河刘街m座 589934,1922-06-08,['Machine Learning']
+650100000011887,熊超,qiangliao,M,sliao@yahoo.com,河南省海门县永川方路V座 892916,1948-12-06,"['Others', 'Image and Video processing', 'Machine Learning']"
+650100000011888,王莹,minxu,F,qiang28@hotmail.com,山东省帅县合川刘路I座 511534,1913-07-16,"['Image and Video processing', 'Machine Learning']"
+650100000011889,刘桂荣,xiaoping,M,ryao@gmail.com,广西壮族自治区上海市花溪北镇街G座 177872,1989-10-22,"['Machine Learning', 'Artificial Intelligence', 'Robotics']"
+650100000011890,陈兰英,guiyingcai,F,yanxiulan@hotmail.com,内蒙古自治区合肥市上街韩路n座 634340,1925-12-31,"['Artificial Intelligence', 'Machine Learning']"
+650100000011891,孙雷,xiuying49,F,gang35@yahoo.com,陕西省兴城市长寿成都路a座 695617,2001-05-31,['Artificial Intelligence']
+650100000011892,赵淑华,mincai,F,weimin@yahoo.com,青海省长春市华龙黄路e座 427845,1942-03-28,['Computer vision and Pattern recognition']
+650100000011893,王瑞,ming48,F,liqiang@yahoo.com,内蒙古自治区海口市兴山东莞街T座 263581,2021-02-25,"['Computer vision and Pattern recognition', 'Robotics', 'Others']"
+650100000011894,张俊,yan79,M,lduan@hotmail.com,河北省静县房山兰州街x座 133863,1940-05-24,['Artificial Intelligence']
+650100000011895,叶琳,taomao,M,dongfang@yahoo.com,辽宁省齐齐哈尔县朝阳敬街d座 262561,1908-09-21,"['Artificial Intelligence', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011896,周丽丽,lfeng,F,mlei@gmail.com,四川省欢县沙湾严街y座 673403,2017-10-04,['Artificial Intelligence']
+650100000011897,杨淑兰,xiongjun,F,mojing@gmail.com,黑龙江省深圳县安次六盘水街B座 381941,1991-11-29,['Image and Video processing']
+650100000011898,方斌,lixia,F,jie03@yahoo.com,贵州省丽丽县花溪济南街M座 301838,2008-03-01,"['Artificial Intelligence', 'Machine Learning', 'Image and Video processing', 'Robotics']"
+650100000011899,阳玉英,wpeng,M,lei48@hotmail.com,山西省柳州县朝阳广州路f座 144366,1950-06-22,"['Machine Learning', 'Others']"
+650100000011900,江凯,xiuyingtian,F,jie05@hotmail.com,重庆市济南县徐汇陈路z座 551754,2015-11-22,"['Others', 'Machine Learning', 'Robotics']"
+650100000011901,陈畅,yan89,M,jun82@hotmail.com,宁夏回族自治区宁德县海陵林街O座 983180,1908-07-08,[]
+650100000011902,薛鹏,yuanming,F,li70@yahoo.com,山西省哈尔滨县龙潭东莞街t座 638156,1946-03-07,['Robotics']
+650100000011903,许畅,juan08,F,emo@gmail.com,台湾省北镇县沙市上海路M座 343343,1980-08-18,['Robotics']
+650100000011904,陈建平,qiaoyan,F,ping73@hotmail.com,江西省广州县沙市梧州街b座 693490,1911-01-10,['Computer vision and Pattern recognition']
+650100000011905,古金凤,songjuan,F,sunjie@hotmail.com,贵州省霞县怀柔海门路S座 397167,1954-01-27,"['Robotics', 'Image and Video processing']"
+650100000011906,李淑华,nlai,F,yixiuying@hotmail.com,黑龙江省利县东丽孔街i座 282347,1927-06-03,[]
+650100000011907,邹艳,sbai,F,jun37@gmail.com,江苏省汕尾市南溪班街A座 970323,1975-03-07,['Machine Learning']
+650100000011908,赵雪梅,mcai,M,hxia@yahoo.com,福建省桂芝市龙潭柳州街T座 677164,1970-02-19,['Artificial Intelligence']
+650100000011909,蓝冬梅,juan74,F,lutao@gmail.com,澳门特别行政区慧市海港齐齐哈尔路l座 314155,1933-03-25,['Computer vision and Pattern recognition']
+650100000011910,周艳,awang,F,wxiong@gmail.com,新疆维吾尔自治区荆门县高港哈尔滨路q座 856796,2007-03-21,[]
+650100000011911,李琳,xiaochao,F,chao31@yahoo.com,台湾省惠州市璧山兴城街Q座 885323,1921-04-07,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011912,高琴,mye,F,xiulan52@yahoo.com,北京市金凤县双滦李街a座 933245,2011-02-09,['Others']
+650100000011913,何斌,hanlei,F,dengming@hotmail.com,河北省莹县海陵刘街P座 504525,1986-03-30,['Machine Learning']
+650100000011914,王莹,nazou,M,xiulan60@yahoo.com,天津市娟市大兴李街X座 429498,1970-02-03,"['Artificial Intelligence', 'Computer vision and Pattern recognition']"
+650100000011915,方芳,xiuying62,M,dpan@yahoo.com,河北省晶县沙湾福州路B座 961509,1935-02-10,['Robotics']
+650100000011916,王金凤,fanlei,M,qianlei@hotmail.com,广东省台北市长寿萧街F座 762589,1969-06-02,"['Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011917,吴海燕,gang33,F,xia97@hotmail.com,青海省玉市西夏关岭街y座 233321,1992-10-11,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011918,吴杰,xiawei,F,bmao@gmail.com,山东省沈阳县沙市陈路i座 430642,2010-05-22,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011919,唐红梅,qiangqiu,M,weishi@gmail.com,澳门特别行政区呼和浩特市淄川张家港路G座 781697,1952-06-06,['Others']
+650100000011920,左凤英,guiying51,M,yongyan@hotmail.com,新疆维吾尔自治区汕尾县和平乌鲁木齐街z座 131196,1920-06-01,['Machine Learning']
+650100000011921,蒋林,xyi,F,yangzou@hotmail.com,湖南省秀珍县高港郑州路V座 415913,2000-02-05,"['Robotics', 'Computer vision and Pattern recognition']"
+650100000011922,欧雪,juantao,M,juanxu@hotmail.com,新疆维吾尔自治区深圳县东丽乌鲁木齐街R座 770002,1941-11-18,['Others']
+650100000011923,陈桂兰,na93,M,houchao@gmail.com,河南省西宁县山亭永安街k座 491115,1949-08-16,['Others']
+650100000011924,张桂花,weiding,M,fang43@hotmail.com,香港特别行政区红霞县普陀呼和浩特路R座 575247,1911-05-19,"['Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011925,李瑜,jiesu,M,caixiuying@hotmail.com,四川省北镇市东丽苟街F座 468626,1913-03-01,['Artificial Intelligence']
+650100000011926,冯秀兰,xliu,M,chao60@yahoo.com,上海市澳门县花溪南宁街U座 264127,1960-08-29,"['Computer vision and Pattern recognition', 'Others']"
+650100000011927,马颖,xiulanren,F,fangzhang@yahoo.com,江苏省阜新县新城王路d座 797947,1939-02-20,['Artificial Intelligence']
+650100000011928,彭淑兰,pingyang,M,juanzhong@hotmail.com,北京市云县沈河刘路B座 923870,1947-11-18,"['Robotics', 'Machine Learning', 'Image and Video processing', 'Others']"
+650100000011929,宋强,liyong,M,jun65@hotmail.com,福建省萍县丰都兰路v座 141644,2019-04-08,['Robotics']
+650100000011930,张秀兰,xiuying22,F,pkang@gmail.com,辽宁省凯市大东银川路J座 246184,1917-07-03,['Artificial Intelligence']
+650100000011931,余敏,yyuan,M,fengxiuying@gmail.com,陕西省郑州县门头沟荆门路v座 699221,2004-07-01,"['Image and Video processing', 'Machine Learning']"
+650100000011932,刘俊,qianmin,F,taosong@yahoo.com,台湾省通辽市长寿银川街R座 295956,1936-01-31,"['Others', 'Machine Learning']"
+650100000011933,赵雷,yfu,M,min92@gmail.com,湖北省燕县花溪巢湖街r座 608975,2022-01-02,[]
+650100000011934,吴亮,nayu,M,xuchao@yahoo.com,海南省淑珍县魏都陈路L座 417695,2012-11-21,['Computer vision and Pattern recognition']
+650100000011935,黄玉兰,qfan,M,gongxiulan@hotmail.com,上海市秀荣市璧山陈街O座 861567,1929-02-01,['Image and Video processing']
+650100000011936,孙凤兰,sshao,M,pqin@hotmail.com,宁夏回族自治区通辽市南溪王路S座 917668,1938-11-11,"['Others', 'Machine Learning', 'Image and Video processing']"
+650100000011937,苏阳,minyu,F,yang46@gmail.com,西藏自治区峰市花溪济南路r座 843184,1967-01-04,"['Others', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011938,易浩,taoli,F,fengping@gmail.com,天津市重庆县翔安王街a座 774183,1907-05-26,"['Machine Learning', 'Robotics']"
+650100000011939,曹颖,kongyong,F,luolei@hotmail.com,吉林省澳门市南长嘉禾路r座 793831,1925-03-10,"['Others', 'Computer vision and Pattern recognition']"
+650100000011940,伍佳,qiang44,M,ihan@gmail.com,澳门特别行政区鑫县双滦王街k座 997481,1996-02-22,"['Artificial Intelligence', 'Machine Learning', 'Image and Video processing', 'Robotics']"
+650100000011941,袁楠,xwang,F,wei70@hotmail.com,海南省石家庄县永川王路W座 957856,1991-01-28,"['Computer vision and Pattern recognition', 'Robotics']"
+650100000011942,马倩,gongjie,M,hwang@yahoo.com,江苏省龙县大东太原街K座 257815,1914-08-03,"['Machine Learning', 'Image and Video processing', 'Robotics']"
+650100000011943,陈秀荣,qiuguiying,M,guiying76@gmail.com,辽宁省合肥市南长赵路n座 819989,2015-05-18,['Machine Learning']
+650100000011944,陆婷,than,F,wtao@yahoo.com,上海市娜县牧野海口路o座 935350,2007-04-01,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Others']"
+650100000011945,陈洁,gyang,M,na15@yahoo.com,湖北省鑫县永川北镇街d座 260427,1911-03-03,"['Computer vision and Pattern recognition', 'Others']"
+650100000011946,张秀英,gangding,M,xia39@gmail.com,安徽省军市高明段路K座 985037,2001-04-22,['Computer vision and Pattern recognition']
+650100000011947,张凤兰,myu,M,qiangpeng@yahoo.com,宁夏回族自治区丽娟县东城昆明街t座 136815,1918-01-26,['Robotics']
+650100000011948,梁鑫,xiulan74,F,fengchao@yahoo.com,河北省秀华县兴山太原路U座 748407,1966-11-26,[]
+650100000011949,郭慧,yongcai,M,minyan@yahoo.com,宁夏回族自治区志强市城东王路P座 932085,1950-07-31,['Artificial Intelligence']
+650100000011950,吴文,yangmeng,F,qdai@gmail.com,云南省佛山市海陵香港街I座 826864,1957-08-29,"['Computer vision and Pattern recognition', 'Machine Learning']"
+650100000011951,崔兵,gtan,F,yuanqiang@gmail.com,湖北省淮安市城东田街t座 737673,2011-07-21,"['Robotics', 'Others', 'Computer vision and Pattern recognition']"
+650100000011952,陈娜,xiulan00,F,panlei@gmail.com,重庆市成都市梁平路路Q座 675201,1917-03-04,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011953,郭涛,na58,F,longming@gmail.com,福建省武汉市沈北新西宁路e座 615843,1939-01-03,"['Others', 'Artificial Intelligence']"
+650100000011954,邹磊,elei,F,jing47@hotmail.com,重庆市东莞县高坪兴城路k座 993209,2018-01-23,"['Artificial Intelligence', 'Others']"
+650100000011955,时建平,yxia,F,yong93@hotmail.com,天津市宜都市长寿彭街y座 947653,1963-09-16,['Image and Video processing']
+650100000011956,姜健,lei41,M,jiejin@yahoo.com,山西省沈阳县南湖辛集街j座 394118,1917-09-12,"['Robotics', 'Machine Learning']"
+650100000011957,陈敏,zzeng,M,wenli@gmail.com,江苏省岩市梁平南京街P座 872352,2002-10-15,"['Image and Video processing', 'Artificial Intelligence', 'Others']"
+650100000011958,伍萍,songping,M,chao24@gmail.com,宁夏回族自治区关岭市黄浦关岭路J座 602946,1937-12-10,"['Machine Learning', 'Artificial Intelligence', 'Image and Video processing']"
+650100000011959,海凤英,fyu,M,ganghuang@hotmail.com,河南省建平市西峰辽阳路v座 696909,1981-06-12,"['Image and Video processing', 'Machine Learning', 'Others', 'Artificial Intelligence']"
+650100000011960,汤莹,li46,F,xiuyingyin@gmail.com,海南省雪市牧野邱路i座 384110,1959-04-15,"['Others', 'Artificial Intelligence', 'Machine Learning']"
+650100000011961,胡晶,tmeng,F,dsu@gmail.com,浙江省颖县兴山萧街x座 642317,1944-08-02,['Artificial Intelligence']
+650100000011962,彭健,rli,M,cxue@yahoo.com,广东省上海市西峰叶路F座 777761,1952-03-22,"['Image and Video processing', 'Machine Learning', 'Artificial Intelligence']"
+650100000011963,王文,jing48,F,chao28@hotmail.com,宁夏回族自治区兴城市江北范街Y座 335250,1950-08-18,"['Computer vision and Pattern recognition', 'Artificial Intelligence', 'Machine Learning', 'Others']"
+650100000011964,王建军,juanhe,M,shiping@gmail.com,北京市汕尾市友好赵街V座 418377,2004-04-10,['Others']
+650100000011965,戴岩,li29,F,gangduan@gmail.com,河南省惠州县清河兴城路e座 518191,1909-05-30,[]
+650100000011966,何莉,lzhao,M,wenjing@hotmail.com,西藏自治区关岭县西夏佛山路K座 313175,1997-11-18,"['Image and Video processing', 'Artificial Intelligence', 'Robotics']"
+650100000011967,李桂英,li23,F,plai@yahoo.com,河北省瑜县蓟州周街K座 252699,2020-11-24,['Robotics']
+650100000011968,李莹,gliang,F,chaoyao@gmail.com,内蒙古自治区宇县西峰丁街G座 985551,1945-04-19,['Image and Video processing']
+650100000011969,田雪,min30,M,jingqin@hotmail.com,海南省红市璧山邓街s座 146954,1949-03-13,"['Robotics', 'Others', 'Artificial Intelligence']"
+650100000011970,孙建,xiulan39,F,hugang@gmail.com,天津市郑州县高港澳门路p座 633755,1959-12-28,"['Machine Learning', 'Image and Video processing']"
+650100000011971,许萍,qiangyin,M,hqiu@gmail.com,天津市潮州市徐汇姚街m座 904306,1919-05-14,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011972,邓瑞,yan91,M,xia71@gmail.com,河北省莹县长寿南京街r座 227138,2005-04-29,"['Image and Video processing', 'Others', 'Computer vision and Pattern recognition']"
+650100000011973,邓梅,junyan,M,minwang@yahoo.com,山东省斌市清浦贵阳路R座 222218,1978-05-07,"['Computer vision and Pattern recognition', 'Image and Video processing']"
+650100000011974,姚红梅,kduan,F,junsu@hotmail.com,上海市邯郸市南湖柳州路c座 589341,1959-03-05,"['Image and Video processing', 'Others']"
+650100000011975,吴畅,gongyan,M,chao15@gmail.com,湖南省凤英市沈北新齐齐哈尔路n座 895344,1983-09-01,['Artificial Intelligence']
+650100000011976,金桂珍,esong,F,jing01@gmail.com,台湾省玉珍县清城海口街H座 356507,1994-09-15,"['Others', 'Image and Video processing']"
+650100000011977,张婷婷,leiliao,M,fang11@hotmail.com,澳门特别行政区静市清城谌路G座 547999,1909-10-04,['Robotics']
+650100000011978,刘旭,weitao,M,pingqiao@hotmail.com,广西壮族自治区太原市海港长春街W座 235558,1975-03-01,['Artificial Intelligence']
+650100000011979,刘玉珍,lwan,M,na11@gmail.com,福建省龙市涪城高街o座 319060,1958-03-11,"['Robotics', 'Machine Learning']"
+650100000011980,叶浩,maxia,M,changxia@hotmail.com,吉林省莉市淄川广州路W座 996423,1908-01-10,"['Robotics', 'Image and Video processing', 'Machine Learning', 'Computer vision and Pattern recognition']"
+650100000011981,郑林,xiuyingren,F,jingtao@gmail.com,宁夏回族自治区沈阳县丰都长春路o座 367004,2017-04-16,['Image and Video processing']
+650100000011982,彭琴,xia87,F,ffeng@hotmail.com,台湾省雪县高港龙路G座 550081,1965-06-05,"['Computer vision and Pattern recognition', 'Image and Video processing', 'Robotics']"
+650100000011983,邱丽丽,lei27,M,bren@gmail.com,河南省龙县新城马路H座 118526,1916-07-10,"['Image and Video processing', 'Robotics', 'Machine Learning', 'Others']"
+650100000011984,张峰,xiazou,F,eding@hotmail.com,河南省台北县翔安徐路W座 775673,1949-08-18,"['Image and Video processing', 'Artificial Intelligence']"
+650100000011985,张桂芳,xdai,M,na45@gmail.com,上海市洁市长寿余路Q座 827370,1945-02-06,"['Computer vision and Pattern recognition', 'Others', 'Artificial Intelligence']"
+650100000011986,梁桂芳,gutao,M,rzhou@gmail.com,澳门特别行政区哈尔滨市大兴大冶街D座 311226,1999-05-05,"['Robotics', 'Image and Video processing']"
+650100000011987,兰帅,ping66,M,juan92@hotmail.com,河南省洋市龙潭杭州街h座 145803,2008-03-18,['Others']
+650100000011988,徐玉英,gang49,F,hanjing@hotmail.com,陕西省北京县高港吴路F座 654963,1921-10-06,"['Computer vision and Pattern recognition', 'Artificial Intelligence']"
+650100000011989,王冬梅,tao24,M,leiyong@hotmail.com,云南省佛山县秀英广州街E座 266190,1993-01-16,['Computer vision and Pattern recognition']
+650100000011990,张莹,fujun,F,dengjing@yahoo.com,江苏省阜新市涪城西安路E座 813520,1972-04-10,['Robotics']
+650100000011991,孙伟,zhaogang,F,fxiong@yahoo.com,内蒙古自治区平市徐汇朱街H座 653439,1996-09-06,"['Others', 'Image and Video processing']"
+650100000011992,辛辉,ewen,F,ming88@hotmail.com,江苏省呼和浩特市友好惠州路X座 137859,1971-06-12,['Image and Video processing']
+650100000011993,凌春梅,leidai,F,wei09@gmail.com,安徽省哈尔滨市秀英梁街v座 582641,1940-02-15,['Image and Video processing']
+650100000011994,吴辉,na61,M,bgao@hotmail.com,贵州省欢县闵行张路J座 365934,1965-04-13,"['Image and Video processing', 'Machine Learning', 'Artificial Intelligence', 'Robotics']"
+650100000011995,李超,yongzhao,M,dtang@gmail.com,新疆维吾尔自治区南宁市山亭阜新街h座 381111,1976-04-16,['Others']
+650100000011996,韩建华,zhouguiying,F,yongmeng@gmail.com,江西省辽阳市南溪大冶街G座 599395,1992-01-08,"['Artificial Intelligence', 'Computer vision and Pattern recognition', 'Others']"
+650100000011997,伍秀梅,wenchao,M,mingqian@yahoo.com,青海省璐市东城郑州路z座 292793,1966-06-17,"['Robotics', 'Artificial Intelligence', 'Image and Video processing', 'Computer vision and Pattern recognition']"
+650100000011998,冯平,naluo,M,xiefang@yahoo.com,河南省建华县东城王街Z座 743356,1989-01-08,['Image and Video processing']
+650100000011999,陈佳,fang39,F,juan06@yahoo.com,北京市建华市六枝特辽阳街I座 873272,1989-10-17,"['Machine Learning', 'Others']"
+650100000012000,吴彬,jiagang,M,houming@gmail.com,内蒙古自治区华市沙市澳门路b座 607910,1970-12-08,"['Others', 'Image and Video processing', 'Computer vision and Pattern recognition']"

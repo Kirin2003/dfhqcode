@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<papers>
+<paper><link>https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_Dual_Cross-Attention_Learning_for_Fine-Grained_Visual_Categorization_and_Object_Re-Identification_CVPR_2022_paper.html</link><meetingdate>CVPR2022-06-21</meetingdate></paper>
+<paper><link>https://openaccess.thecvf.com/content/CVPR2022/html/Luo_SimAN_Exploring_Self-Supervised_Representation_Learning_of_Scene_Text_via_Similarity-Aware_CVPR_2022_paper.html</link><meetingdate>CVPR2022-06-21</meetingdate></paper>
+<paper><link>https://openaccess.thecvf.com/content/CVPR2022/html/Du_Weakly_Supervised_Semantic_Segmentation_by_Pixel-to-Prototype_Contrast_CVPR_2022_paper.html</link><meetingdate>CVPR2022-06-21</meetingdate></paper>
+
+	<paper>
+		<link>https://openaccess.thecvf.com/content/CVPR2022/html/Mahapatra_Controllable_Animation_of_Fluid_Elements_in_Still_Images_CVPR_2022_paper.html</link>
+		<meetingdate>CVPR2022-06-21</meetingdate>
+	</paper>
+	<paper>
+		<link>https://openaccess.thecvf.com/content/CVPR2022/html/Li_Recurrent_Dynamic_Embedding_for_Video_Object_Segmentation_CVPR_2022_paper.html</link>
+		<meetingdate>CVPR2022-06-21</meetingdate>
+	</paper>
+	<paper>
+		<link>https://openaccess.thecvf.com/content/CVPR2022/html/Li_Deep_Hierarchical_Semantic_Segmentation_CVPR_2022_paper.html</link>
+		<meetingdate>CVPR2022-06-21</meetingdate>
+	</paper>
+</papers>
