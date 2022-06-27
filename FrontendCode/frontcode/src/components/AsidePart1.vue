@@ -5,13 +5,13 @@
     <el-menu>
       <el-sub-menu index="1">
         <template #title>
-          <el-icon><Document /></el-icon>{{ HotWordsOfMeeting[0].meeting }}
+          <el-icon><Document /></el-icon>{{ HotWordsOfMeeting[0] }}
         </template>
         <el-menu-item-group>
           <el-menu-item
             v-for="hotword in HotWordsOfIccv"
             :key="hotword.rank"
-            @click="ShowHotWordEssays(HotWordsOfMeeting[0].meeting, $event)"
+            @click="ShowHotWordEssays(HotWordsOfMeeting[0], $event)"
           >
             <!--展示对应热词的相关论文 -->
             {{ hotword.word }}</el-menu-item
@@ -20,7 +20,7 @@
       </el-sub-menu>
       <el-sub-menu index="2">
         <template #title>
-          <el-icon><Document /></el-icon>{{ HotWordsOfMeeting[1].meeting }}
+          <el-icon><Document /></el-icon>{{ HotWordsOfMeeting[1] }}
         </template>
         <el-menu-item-group>
           <el-menu-item
@@ -29,7 +29,7 @@
             index="2-"
             +
             hotwords.rank
-            @click="ShowWordEssay(HotWordsOfMeeting[1].meeting, $event)"
+            @click="ShowWordEssay(HotWordsOfMeeting[1], $event)"
           >
             <!--展示对应热词的相关论文 -->
             {{ hotword.word }}</el-menu-item
@@ -38,7 +38,7 @@
       </el-sub-menu>
       <el-sub-menu index="3">
         <template #title>
-          <el-icon><Document /></el-icon>{{ HotWordsOfMeeting[2].meeting }}
+          <el-icon><Document /></el-icon>{{ HotWordsOfMeeting[2] }}
         </template>
         <el-menu-item-group>
           <el-menu-item
@@ -47,7 +47,7 @@
             index="3-"
             +
             hotword.rank
-            @click="ShowWordEssay(HotWordsOfMeeting[2].meeting, $event)"
+            @click="ShowWordEssay(HotWordsOfMeeting[2], $event)"
           >
             <!--展示对应热词的相关论文 -->
             {{ hotword.word }}</el-menu-item
@@ -61,20 +61,21 @@
 import UserPortrait from "./UserPortrait.vue";
 import { Document } from "@element-plus/icons";
 import store from "@/store/";
-import { getHotword } from "@/axios/axios";
+//import { getHotword } from "@/axios/axios";
 export default {
   name: "AsidePart1",
   components: { UserPortrait, Document },
   data() {
     return {
-      HotWordsOfMeeting: [],
+      HotWordsOfMeeting: ["ICCV", "CVPR", "WACV"],
     };
   },
-  mounted() {
+  /* mounted() {
     getHotword().then((res) => {
       this.HotWordsOfMeeting = res.data;
     });
   },
+  */
   methods: {
     ShowWordEssay(meeting, event) {
       var hotword = {

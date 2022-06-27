@@ -48,6 +48,7 @@ export default {
       this.EssaysGroup = res.data;
     });
     getCount().then((res) => {
+      console.log(res);
       this.totalCount = res.data;
     });
   },

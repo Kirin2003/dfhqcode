@@ -29,6 +29,8 @@ import { HomeFilled } from "@element-plus/icons";
 import router from "@/router/index";
 import EssayList from "./EssayList.vue";
 import UserPortrait from "./UserPortrait.vue";
+import store from "@/store";
+import { getCollection } from "@/axios/axios";
 export default {
   name: "UserInfo",
   components: { HomeFilled, EssayList, UserPortrait },
@@ -39,6 +41,12 @@ export default {
       RecomendedEssays: [],
     };
   },
+  mounted() {
+    getCollection(this.userId).then((res) => {
+      this.CollectedEssays = res.data;
+    });
+    store.commit("InverseRecommend");
+  },
   methods: {
     getNewRecomend() {},
     RouteToHome() {
@@ -48,6 +56,11 @@ export default {
       //还要传递论文信息
 
       router.push({ name: "Essay" });
+    },
+  },
+  computed: {
+    userId: function () {
+      return store.state.userId;
     },
   },
 };

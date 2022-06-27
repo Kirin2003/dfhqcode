@@ -49,7 +49,8 @@
 </template>
 <script>
 import { UserFilled } from "@element-plus/icons";
-//import { register } from "@/axios/axios";
+import { register } from "@/axios/axios";
+import store from "@/store/index";
 export default {
   name: "loadPage",
   components: { UserFilled },
@@ -62,7 +63,20 @@ export default {
   },
   methods: {
     Register() {
-      //register();
+      var info = {
+        Id: "",
+        Gender: "",
+        Name: this.account,
+        Password: this.password,
+        Email: "",
+        InterestingAreas: this.fieldInterested,
+        Profession: "",
+        College: "",
+      };
+      register(info).then((res) => {
+        var user = res.data.userId;
+        store.commit("ConvertUserId", user);
+      });
     },
   },
 };

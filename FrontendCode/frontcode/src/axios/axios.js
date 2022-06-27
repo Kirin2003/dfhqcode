@@ -2,18 +2,18 @@
 import { config } from "@vue/test-utils";
 import axios from "axios";
 
-const BaseURL = "http://localhost:5001/";
+const BaseURL = "http://localhost:5001";
 
 //论文
 const paper = axios.create({
-  baseURL: BaseURL + "api/paper/",
+  baseURL: BaseURL + "/api/paper/",
   timeout: 6000,
 });
 
 const searchPapers = async (q, page, page_size) => {
   try {
     const res = await paper.get(
-      "search_by_keywords?q=&{q}&page=${page}&page_size=${page_size}"
+      `search_by_keywords?q=${q}&page=${page}&page_size=${page_size}`
     );
     return res;
   } catch (error) {
@@ -23,7 +23,7 @@ const searchPapers = async (q, page, page_size) => {
 const getSortedPaper = async (meeting, keywords, page, page_size) => {
   try {
     const res = await paper.get(
-      "search?meeting=${meeting}&keywords=${keywords}&page=${page}&page_size=${page_size}"
+      `search?meeting=${meeting}&keywords=${keywords}&page=${page}&page_size=${page_size}`
     );
     return res;
   } catch (error) {
@@ -41,7 +41,13 @@ const getCount = async () => {
 
 const getPapers = async (page, page_size) => {
   try {
-    const res = await paper.get("page=${page}&page_size=${page_size}");
+    console.log("hh");
+    const res = await paper.get("/", {
+      params: {
+        page,
+        page_size,
+      },
+    });
     return res;
   } catch (error) {
     console.log(error);
@@ -52,7 +58,7 @@ const getPapers = async (page, page_size) => {
 const user = axios.create({ baseURL: BaseURL + "api/user/", timeout: 6000 });
 const login = async (name, password) => {
   try {
-    const res = await user.post("login?name=${name}&password=${password}");
+    const res = await user.post(`login?name=${name}&password=${password}`);
     return res;
   } catch (error) {
     console.log(error);
@@ -87,7 +93,7 @@ const reference = axios.create({ baseURL: BaseURL + "paper/", timeout: 6000 });
 const getCitation = async (paper_id, page, page_size) => {
   try {
     const res = await reference.get(
-      "${paper_id}/citation?page=${page}&page_size=${page_size}"
+      `${paper_id}/citation?page=${page}&page_size=${page_size}`
     );
     return res;
   } catch (error) {
@@ -97,7 +103,7 @@ const getCitation = async (paper_id, page, page_size) => {
 const getReference = async (paper_id, page, page_size) => {
   try {
     const res = await reference.get(
-      "${paper_id}/references?page=${page}&page_size=${page_size}"
+      `${paper_id}/references?page=${page}&page_size=${page_size}`
     );
     return res;
   } catch (error) {
@@ -136,7 +142,7 @@ const subColletion = async (info) => {
 };
 const judgeCollection = async (info) => {
   try {
-    const res = await collection.get("${info.userId}/${info.paperId");
+    const res = await collection.get(`${info.userId}/${info.paperId}`);
     return res;
   } catch (error) {
     console.log(error);
@@ -166,7 +172,7 @@ const subLike = async (info) => {
 };
 const judgeLike = async (info) => {
   try {
-    const res = await Like.get("${info.userId}/${info.paperId");
+    const res = await Like.get(`${info.userId}/${info.paperId}`);
     return res;
   } catch (error) {
     console.log(error);

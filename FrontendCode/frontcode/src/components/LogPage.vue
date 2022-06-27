@@ -25,7 +25,7 @@ export default {
   methods: {
     Login() {
       login(this.account, this.password).then((res) => {
-        var user = res.userId;
+        var user = res.data.userId;
         store.commit("ConvertUserId", user);
       });
       router.push({ name: "home" });
